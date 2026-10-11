@@ -24,7 +24,7 @@ Cloudflare Pages, deploying from `main`:
 - Build output directory: `dist`
 - Root directory: `/`
 
-`dist/_redirects` sends `www.whentoplant.uk` to `https://whentoplant.uk`. Canonical URLs use the apex domain and a trailing slash.
+`functions/_middleware.js` sends `www.whentoplant.uk` to `https://whentoplant.uk` (Pages `_redirects` cannot match on hostname). Keep the Root directory as `/` so Pages picks up the `functions/` folder. Canonical URLs use the apex domain and a trailing slash.
 
 ## Pages
 

@@ -688,8 +688,9 @@ const urls = built.map((page) => `  <url><loc>${site.url}${page.path}</loc><last
 fs.writeFileSync(path.join(dist, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`);
 fs.writeFileSync(path.join(dist, "robots.txt"), `User-agent: *\nAllow: /\n\nSitemap: ${site.url}/sitemap.xml\n`);
 
+// www to apex is handled by functions/_middleware.js, because _redirects
+// cannot match on hostname.
 const redirects = [
-  "https://www.whentoplant.uk/* https://whentoplant.uk/:splat 301",
   ...built
     .map((page) => page.path)
     .filter((urlPath) => urlPath !== "/")

@@ -76,10 +76,8 @@ for (const file of htmlFiles) {
 
 const robots = fs.readFileSync(path.join(dist, "robots.txt"), "utf8");
 if (!robots.includes("Sitemap: https://whentoplant.uk/sitemap.xml")) fail("robots.txt missing sitemap");
-const redirects = fs.readFileSync(path.join(dist, "_redirects"), "utf8");
-if (!redirects.includes("https://www.whentoplant.uk/* https://whentoplant.uk/:splat 301")) {
-  fail("_redirects missing www to apex");
-}
+const middleware = fs.readFileSync(path.join(__dirname, "functions", "_middleware.js"), "utf8");
+if (!middleware.includes('"www.whentoplant.uk"')) fail("functions/_middleware.js missing www to apex");
 if (!fs.existsSync(path.join(dist, "404.html"))) fail("missing 404.html");
 
 const supplies = JSON.parse(fs.readFileSync(path.join(__dirname, "data/supplies.json"), "utf8"));

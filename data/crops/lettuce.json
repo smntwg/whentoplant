@@ -1,0 +1,106 @@
+{
+  "slug": "lettuce",
+  "name": "Lettuce",
+  "latin": "Lactuca sativa",
+  "summary": "Sow little and often from late March to late July, with earlier and later sowings under cover for spring and winter leaves.",
+  "description": "When to sow lettuce in the UK for summer, autumn and winter leaves, with spacing for hearting and loose-leaf types.",
+  "card": "Sow March to October",
+  "intro": [
+    "Lettuce is not one sowing. The RHS splits the year by the harvest you want: outdoor sowings from late March to late July for summer and autumn, an early August sowing for early winter if you can cover the plants, and a September or October sowing of a winter variety for spring.",
+    "Loose-leaf types are ready in as little as four to six weeks. Hearting lettuces take about 10 to 14 weeks, and they need more room or they will not form a heart."
+  ],
+  "calendar": [
+    {
+      "id": "sow",
+      "label": "Sow under cover",
+      "months": [2, 9, 10],
+      "detail": "Early February for a first crop planted out under cloches. September and October for winter varieties in a greenhouse, cold frame or, in mild areas, under cloches."
+    },
+    {
+      "id": "plant",
+      "label": "Sow outdoors",
+      "months": [3, 4, 5, 6, 7, 8],
+      "detail": "Late March to late July for summer and autumn. Early August for an early winter crop that will need cover from late September."
+    },
+    {
+      "id": "harvest",
+      "label": "Harvest",
+      "months": [5, 6, 7, 8, 9, 10, 11, 12],
+      "detail": "From late spring into winter if you have used the right variety and covered late crops. Overwintered sowings are the spring leaves."
+    }
+  ],
+  "sowIndoors": [
+    "For the earliest outdoor crop, sow indoors in early February and plant out in early March under cloches. In a cold region, March sowings are also safer started inside and planted out after you have hardened them off.",
+    "Winter varieties such as Winter Density are sown in September or October in a greenhouse, or under cloches or in a cold frame in mild areas, for harvests the following spring."
+  ],
+  "sowOutdoors": [
+    "From late March to late July, sow a short row every couple of weeks. In the south, once the soil feels warm, seed can go straight into a drill about 1cm deep. Water the drill first. Thin in stages until hearting lettuces are about 30cm apart and loose-leaf types about 15cm apart. The thinnings are salad.",
+    "An early August sowing, covered with cloches from late September, is the RHS route to early winter leaves. August sowings also need shade from fierce sun while they germinate, or they fail in hot soil. Sow between slower crops such as sweetcorn if you need the space back later.",
+    "Containers work. A pot at least 30cm wide and deep, in a sunny place, will take loose-leaf plants at 15cm. In spring and in colder regions, a fleece or cloche helps them establish."
+  ],
+  "spacing": [
+    { "label": "Hearting types", "value": "About 30cm apart" },
+    { "label": "Loose-leaf types", "value": "About 15cm apart" },
+    { "label": "Drill", "value": "About 1cm deep" }
+  ],
+  "harvest": [
+    "Pick in the morning while the leaves are still full of water. Loose-leaf plants can be cut as soon as the leaves are about 10cm long. Take a few leaves from each plant, or cut the whole top and leave a short stem to reshoot, as long as the weather is not very hot and dry.",
+    "Cut a hearted lettuce through the stem, leaving a stump about 2.5cm tall. It often sprouts a smaller second cut. With the right varieties and some cover, the RHS says you can pick from late spring through to winter."
+  ],
+  "problems": [
+    {
+      "title": "Bolting",
+      "text": [
+        "Long days, a dry spell and a check in growth make lettuce throw a flower stem and turn bitter. Sow little and often, water in dry weather, and do not rely on one spring sowing to last all summer. Winter varieties are for the cool months, not for June."
+      ]
+    },
+    {
+      "title": "No heart",
+      "text": [
+        "Hearting varieties planted too close stay as a loose rosette. Give them about 30cm. Loose-leaf varieties are the ones to crowd a little, at about 15cm, if you only want leaves."
+      ]
+    },
+    {
+      "title": "Seed fails in hot weather",
+      "text": [
+        "August sowings are useful, but lettuce germinates poorly in hot, dry soil and in full glare. Gardeners' World says to keep August lettuce out of direct sun. Water the drill before you sow, and use a module sowing in the shade if the bed is baked."
+      ]
+    }
+  ],
+  "supplyIds": ["seed-compost", "modules", "fleece", "cloches", "labels", "watering-can"],
+  "months": ["february", "march", "april", "may", "june", "july", "august", "september"],
+  "related": ["beetroot", "cabbage"],
+  "steps": [
+    { "name": "Match the sowing to the season", "text": "Sow outdoors from late March to late July, start an early crop indoors in February, and sow winter varieties in September or October." },
+    { "name": "Thin to the right gap", "text": "Leave about 30cm for hearts and 15cm for loose leaves." },
+    { "name": "Cut and come again", "text": "Pick loose leaves from four to six weeks, or hearts from 10 to 14 weeks, and leave the stump to reshoot." }
+  ],
+  "faqs": [
+    {
+      "question": "Can I sow lettuce in August?",
+      "answer": [
+        "Yes. The RHS suggests an early August outdoor sowing for early winter leaves, with cloches on from late September. Keep that sowing out of harsh sun while it germinates. September and October sowings should be a winter variety, under cover unless you are in a mild spot."
+      ]
+    },
+    {
+      "question": "How close can I plant lettuce?",
+      "answer": [
+        "About 15cm for loose-leaf types and 30cm for hearting types. A hearting lettuce that is cramped often never forms a proper head."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "RHS",
+      "title": "How to grow lettuces",
+      "url": "https://www.rhs.org.uk/vegetables/lettuce/grow-your-own",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "BBC Gardeners' World",
+      "title": "What to plant in March",
+      "url": "https://www.gardenersworld.com/plants/what-to-plant-march/",
+      "accessed": "11 October 2026"
+    }
+  ]
+}

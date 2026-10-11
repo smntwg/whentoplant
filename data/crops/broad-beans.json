@@ -1,0 +1,105 @@
+{
+  "slug": "broad-beans",
+  "name": "Broad beans",
+  "latin": "Vicia faba",
+  "summary": "Sow in autumn in a mild garden, or from February to early May, and pick the pods while the scar is still pale.",
+  "description": "When to sow broad beans in the UK, in autumn or spring, with RHS spacing, depth and the blackfly note.",
+  "card": "Sow November or February to May",
+  "intro": [
+    "Broad beans are the hardy bean. They give you a crop before French and runner beans have started, and they will germinate in cool soil that would rot a runner bean seed.",
+    "The RHS says the usual outdoor sowings are March, April and early May. October, November or February sowings are possible in milder or very sheltered gardens, with a hardy variety and fleece over the young plants in a cold snap. Guy Barter notes that sowings after mid-April crop less and less, and that by June they are not worth sowing."
+  ],
+  "calendar": [
+    {
+      "id": "sow",
+      "label": "Sow",
+      "months": [2, 3, 4, 5, 10, 11],
+      "detail": "March to early May is the main outdoor season. October, November or February suit mild, sheltered sites and hardy varieties such as Aquadulce."
+    },
+    {
+      "id": "harvest",
+      "label": "Harvest",
+      "months": [5, 6, 7, 8],
+      "detail": "Autumn sowings in a mild garden can crop as early as May. Spring sowings crop through the summer."
+    }
+  ],
+  "sowIndoors": [
+    "Where autumn sowing would sit in wet, windy soil, sow a quick variety in pots indoors in February. Barter notes there is little difference in timing between those and an autumn sowing. Gardeners' World suggests modules or small pots, about 5cm deep, in an unheated greenhouse or cold frame. Mice like the seed, so cover the pots."
+  ],
+  "sowOutdoors": [
+    "Sow with the scar facing down, 5 to 7.5cm deep and 15 to 23cm apart. Single rows are 45cm apart. A double row can be 23cm apart, with 60cm before the next pair. Sow a few spares at the end of the row to fill gaps.",
+    "For autumn and February sowings, choose a hardy variety. Aquadulce is the one Barter names for November. Any leftover seed of that variety can also be sown in spring. It does not need winter cold in order to flower. Protect seedlings with a cloche or fleece if a hard frost is forecast.",
+    "Dwarf varieties can go in a container at least 40cm wide, sown 5cm deep and 15cm apart."
+  ],
+  "spacing": [
+    { "label": "In the row", "value": "15 to 23cm" },
+    { "label": "Single rows", "value": "45cm apart" },
+    { "label": "Depth", "value": "5 to 7.5cm, scar downwards" }
+  ],
+  "harvest": [
+    "Pick while the beans are small. They are sweeter then. The scar where the bean joins the pod should still be white or green. A black scar means the bean is turning tough. Very young pods, about 5cm long, can be eaten whole.",
+    "A mild autumn sowing can be ready in May. Spring sowings follow through the summer. When the plants are finished, compost the tops and leave the roots, as with other beans, so the nitrogen stays in the bed."
+  ],
+  "problems": [
+    {
+      "title": "Blackfly",
+      "text": [
+        "Broad beans almost always pick up blackfly on the soft tips. Pinching the tips out is often suggested as a preventative. Barter says that, in practice, it does not stop the infestation. Brush or wash colonies off, and keep the plants growing. Autumn and very early sowings are often past the soft-tip stage before the main aphid wave."
+      ]
+    },
+    {
+      "title": "Mice",
+      "text": [
+        "Mice dig up the seed, especially from autumn and winter sowings and from pots. Cover the row or the seed tray until the plants are up."
+      ]
+    },
+    {
+      "title": "A late sowing",
+      "text": [
+        "Plants sown after mid-April set fewer pods. A June sowing is late enough that the RHS chief horticulturist says it is not worth it. Use that ground for French or runner beans instead."
+      ]
+    }
+  ],
+  "supplyIds": ["multipurpose-compost", "modules", "fleece", "cloches", "labels", "netting"],
+  "months": ["january", "february", "march", "april", "may", "october", "november"],
+  "related": ["runner-beans", "peas"],
+  "steps": [
+    { "name": "Sow in the cool season", "text": "Sow outdoors from March to early May, or in October, November or February in a mild sheltered spot with a hardy variety." },
+    { "name": "Space them widely enough", "text": "Set seed 5 to 7.5cm deep and 15 to 23cm apart, with 45cm between single rows." },
+    { "name": "Pick while the scar is pale", "text": "Harvest from May for autumn sowings, and through summer for spring sowings, before the scar on the bean turns black." }
+  ],
+  "faqs": [
+    {
+      "question": "Can I sow broad beans in autumn?",
+      "answer": [
+        "Yes, in a mild region or a very sheltered, well-drained spot. Use a hardy variety such as Aquadulce and cover the young plants in a cold spell. Elsewhere, a February sowing in pots is the safer early crop."
+      ]
+    },
+    {
+      "question": "Should I pinch the tops out?",
+      "answer": [
+        "You can, once the plants are flowering well, and the tips are good to cook. It is not a reliable way to prevent blackfly. RHS chief horticulturist Guy Barter says the usual pinching advice does not stop an infestation in practice."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "RHS",
+      "title": "How to grow broad beans",
+      "url": "https://www.rhs.org.uk/vegetables/broad-beans/grow-your-own",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "Sowing broad beans in autumn or spring",
+      "url": "https://www.rhs.org.uk/advice/grow-your-own/features/sowing-broad-beans",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "BBC Gardeners' World",
+      "title": "What to plant in January",
+      "url": "https://www.gardenersworld.com/plants/what-to-plant-january/",
+      "accessed": "11 October 2026"
+    }
+  ]
+}

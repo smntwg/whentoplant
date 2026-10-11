@@ -1,0 +1,119 @@
+{
+  "slug": "tomatoes",
+  "name": "Tomatoes",
+  "latin": "Solanum lycopersicum",
+  "summary": "Sow under cover from February for a greenhouse, or March to early April for outdoors, and plant out only when nights are mild.",
+  "description": "When to sow and plant tomatoes in the UK, including greenhouse and outdoor timing, spacing and feeding.",
+  "card": "Sow February to April",
+  "intro": [
+    "Tomatoes are tender. A UK summer is long enough for a good crop, but only if you sow them under cover and refuse to plant them out on the first warm weekend.",
+    "Gardeners' World distinguishes two sowings: from early February for plants that will live in a greenhouse, and from March to early April for plants that will go outside. An RHS adviser has also warned against sowing too early. Young plants cannot go into a cold greenhouse or outside until summer, and early sowings often become leggy while they wait."
+  ],
+  "calendar": [
+    {
+      "id": "sow",
+      "label": "Sow indoors",
+      "months": [2, 3, 4],
+      "detail": "February suits a greenhouse crop if you can keep plants warm and bright. For outdoor plants, sow from March to early April."
+    },
+    {
+      "id": "plant",
+      "label": "Plant out",
+      "months": [5, 6],
+      "detail": "After the last frost, once nights are reliably mild. In much of the UK that is late May or June, earlier under glass."
+    },
+    {
+      "id": "harvest",
+      "label": "Harvest",
+      "months": [7, 8, 9, 10],
+      "detail": "From mid-summer. Greenhouse plants start earlier and carry on further into autumn than outdoor ones."
+    }
+  ],
+  "sowIndoors": [
+    "Sow into modules, small pots or a tray of peat-free compost, and keep them warm. A heated propagator speeds germination, but a warm windowsill with a clear cover will do. Seedlings usually appear within a fortnight. Uncover them and give them as much light as you can.",
+    "Pot them on once they have their first true leaves, planting a leggy seedling deeper so the first leaves sit just above the compost. The RHS says to grow them on somewhere bright at a temperature of at least 16°C. For outdoor crops, Guy Barter's advice in March was to sow then, pot into 9cm pots about six weeks later, and expect plants for May or June and fruit in August."
+  ],
+  "plantOut": [
+    "Harden plants off for a couple of weeks, or the two to three weeks the RHS suggests for tender crops, before they stay outside overnight. Gardeners' World says to plant outside only once the danger of frost has passed, usually sometime in May. The RHS is stricter about temperature: plant into the final spot in early summer once conditions are reliably warm, and remember tomatoes grow better when nights stay above 10°C.",
+    "Use your warmest, sunniest, most sheltered place. Plant deeply again, so the buried stem can root. Space plants 45 to 60cm apart, depending on how large the variety gets. In containers, plant one tomato in a 30 to 45cm pot and two in a standard growing bag, using peat-free compost.",
+    "Cordon varieties need a cane or a vertical string, and the side-shoots should be pinched out. Stop the main stem two leaves above the top truss once outdoor plants have set four trusses, or indoor plants seven. Bush varieties are left to branch and only need support if the crop is heavy."
+  ],
+  "spacing": [
+    { "label": "In the ground", "value": "45 to 60cm apart" },
+    { "label": "In a pot", "value": "One plant in a 30 to 45cm pot" },
+    { "label": "Growing bag", "value": "Two plants in a standard bag" }
+  ],
+  "harvest": [
+    "Fruit starts to ripen from mid-summer. Cherry tomatoes colour up sooner than beefsteaks, and a greenhouse crop usually starts earlier and runs on into autumn. Pick when fully coloured, with the stalk still on.",
+    "At the end of the season, outdoor plants with green fruit can be lifted and laid under cloches, or the fruit can be picked and ripened indoors somewhere warm. A banana in the same bowl speeds that up."
+  ],
+  "problems": [
+    {
+      "title": "Blight",
+      "text": [
+        "Outdoor tomatoes can get blight in warm, wet weather. It rots leaves and fruit. Greenhouse plants are rarely hit. Remove affected growth, and do not compost infected material if you can avoid spreading spores around the plot."
+      ]
+    },
+    {
+      "title": "Split fruit and blossom end rot",
+      "text": [
+        "Both come from uneven watering. Keep the compost or soil evenly moist. Containers may need watering every day in a hot spell. Feed container plants every 10 to 14 days with a high-potassium liquid feed once the first fruits swell. Plants in enriched ground may not need extra feed, though a fortnightly feed can raise the yield."
+      ]
+    },
+    {
+      "title": "Leggy seedlings",
+      "text": [
+        "Low light and an early sowing are the usual cause. Sow outdoor varieties from March, pot them deeper, and give them the brightest spot you have."
+      ]
+    }
+  ],
+  "supplyIds": ["seed-compost", "multipurpose-compost", "modules", "pots", "canes", "twine", "potash-feed", "labels"],
+  "months": ["january", "february", "march", "april", "may", "june", "july", "august", "september"],
+  "related": ["potatoes", "courgettes", "sweetcorn"],
+  "steps": [
+    { "name": "Sow under cover", "text": "Sow greenhouse crops from early February, and outdoor crops from March to early April, somewhere warm and bright." },
+    { "name": "Pot on and harden off", "text": "Grow seedlings on at at least 16°C, then harden them off for two to three weeks." },
+    { "name": "Plant when nights are mild", "text": "Plant out after the last frost once nights stay mild, spacing plants 45 to 60cm apart in a warm sheltered spot." },
+    { "name": "Pick from mid-summer", "text": "Harvest coloured fruit from mid-summer, and ripen the last green fruit indoors in autumn." }
+  ],
+  "faqs": [
+    {
+      "question": "Should I sow tomatoes in January?",
+      "answer": [
+        "Only if you are growing them in a heated greenhouse and can give the seedlings extra light. For outdoor plants, March to early April is the Gardeners' World window. Earlier sowings often become thin and floppy before the weather is warm enough."
+      ]
+    },
+    {
+      "question": "Do I remove side-shoots?",
+      "answer": [
+        "On cordon, or indeterminate, tomatoes, yes. Pinch out the shoot that appears in each leaf joint so the plant stays as one stem. On bush, or determinate, tomatoes, leave the side-shoots on."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "RHS",
+      "title": "How to grow tomatoes",
+      "url": "https://www.rhs.org.uk/vegetables/tomatoes/grow-your-own",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "BBC Gardeners' World",
+      "title": "How to grow tomatoes",
+      "url": "https://www.gardenersworld.com/how-to/grow-plants/how-to-grow-tomatoes/",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "Fast-growing tomatoes",
+      "url": "https://www.rhs.org.uk/advice/grow-your-own/features/fast-tomatoes",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "When to plant out tender plants",
+      "url": "https://www.rhs.org.uk/garden-jobs/when-to-plant-out-tender-plants-avoiding-late-frosts",
+      "accessed": "11 October 2026"
+    }
+  ]
+}

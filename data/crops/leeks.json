@@ -1,0 +1,116 @@
+{
+  "slug": "leeks",
+  "name": "Leeks",
+  "latin": "Allium porrum",
+  "summary": "Sow in late winter or spring, plant into deep holes from mid-spring, and lift from late summer right through winter.",
+  "description": "When to sow and plant leeks in the UK, including the puddling-in method, spacing and a long winter harvest.",
+  "card": "Sow February to April",
+  "intro": [
+    "Leeks are the crop that is still there in January. They grow slowly, they stand frost, and a late variety can be lifted whenever you need it from autumn into spring.",
+    "The RHS sows them in spring, in the ground or in a seedbed, and also indoors in late winter for an earlier transplant. Baby leeks are ready in a couple of months. A full-sized leek takes about six."
+  ],
+  "calendar": [
+    {
+      "id": "sow",
+      "label": "Sow",
+      "months": [2, 3, 4],
+      "detail": "Indoors in late winter, or outdoors in spring in a drill about 1.5cm deep. Gardeners' World also lists leeks among the April sowings under cover."
+    },
+    {
+      "id": "plant",
+      "label": "Plant out",
+      "months": [4, 5, 6],
+      "detail": "Indoor sowings can go out in mid to late spring. Plants from a seedbed are moved once they are large enough, into early summer."
+    },
+    {
+      "id": "harvest",
+      "label": "Harvest",
+      "months": [8, 9, 10, 11, 12, 1, 2, 3, 4],
+      "detail": "From late summer as baby leeks, then through winter and into spring for later varieties."
+    }
+  ],
+  "sowIndoors": [
+    "A late-winter sowing in modules or a tray, kept under cover, can be planted out in mid to late spring. This is the route for an earlier leek, and it is useful if your outdoor seedbed stays cold and wet. Gardeners' World includes leeks with the crops sown under cover in April as well, so a second batch is still worth making."
+  ],
+  "sowOutdoors": [
+    "The traditional sowing is a seedbed in spring. Make a drill about 1.5cm deep, water it, and sow thinly. Further rows sit about 30cm apart. If a cold spell arrives, cover the bed. The RHS warns that cold at this stage can make the plants bolt later.",
+    "You can also sow straight into a large deep container if you only want baby leeks. A pot about 40cm wide might hold four or five full-sized plants if you look after the watering."
+  ],
+  "plantOut": [
+    "Make holes with a dibber or a trowel handle, about 15cm deep and 5cm across. Space them 15 to 20cm apart, or 10cm if you plan to eat them as babies, with 30cm between rows. Lift the seedlings, trim the roots back to about 2.5cm, and stand one leek in each hole.",
+    "Fill the hole with water rather than soil. The RHS calls this puddling in. The water settles a little soil around the roots, and there is no need to backfill. The hole fills itself as you hoe through the summer, and the buried shank is the long white part you want.",
+    "Indoor-raised plants can move in mid to late spring. Seedbed plants often go out a bit later, once they are about pencil thick. Water them in a dry spell while they establish."
+  ],
+  "spacing": [
+    { "label": "Final spacing", "value": "15 to 20cm apart, rows 30cm apart" },
+    { "label": "Baby leeks", "value": "10cm apart" },
+    { "label": "Planting hole", "value": "About 15cm deep, watered in, not backfilled" },
+    { "label": "Seed drill", "value": "About 1.5cm deep" }
+  ],
+  "harvest": [
+    "Start lifting in late summer while some plants are still small, and leave the rest. A fork is safer than a pull, because the shaft goes deep. Late varieties stay in the ground through winter and into spring. Frost can improve the flavour.",
+    "Take alternate plants if you want some baby leeks and some full ones from the same row. They do not all have to be harvested on one day."
+  ],
+  "problems": [
+    {
+      "title": "Bolting",
+      "text": [
+        "A cold spell over young plants can make them flower in summer instead of thickening. Cover early outdoor sowings if the temperature drops, and do not plant out tiny seedlings into a freeze."
+      ]
+    },
+    {
+      "title": "Rust",
+      "text": [
+        "Bright orange spots on the leaves are leek rust, a common fungus that also hits garlic and onions. It looks worse than it is. The shank underneath is still edible. Give plants the spacing above so air can move, and avoid wetting the leaves more than you have to."
+      ]
+    },
+    {
+      "title": "Allium leaf miner",
+      "text": [
+        "The same leaf-mining fly that affects onions will bore into leeks. It is established across much of England and parts of Wales. Insect-proof mesh over the bed, from planting onwards, is the practical cover on an allotment."
+      ]
+    }
+  ],
+  "supplyIds": ["seed-compost", "modules", "dibber", "fleece", "mesh", "fork", "labels"],
+  "months": ["january", "february", "march", "april", "may", "june", "august", "october", "november", "december"],
+  "related": ["onions", "garlic", "cabbage"],
+  "steps": [
+    { "name": "Sow in late winter or spring", "text": "Sow indoors from late winter, or outdoors in spring about 1.5cm deep." },
+    { "name": "Puddle them into holes", "text": "From mid-spring into early summer, drop plants into 15cm holes, 15 to 20cm apart, and fill the holes with water." },
+    { "name": "Lift through winter", "text": "Harvest from late summer, and leave late varieties in the ground until spring." }
+  ],
+  "faqs": [
+    {
+      "question": "Do I fill the leek hole with soil?",
+      "answer": [
+        "No. Stand the leek in the hole and fill it with water. The RHS calls this puddling in, and says there is no need to backfill. Soil falls in gradually and the white shank lengthens."
+      ]
+    },
+    {
+      "question": "Can leeks stay in the ground in winter?",
+      "answer": [
+        "Yes. Late varieties are meant to. Lift them when you want them, from autumn through to spring. A hard frost will not finish the crop, and the RHS notes it can make the flavour sweeter."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "RHS",
+      "title": "How to grow leeks",
+      "url": "https://www.rhs.org.uk/vegetables/leeks/grow-your-own",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "How to grow onions",
+      "url": "https://www.rhs.org.uk/vegetables/onions/grow-your-own",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "BBC Gardeners' World",
+      "title": "Your seed-sowing year",
+      "url": "https://www.gardenersworld.com/plants/your-seed-sowing-year/",
+      "accessed": "11 October 2026"
+    }
+  ]
+}

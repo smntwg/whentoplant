@@ -1,0 +1,182 @@
+{
+  "slug": "june",
+  "number": 6,
+  "name": "June",
+  "summary": "Plant the last tender crops, sow little and often for late summer, and start the real harvest: potatoes, strawberries, beans and salads.",
+  "description": "What to sow, plant and harvest in June in the UK, from leeks and late beans to the first new potatoes and strawberries.",
+  "highlights": [
+    "Sow lettuce, beetroot, carrots and a late row of beans",
+    "Plant out any tender crops still in pots",
+    "Move leeks into their final holes",
+    "Harvest early potatoes, strawberries and broad beans"
+  ],
+  "intro": [
+    "June is the crossover. Sowing does not stop, but the plot starts to feed you. Gardeners' World says to keep sowing beetroot, radishes and lettuce every week or so, and to sow carrots under insect mesh. Runner beans, French beans and courgettes can still be sown outside for a later crop.",
+    "If you are in the north or in Scotland, early June may be the first safe moment for tomatoes and courgettes. Do not rush that just because a southern calendar says May."
+  ],
+  "sections": [
+    {
+      "title": "Sow indoors",
+      "intro": [
+        "There is little reason to sow tender crops inside now, unless a late frost is still normal where you live and you want a small backup."
+      ],
+      "items": [
+        {
+          "name": "Lettuce",
+          "crop": "lettuce",
+          "text": "A module sowing in light shade is a good way to keep a supply going when outdoor seed sits in hot, dry soil. Plant the modules out as soon as the roots hold the compost."
+        },
+        {
+          "name": "A backup courgette",
+          "crop": "courgettes",
+          "text": "If slugs took the outdoor sowing, one seed in a pot will catch up. Early June is the late end of outdoor sowing too, so do not wait longer than that."
+        }
+      ]
+    },
+    {
+      "title": "Sow outdoors",
+      "intro": [
+        "Short rows, sown often, are worth more than a bed sown once."
+      ],
+      "items": [
+        {
+          "name": "Lettuce",
+          "crop": "lettuce",
+          "text": "Sow every week or two through to late July for summer and autumn leaves. Water the drill first. Hearting types need about 30cm or they will not heart."
+        },
+        {
+          "name": "Beetroot",
+          "crop": "beetroot",
+          "text": "Still well inside the season, which runs to July. A row now is for late summer. Sow 10cm apart and pull them from golf-ball size."
+        },
+        {
+          "name": "Carrots",
+          "crop": "carrots",
+          "text": "June sowings are useful, and they need mesh from day one. You can sow until early July. Thin to 5 to 7.5cm and put the cover back immediately, because the smell attracts carrot fly."
+        },
+        {
+          "name": "Peas",
+          "crop": "peas",
+          "text": "June is the last month of the main sowing season. Choose an early, quick variety so the pods fill before autumn. Supports in at sowing time."
+        },
+        {
+          "name": "Runner beans and courgettes",
+          "text": "A direct sowing now gives a later crop than April pots. Runner beans are often more reliable outside in June in the north, once the soil is warm. Courgettes sown at the start of June, 2.5cm deep and 90cm apart, will still crop in summer if the weather is kind.",
+          "crops": [
+            "runner-beans",
+            "courgettes"
+          ]
+        },
+        {
+          "name": "Winter cabbage",
+          "crop": "cabbage",
+          "text": "April to June is the sowing window for autumn and winter types. A June sowing of a winter variety is one of the crops that will feed you when the courgettes are finished."
+        }
+      ]
+    },
+    {
+      "title": "Plant out",
+      "intro": [
+        "Anything still in a pot and labelled tender should be in its final place this month, after hardening off."
+      ],
+      "items": [
+        {
+          "name": "Tomatoes, courgettes and sweetcorn",
+          "text": "Early June is the RHS grouping for north-east England, southern Scotland and Northern Ireland. Sweetcorn wants a block 34 to 45cm apart. Courgettes want 90cm. Tomatoes want 45 to 60cm in the sunniest spot, planted a little deeper than they were in the pot.",
+          "crops": [
+            "tomatoes",
+            "courgettes",
+            "sweetcorn"
+          ]
+        },
+        {
+          "name": "Runner beans",
+          "crop": "runner-beans",
+          "text": "Plant any remaining pot-raised plants at the base of the canes. Water them in and mulch. From now on the job is water, especially once they flower."
+        },
+        {
+          "name": "Leeks",
+          "crop": "leeks",
+          "text": "This is a classic month to finish planting. Holes 15cm deep, 15 to 20cm apart, roots trimmed to about 2.5cm, then puddled in with water and left unfilled. Baby leeks can be closer, at 10cm."
+        }
+      ]
+    },
+    {
+      "title": "Harvest",
+      "intro": [
+        "June is when the earlier sowings and plantings start to justify the space."
+      ],
+      "items": [
+        {
+          "name": "Early potatoes",
+          "crop": "potatoes",
+          "text": "First earlies are lifted in June and July, once a root feels about the size of a hen's egg. Take one plant at a time. They do not store, so dig them as you want them."
+        },
+        {
+          "name": "Strawberries",
+          "crop": "strawberries",
+          "text": "Summer varieties start from early June. Net them as they colour. A plant under cloches may already have fruited in late spring."
+        },
+        {
+          "name": "Broad beans",
+          "crop": "broad-beans",
+          "text": "Spring sowings join any autumn ones. Pick small, while the scar is pale. Pinching the tips is optional. It will not reliably stop blackfly."
+        },
+        {
+          "name": "Garlic",
+          "crop": "garlic",
+          "text": "Autumn-planted bulbs can be ready from late spring into early summer, once the leaves yellow. Do not wait until the bulbs split."
+        },
+        {
+          "name": "Lettuce",
+          "crop": "lettuce",
+          "text": "Cut loose leaves as soon as they are worth eating, about 10cm long. Morning is the best time, while they are still crisp."
+        }
+      ]
+    }
+  ],
+  "jobs": [
+    "Water tomatoes evenly. Fluctuating moisture splits the fruit and causes blossom end rot.",
+    "Side-shoot cordon tomatoes every time you water. Leave bush varieties alone.",
+    "Mulch runner beans and courgettes so the soil does not dry out the moment they flower.",
+    "Sow a marker row of something quick, such as lettuce, in any gap. Empty soil in June is wasted light."
+  ],
+  "holdOff": [
+    "Do not sow maincrop potatoes now. If you want potatoes at Christmas, that is a July planting of a suitable variety, not a June one.",
+    "Do not cut perpetual strawberries back hard after a flush. That cut, 10cm above the crown, is for summer-fruiting plants once their short crop is over."
+  ],
+  "faqs": [
+    {
+      "question": "Is June too late to sow runner beans?",
+      "answer": [
+        "No. Early June is the normal outdoor sowing time in the north, and a June sowing anywhere gives a later crop than an April one. Sow 5cm deep at the base of each cane once the soil is warm."
+      ]
+    },
+    {
+      "question": "What can I harvest in June?",
+      "answer": [
+        "First early potatoes, the start of the summer strawberries, broad beans from an early sowing, autumn-planted garlic if the leaves have yellowed, and lettuce from spring sowings. Courgettes and tomatoes are still to come."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "BBC Gardeners' World",
+      "title": "Your seed-sowing year",
+      "url": "https://www.gardenersworld.com/plants/your-seed-sowing-year/",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "How to grow potatoes",
+      "url": "https://www.rhs.org.uk/vegetables/potatoes/grow-your-own",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "How to grow leeks",
+      "url": "https://www.rhs.org.uk/vegetables/leeks/grow-your-own",
+      "accessed": "11 October 2026"
+    }
+  ]
+}

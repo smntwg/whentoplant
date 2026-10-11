@@ -1,0 +1,182 @@
+{
+  "slug": "may",
+  "number": 5,
+  "name": "May",
+  "summary": "Frost is the whole story. Sow tender crops outside only at the end of the month where you are mild enough, and keep sowing salads and roots.",
+  "description": "What to sow and plant in May in the UK, and when it is actually safe to put tomatoes and courgettes outside.",
+  "highlights": [
+    "Sow beetroot, carrots, lettuce and peas in succession",
+    "Sow runner beans and courgettes outside only after your last frost",
+    "Plant tender crops when nights are mild for your region",
+    "Harvest spring cabbage and the first overwintered broad beans"
+  ],
+  "intro": [
+    "May is not one date for the whole country. On the south-west coast the RHS puts the first safe planting of tender crops in the first to second half of the month. In the Midlands it is the end of May. In southern Scotland and Northern Ireland it is early June, and later still in the Highlands.",
+    "Gardeners' World says the risk of frost has gone for many gardens, so runner beans and courgettes can be sown outside towards the end of the month. Treat that as a southern and mild-garden instruction. If your frost window is June, keep those sowings in pots."
+  ],
+  "sections": [
+    {
+      "title": "Sow indoors",
+      "intro": [
+        "There is still time to sow tender crops in pots if you have not, especially if you cannot plant out until June."
+      ],
+      "items": [
+        {
+          "name": "Courgettes, squash and pumpkins",
+          "text": "Gardeners' World still lists these under cover at the start of May. One plant to a pot. They will be ready to go out in early summer, which is the RHS planting time.",
+          "crops": [
+            "courgettes"
+          ]
+        },
+        {
+          "name": "Sweetcorn",
+          "crop": "sweetcorn",
+          "text": "A May indoor sowing still works, particularly for an early variety in a cooler garden. You need plants 8 to 15cm tall for a late May or early June planting, so do not delay past the middle of the month if June is your outdoor date."
+        },
+        {
+          "name": "Runner beans",
+          "crop": "runner-beans",
+          "text": "Mid-April to May is the indoor window. A bean sown now in a pot will be safer than seed in cold soil, and it will be ready to plant beside the canes in early June if May is still frosty where you are."
+        }
+      ]
+    },
+    {
+      "title": "Sow outdoors",
+      "intro": [
+        "Hardy crops can be sown all month. Tender seed waits until the soil is warm and your own frost risk has passed."
+      ],
+      "items": [
+        {
+          "name": "Beetroot, carrots and lettuce",
+          "text": "Keep sowing short rows. Carrots sown after mid-May miss the first generation of carrot fly, which is worth knowing if you struggled last year. Lettuce sown now is a summer crop, so thin it properly and do not let it dry out.",
+          "crops": [
+            "beetroot",
+            "carrots",
+            "lettuce"
+          ]
+        },
+        {
+          "name": "Peas",
+          "crop": "peas",
+          "text": "May is still inside the March to June sowing season. An early variety sown now will crop in late summer. Put the supports in at sowing time."
+        },
+        {
+          "name": "Runner beans and courgettes",
+          "text": "Outdoor runner bean seed needs soil at 12°C, usually mid-May in the south and early June in the north. Courgette seed goes out in late May or early June, 2.5cm deep, at least 90cm apart. If you are not in that milder group, sow in pots instead.",
+          "crops": [
+            "runner-beans",
+            "courgettes"
+          ]
+        },
+        {
+          "name": "Cabbage",
+          "crop": "cabbage",
+          "text": "May sits inside the April to June window for autumn and winter cabbage. Sow in a seedbed or in modules, and plan to cover the final bed with mesh."
+        },
+        {
+          "name": "Sweetcorn",
+          "crop": "sweetcorn",
+          "text": "Direct sowing is only realistic in the south, in warm light soil, from late spring. Sow in a block, 34 to 45cm apart, not in one long row. Elsewhere, wait and plant indoor-raised plants next month."
+        }
+      ]
+    },
+    {
+      "title": "Plant out",
+      "intro": [
+        "Harden plants off for two to three weeks. Then use the forecast, not the calendar alone. Nights should stay above about 7°C, and above 10°C for tomatoes."
+      ],
+      "items": [
+        {
+          "name": "Tomatoes",
+          "crop": "tomatoes",
+          "text": "In a mild southern garden, late May is often the moment, after hardening off. In the north, keep them in pots until early June. Plant deeply, 45 to 60cm apart, in the warmest spot you have. A greenhouse crop can go into its final pot or border earlier, as long as the house stays frost-free."
+        },
+        {
+          "name": "Courgettes and sweetcorn",
+          "text": "Early summer is the courgette planting time, at least 90cm apart. Sweetcorn goes out in late May or early June in a block. Both need a fleece nearby for the first cold night you did not expect.",
+          "crops": [
+            "courgettes",
+            "sweetcorn"
+          ]
+        },
+        {
+          "name": "Runner beans",
+          "crop": "runner-beans",
+          "text": "Plant one hardened-off plant at the base of each cane from late May or early June. Tie it in loosely and water it. The supports should already be up."
+        },
+        {
+          "name": "Leeks",
+          "crop": "leeks",
+          "text": "Indoor sowings can be planted from mid to late spring. Make 15cm holes, 15 to 20cm apart, drop one leek in each, and water the hole rather than filling it with soil."
+        }
+      ]
+    },
+    {
+      "title": "Harvest",
+      "intro": [
+        "The first rewards of autumn and early spring sowings arrive, if you made them."
+      ],
+      "items": [
+        {
+          "name": "Spring cabbage",
+          "crop": "cabbage",
+          "text": "Hearts run from mid-spring into mid-summer. May is the middle of that. Cut a firm head and score the stump if you want a second, smaller one."
+        },
+        {
+          "name": "Broad beans",
+          "crop": "broad-beans",
+          "text": "A mild autumn sowing can be ready in May. Pick while the scar on the bean is still pale. Spring sowings are still growing."
+        },
+        {
+          "name": "Lettuce",
+          "crop": "lettuce",
+          "text": "Loose-leaf plants from an early sowing can be ready in four to six weeks, so a March row may be pickable now. Take a few leaves from each plant."
+        }
+      ]
+    }
+  ],
+  "jobs": [
+    "Check the five-day forecast before any tender planting, and keep fleece in the shed.",
+    "Earth up potatoes and cover shoots if frost is forecast. Blackened tops usually regrow, but it sets them back.",
+    "Water anything in a pot every time the compost dries at the surface. May sun and wind empty small pots quickly.",
+    "Net strawberries as the first fruits colour if you have an early variety under cloches."
+  ],
+  "holdOff": [
+    "Do not plant out the whole tender collection on a warm Saturday if the nights are still forecast near freezing. The last air frost is often two to four weeks before it is truly safe.",
+    "Do not sow broad beans as your main crop now if you have not already. After mid-April the pod count falls, and a June sowing is not worth the row."
+  ],
+  "faqs": [
+    {
+      "question": "Can I plant tomatoes out in May?",
+      "answer": [
+        "In much of southern England and south Wales, the second half of May is the RHS window, if the plants are hardened off and nights stay mild. Further north, wait until the end of May or early June. A greenhouse is the place for them until then."
+      ]
+    },
+    {
+      "question": "Is it too late to sow carrots?",
+      "answer": [
+        "No. The main season runs to early July. A sowing after mid-May also dodges the first generation of carrot fly. Keep the mesh on."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "BBC Gardeners' World",
+      "title": "Your seed-sowing year",
+      "url": "https://www.gardenersworld.com/plants/your-seed-sowing-year/",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "When to plant out tender plants",
+      "url": "https://www.rhs.org.uk/garden-jobs/when-to-plant-out-tender-plants-avoiding-late-frosts",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "How to grow runner beans",
+      "url": "https://www.rhs.org.uk/vegetables/runner-beans/grow-your-own",
+      "accessed": "11 October 2026"
+    }
+  ]
+}

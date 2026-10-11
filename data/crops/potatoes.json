@@ -1,0 +1,113 @@
+{
+  "slug": "potatoes",
+  "name": "Potatoes",
+  "latin": "Solanum tuberosum",
+  "summary": "Chit earlies from late winter, plant through spring, and lift new potatoes from June or maincrops from August.",
+  "description": "When to chit, plant and harvest potatoes in the UK, with RHS spacing for earlies and maincrops.",
+  "card": "Plant March to May",
+  "intro": [
+    "Potatoes are grown from seed potatoes, which are small tubers sold for planting, not from a packet of seed. In the UK the job is spread across spring: first earlies around late March, second earlies in early to mid-April, and maincrops from mid-April into early May.",
+    "They are worth chitting, especially the earlies, so they are already sprouting when they go into the ground. A colder garden should plant later than a mild one. Gardeners' World suggests delaying planting by a couple of weeks in northerly areas."
+  ],
+  "calendar": [
+    {
+      "id": "sow",
+      "label": "Chit",
+      "months": [1, 2, 3],
+      "detail": "Start in late January in milder areas, and up to early March in colder spots. The RHS says the process takes four to six weeks."
+    },
+    {
+      "id": "plant",
+      "label": "Plant",
+      "months": [3, 4, 5],
+      "detail": "First earlies around late March, second earlies in early to mid-April, maincrops from mid-April to early May."
+    },
+    {
+      "id": "harvest",
+      "label": "Harvest",
+      "months": [6, 7, 8, 9, 10],
+      "detail": "First earlies in June and July, second earlies in July and August, maincrops from August to October."
+    }
+  ],
+  "sowOutdoors": [
+    "Stand seed potatoes in a tray or egg box with the eyes upwards, in a bright, frost-free place. The RHS says chitting is not essential, but it is worthwhile for first and second earlies if you want an earlier crop.",
+    "Plant into a trench about 15cm deep, or into individual holes, with the sprouts facing up. Cover them carefully so you do not knock the sprouts off. First earlies go in around late March, second earlies in early to mid-April, and maincrops from mid-April to early May. If the soil is wet, the RHS notes you can wait. A mid-April planting still crops, just a little later."
+  ],
+  "plantOut": [
+    "Potatoes are planted as tubers rather than transplanted as seedlings. If a late frost is forecast after the shoots appear, draw soil over the leaves or cover the row. Frosted foliage often grows back.",
+    "When there is about 20 to 30cm of growth, earth up by pulling soil around the stems and leaving about 10cm of leaf in the light. Do this in stages. It stops tubers pushing into the light and turning green, and it protects new shoots from a cold night.",
+    "If you are short of space, early varieties are the ones for containers. The RHS suggests a pot at least 30cm wide and deep. Half-fill it with about 15cm of peat-free compost, plant one seed potato per 30cm of pot diameter, and add more compost as the shoots grow."
+  ],
+  "spacing": [
+    { "label": "Earlies", "value": "30cm apart, in rows 60cm apart" },
+    { "label": "Maincrops", "value": "37cm apart, in rows 75cm apart" },
+    { "label": "Depth", "value": "About 15cm, sprouts upwards" }
+  ],
+  "harvest": [
+    "First earlies are ready in June and July. Feel for tubers about the size of a hen's egg and lift a plant at a time. They do not store well, so dig what you will eat.",
+    "Second earlies follow in July and August. Maincrops are lifted from August to October, once the leaves have yellowed. Choose a dry day, leave the tubers on the surface for a few hours to dry, and store sound ones in paper or hessian somewhere cool, dark and frost-free. Cut diseased tops off and do not store damaged tubers."
+  ],
+  "problems": [
+    {
+      "title": "Green tubers",
+      "text": [
+        "Light turns tubers green, and green potatoes are poisonous. Earth up so the tubers stay covered, and do not eat green ones. This is the same reason containers need topping up as the plants grow."
+      ]
+    },
+    {
+      "title": "Blight",
+      "text": [
+        "Potatoes are closely related to tomatoes and, outdoors, they are similarly susceptible to blight. Warm, wet spells are when it spreads. If the foliage collapses with blight, cut it off and lift the crop rather than leaving infected tops over the tubers."
+      ]
+    },
+    {
+      "title": "Frosted shoots",
+      "text": [
+        "A May frost can blacken young leaves. Cover the row when a cold night is forecast. Plants usually grow back from lower buds, though it sets the crop back."
+      ]
+    }
+  ],
+  "supplyIds": ["seed-potatoes", "garden-compost", "fork", "fleece"],
+  "months": ["january", "march", "april", "june", "july", "august", "september", "october"],
+  "related": ["tomatoes"],
+  "steps": [
+    { "name": "Chit the tubers", "text": "From late January in mild areas, up to early March in colder ones, sprout seed potatoes in a bright frost-free place for four to six weeks." },
+    { "name": "Plant in spring", "text": "Plant first earlies around late March, second earlies in early to mid-April and maincrops from mid-April to early May, about 15cm deep." },
+    { "name": "Earth up", "text": "When shoots are about 20 to 30cm tall, draw soil up around the stems, leaving about 10cm of leaf showing." },
+    { "name": "Harvest by type", "text": "Lift first earlies in June and July, second earlies in July and August, and maincrops from August to October." }
+  ],
+  "faqs": [
+    {
+      "question": "Can I plant a potato from the supermarket?",
+      "answer": [
+        "Use certified seed potatoes. Supermarket tubers are not sold for planting, and they may not suit UK conditions or be free of disease. The same warning is made for supermarket garlic."
+      ]
+    },
+    {
+      "question": "Do I have to chit potatoes?",
+      "answer": [
+        "No. The RHS says chitting is optional. It is most useful for early varieties, because those sprouted tubers crop sooner. Maincrops will still grow if you plant them unsprouted."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "RHS",
+      "title": "How to grow potatoes",
+      "url": "https://www.rhs.org.uk/vegetables/potatoes/grow-your-own",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "Early potatoes, family growing guide",
+      "url": "https://www.rhs.org.uk/education-learning/children-young-people/family-activities/grow-it/early-potatoes",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "BBC Gardeners' World",
+      "title": "How to grow potatoes",
+      "url": "https://www.gardenersworld.com/news/from-bag-to-bumper-crop-how-to-grow-potatoes-anywhere/",
+      "accessed": "11 October 2026"
+    }
+  ]
+}

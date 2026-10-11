@@ -1,0 +1,157 @@
+{
+  "slug": "october",
+  "number": 10,
+  "name": "October",
+  "summary": "Plant garlic and overwintering onion sets, sow a hardy row of peas if you want an experiment, and finish lifting maincrop potatoes.",
+  "description": "What to plant and harvest in October in the UK: garlic, overwintering onions, hardy peas and the last maincrop potatoes.",
+  "highlights": [
+    "Plant garlic cloves, the main job of the month",
+    "Plant overwintering onion sets if the soil drains",
+    "Sow hardy peas and protect them from mice",
+    "Finish lifting and storing maincrop potatoes"
+  ],
+  "intro": [
+    "October is garlic month. The RHS puts the usual planting from mid-autumn to early winter, because the cloves need a cold spell to make a proper bulb. It is also when Gardeners' World sows winter salads and a row of peas, with a warning about mice.",
+    "The first air frosts of autumn show up in the Met Office figures this month in every UK region. Tender plants that are still outside are on borrowed time. Hardy plantings are the work now."
+  ],
+  "sections": [
+    {
+      "title": "Sow indoors",
+      "intro": [
+        "Very little needs a windowsill. Sweet peas are the flower sowing Gardeners' World mentions, if you want early blooms next year."
+      ],
+      "items": [
+        {
+          "name": "Winter lettuce",
+          "crop": "lettuce",
+          "text": "A winter variety can still be sown in October under glass or in a cold frame. It will not heart up in the dark weeks. It sits and makes its growth in spring."
+        },
+        {
+          "name": "Broad beans in pots",
+          "crop": "broad-beans",
+          "text": "If your outdoor soil is heavy, you can start a hardy variety such as Aquadulce in pots this month and keep them in a cold frame, rather than sowing into mud. Mice need to be kept off the pots."
+        }
+      ]
+    },
+    {
+      "title": "Sow outdoors",
+      "intro": [
+        "Seed that goes out now is hardy, or it is not seed at all but a clove or a set."
+      ],
+      "items": [
+        {
+          "name": "Garlic",
+          "crop": "garlic",
+          "text": "Split the bulb and plant cloves pointed end up, 15cm apart, tip about 2.5cm under the surface, rows 30cm apart. Cover with netting or fleece until they root, because birds pull them up. On wet clay, plant into modules and keep them in a cold frame instead."
+        },
+        {
+          "name": "Peas",
+          "crop": "peas",
+          "text": "Gardeners' World lists an October sowing, and says to protect it from mice. Use a hardy variety, sow about 5cm deep, and do not treat this as a substitute for the March to June sowings. It is an extra, for a mild garden."
+        },
+        {
+          "name": "Winter salads",
+          "text": "There is still time for corn salad, mustard and other winter leaves. They grow slowly from now on, so sow them where they can stay. A cloche later in autumn keeps the leaves cleaner."
+        }
+      ]
+    },
+    {
+      "title": "Plant out",
+      "intro": [
+        "Sets and cloves are the planting. Anything frost-tender should already be under cover or composted."
+      ],
+      "items": [
+        {
+          "name": "Onion sets",
+          "crop": "onions",
+          "text": "Overwintering sets planted in autumn crop in June and July. Put them in with the tip just showing, and skip the job if your soil lies wet all winter. Net the row."
+        },
+        {
+          "name": "Spring cabbage",
+          "crop": "cabbage",
+          "text": "Any July plants still in a seedbed should be moved now so they root before the soil cools further. Firm them, and keep the mesh on."
+        },
+        {
+          "name": "Strawberries",
+          "crop": "strawberries",
+          "text": "Early October is the tail of the early-autumn planting. August and September were better. If the plants are in your hand, get them in at the right depth and water them, rather than leaving them in the packet."
+        }
+      ]
+    },
+    {
+      "title": "Harvest",
+      "intro": [
+        "Finish the storage crops while you can still work on a dry day."
+      ],
+      "items": [
+        {
+          "name": "Maincrop potatoes",
+          "crop": "potatoes",
+          "text": "October is the end of the August to October harvest. Lift what is left, discard damaged tubers, dry the rest, and store them somewhere frost-free. A store in a shed that freezes is not a store."
+        },
+        {
+          "name": "Carrots and beetroot",
+          "text": "Maincrop carrots can stay in the ground if you cut the tops and cover the row with straw or cardboard. If the soil gets waterlogged, lift and store them. Beetroot for storage should come in before hard weather.",
+          "crops": [
+            "carrots",
+            "beetroot"
+          ]
+        },
+        {
+          "name": "Leeks",
+          "crop": "leeks",
+          "text": "Start taking them as you need them. Later varieties are happy to wait until winter. There is no rush to clear the row."
+        },
+        {
+          "name": "Tomatoes",
+          "crop": "tomatoes",
+          "text": "Outdoor plants are finished or nearly so. Pick remaining fruit to ripen indoors. A greenhouse may still be cropping. Clear blighted foliage rather than leaving it on the bed."
+        }
+      ]
+    }
+  ],
+  "jobs": [
+    "Prepare the garlic bed before you buy the bulbs, not after they have sat in a warm kitchen.",
+    "Collect fallen leaves for leaf mould, separate from any blighted tomato or potato tops.",
+    "Check the first-frost note for your region and bring in the last tender pots.",
+    "Clean and store canes once the bean row is down. A 2.5m cane left in the bed all winter is a trip hazard and a waste."
+  ],
+  "holdOff": [
+    "Do not sow carrots, beetroot or lettuce for a summer-style crop. The lettuce you sow now has to be a winter variety under cover.",
+    "Do not dig manure into a bed you are about to plant with garlic if the manure is fresh. Use well-rotted material, and do not bury cloves in a wet hole."
+  ],
+  "faqs": [
+    {
+      "question": "When exactly should garlic go in?",
+      "answer": [
+        "Mid-autumn to early winter is the RHS window, which is this month into December. Cloves need one to two months around 0 to 10°C to bulb properly. If you miss it, there are varieties for late winter and early spring, but October is the one to aim at."
+      ]
+    },
+    {
+      "question": "Can I leave carrots in the ground?",
+      "answer": [
+        "Yes, if the soil is not waterlogged. Remove the leaves and cover the row so you can still lift roots in a frost. In a wet winter it is better to lift and store them."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "RHS",
+      "title": "How to grow garlic",
+      "url": "https://www.rhs.org.uk/vegetables/garlic/grow-your-own",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "BBC Gardeners' World",
+      "title": "Your seed-sowing year",
+      "url": "https://www.gardenersworld.com/plants/your-seed-sowing-year/",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "Met Office",
+      "title": "Air frost days, regional series",
+      "url": "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/datasets/AirFrost/date/UK.txt",
+      "accessed": "11 October 2026"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "slug": "march",
+  "number": 3,
+  "name": "March",
+  "summary": "The first proper outdoor sowings: peas, broad beans, beetroot, carrots and salads, plus first early potatoes at the end of the month.",
+  "description": "What to sow and plant in March in the UK, including first early potatoes, onion sets, carrots and beetroot.",
+  "highlights": [
+    "Sow peas, broad beans, beetroot, carrots and salads",
+    "Plant onion sets and shallots",
+    "Sow outdoor tomatoes under cover",
+    "Plant first early potatoes towards the end of the month"
+  ],
+  "intro": [
+    "March is the month the vegetable year starts to look like gardening rather than cataloguing. The soil is still cold on clay and in the north, so the trick is to sow hardy crops, cover them, and not expect instant germination.",
+    "RHS adviser Nikki Barker lists carrots, spinach, beetroot, salad, spring onions, radishes, broad beans and peas as ready to go. Potatoes can go in if the ground is not too wet, with the end of the month the safer moment for first earlies. Gardeners' World adds onion and shallot sets, and tomatoes still under cover."
+  ],
+  "sections": [
+    {
+      "title": "Sow indoors",
+      "intro": [
+        "Tender crops and a few salads are still better in a tray than in the open ground."
+      ],
+      "items": [
+        {
+          "name": "Tomatoes",
+          "crop": "tomatoes",
+          "text": "March to early April is the window for plants that will go outside. Sow somewhere warm and bright, and pot them on so they are sturdy by late May or June. A greenhouse crop should already have been sown in February."
+        },
+        {
+          "name": "Lettuce",
+          "crop": "lettuce",
+          "text": "In cold regions, start salad in modules and plant it out later. In a milder garden you can sow outdoors once the soil feels warm to your hand."
+        },
+        {
+          "name": "Cabbage",
+          "crop": "cabbage",
+          "text": "Summer cabbage can be sown from February to April, in modules if slugs usually win in your seedbed. Two seeds to a cell, thinned to one, planted out when the plants are 10 to 15cm tall."
+        },
+        {
+          "name": "Beetroot",
+          "crop": "beetroot",
+          "text": "In colder gardens, sow one cluster 2.5cm deep in each module. You can plant the module out later without disturbing the root."
+        }
+      ]
+    },
+    {
+      "title": "Sow outdoors",
+      "intro": [
+        "Warm the drill with a cloche or fleece for a fortnight first if you can. Sow short rows."
+      ],
+      "items": [
+        {
+          "name": "Broad beans and peas",
+          "text": "March is the start of the main outdoor season for both. Broad beans go 5 to 7.5cm deep. Peas go about 5cm deep, with supports ready. Sow another row in a few weeks rather than one long row today.",
+          "crops": [
+            "broad-beans",
+            "peas"
+          ]
+        },
+        {
+          "name": "Carrots",
+          "crop": "carrots",
+          "text": "Early varieties can go in now under fleece or a cloche. The main uncovered season is April to early July, so do not feel behind if you wait. Sow thinly, 1cm deep, and cover the row against carrot fly from the start."
+        },
+        {
+          "name": "Beetroot",
+          "crop": "beetroot",
+          "text": "Late March is early enough on a warming soil, at 10cm apart. If you are on clay, wait a few weeks. A bolt-resistant variety matters for this first sowing. Cover it if a cold snap is forecast."
+        },
+        {
+          "name": "Lettuce and other salads",
+          "text": "Outdoor lettuce starts from late March. Sow a short drill about 1cm deep and plan to sow again in April. Protect with fleece in a cold garden.",
+          "crops": [
+            "lettuce"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Plant out",
+      "intro": [
+        "This is sets and tubers, not tomatoes. Tender plants are still weeks away."
+      ],
+      "items": [
+        {
+          "name": "Onion sets",
+          "crop": "onions",
+          "text": "Early to mid-spring is the RHS planting time. Set them so the tip just shows, 10 to 15cm apart, and net the bed. Birds will pull them out overnight."
+        },
+        {
+          "name": "First early potatoes",
+          "crop": "potatoes",
+          "text": "Plant around late March if the soil is workable, about 15cm deep and 30cm apart, with 60cm between rows. If it is wet, wait. A planting towards the end of the month, or even into April, still crops."
+        }
+      ]
+    },
+    {
+      "title": "Harvest",
+      "intro": [
+        "You are still eating the overwintered garden. New sowings will not feed you for months."
+      ],
+      "items": [
+        {
+          "name": "Leeks",
+          "crop": "leeks",
+          "text": "Finish late leeks before they throw a flower stem. Once you see a firm centre starting to elongate, lift and use them."
+        },
+        {
+          "name": "Spring cabbage",
+          "crop": "cabbage",
+          "text": "Thin overwintered plants to about 30cm if you have not already, and eat the thinnings as spring greens. Hearts come from mid-spring onwards."
+        }
+      ]
+    }
+  ],
+  "jobs": [
+    "Cover carrot beds with mesh before, not after, you see the flies.",
+    "Prepare bean and courgette ground with compost now, so it has settled by May.",
+    "Keep fleece handy. A March sowing can be germinating just as a frost arrives.",
+    "Note your region's planting-out time and count backwards only for crops you can actually house until then."
+  ],
+  "holdOff": [
+    "Do not plant tomatoes, courgettes, runner beans or sweetcorn outside. The safe window for most of the UK is still May or June.",
+    "Do not sow a whole packet of carrot or lettuce. A short row every few weeks is the crop that gets eaten."
+  ],
+  "faqs": [
+    {
+      "question": "Is March too early for potatoes?",
+      "answer": [
+        "Late March is the usual time for first earlies, if the soil is not wet and you can cover the new shoots against frost. Second earlies and maincrops wait until April. In the north, Gardeners' World suggests delaying potato planting by a couple of weeks."
+      ]
+    },
+    {
+      "question": "My March carrots have not come up. Should I resow?",
+      "answer": [
+        "Give them time. Carrot seed is slow, and the RHS notes that an early sowing often appears alongside the next one once the soil warms. Resow a short row rather than digging the first one up."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "RHS",
+      "title": "What to sow in March",
+      "url": "https://www.rhs.org.uk/advice/grow-your-own/features/what-to-sow-in-march",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "BBC Gardeners' World",
+      "title": "What to plant in March",
+      "url": "https://www.gardenersworld.com/plants/what-to-plant-march/",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "BBC Gardeners' World",
+      "title": "Your seed-sowing year",
+      "url": "https://www.gardenersworld.com/plants/your-seed-sowing-year/",
+      "accessed": "11 October 2026"
+    }
+  ]
+}

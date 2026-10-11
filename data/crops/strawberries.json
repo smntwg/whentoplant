@@ -1,0 +1,95 @@
+{
+  "slug": "strawberries",
+  "name": "Strawberries",
+  "latin": "Fragaria × ananassa",
+  "summary": "Plant in spring or in August and September, and pick summer varieties from early June into early August.",
+  "description": "When to plant and harvest strawberries in the UK, including summer and perpetual varieties, spacing and crown depth.",
+  "card": "Plant August or September",
+  "intro": [
+    "Strawberries are the fruit that fits a small garden: a bed, the edge of a border, a pot or a hanging basket. The RHS describes three types. Summer-fruiting varieties give one heavy pick over two or three weeks, with early, mid and late cultivars covering early June to early August. Perpetual, or everbearer, varieties give smaller flushes from early summer until early autumn, sometimes up to the first autumn frost. Alpine strawberries crop lightly through the summer.",
+    "If you plant more than one type, you can pick from early summer through to autumn."
+  ],
+  "calendar": [
+    {
+      "id": "plant",
+      "label": "Plant",
+      "months": [3, 4, 5, 6, 8, 9],
+      "detail": "Spring, late summer or early autumn. August or September planting establishes plants before the next summer. Cold-stored runners are planted straight away from late spring into early summer."
+    },
+    {
+      "id": "harvest",
+      "label": "Harvest",
+      "months": [6, 7, 8, 9],
+      "detail": "Summer varieties from early June to early August. Perpetual varieties continue in smaller flushes into early autumn."
+    }
+  ],
+  "sowOutdoors": [
+    "Most people plant young plants or runners rather than seed. The useful months are spring, late summer and early autumn. An August or September planting has time to establish and will fruit the following year. Cold-stored runners, sold from late spring into early summer, should be planted as soon as they arrive.",
+    "They like fertile, well-drained, slightly acidic soil and a sunny place. On heavy soil, a raised bed or a container is easier than a wet border."
+  ],
+  "plantOut": [
+    "Dig a hole wide enough for the roots. On bare-root plants, trim the roots to about 10cm if they are long, and spread them out. The crown, the point where the leaves meet the roots, should rest lightly on the surface. Too deep and it rots. Too shallow and the plant dries out. Space plants 35 to 40cm apart, in rows about 75cm apart, and water them in.",
+    "Containers, growing bags and baskets avoid the soil diseases that build up in a strawberry bed, and the fruit is harder for slugs to reach. Vine weevil is the trade-off, especially in pots. Water pot-grown plants regularly.",
+    "For an earlier crop, move potted plants into an unheated greenhouse or a cold frame in February, or cover outdoor rows with cloches. The RHS suggests varieties such as Cambridge Favourite, Honeoye, Rosie, Royal Sovereign and Tamella for this. Open the covers, or hand-pollinate with a soft brush, while the plants are in flower. Cloches can bring fruit at least a week early, and a greenhouse about two weeks, which can mean ripe fruit in late spring."
+  ],
+  "spacing": [
+    { "label": "Between plants", "value": "35 to 40cm" },
+    { "label": "Between rows", "value": "About 75cm" },
+    { "label": "Crown", "value": "Level with the soil surface, not buried" }
+  ],
+  "harvest": [
+    "Summer-fruiting plants crop for two or three weeks. By choosing early, mid and late varieties you cover early June to early August. Perpetual plants keep offering smaller picks from early summer into early autumn.",
+    "Pick when the fruit is fully red. After a summer-fruiting crop has finished, cut the old leaves off about 10cm above the crown so fresh leaves can grow. Do not do that hard cut on perpetual plants. Just remove dead or diseased leaves at the end of the season.",
+    "Runners, the plantlets on long stems, are how you renew the bed. Root a few into pots and use them to replace plants that are past their best."
+  ],
+  "problems": [
+    {
+      "title": "Frost on the flowers",
+      "text": [
+        "A late frost browns the centre of the flower and that fruit does not form. Cover plants when a cold night is forecast in spring, especially if you have brought them on under cloches and they are flowering early."
+      ]
+    },
+    {
+      "title": "Birds and squirrels",
+      "text": [
+        "Net the bed as the fruit colours, or grow plants in a basket you can hang out of reach. The RHS names birds and squirrels as the reason ripening fruit needs protection."
+      ]
+    },
+    {
+      "title": "Vine weevil and slugs",
+      "text": [
+        "Vine weevil larvae eat the roots, and the RHS says they are a greater threat to plants in containers. Slugs and snails damage fruit more readily on the ground, which is one reason pots and baskets crop more cleanly. Check container compost for the white larvae if a plant wilts for no obvious reason."
+      ]
+    }
+  ],
+  "supplyIds": ["multipurpose-compost", "pots", "netting", "fleece", "cloches", "watering-can"],
+  "months": ["february", "march", "april", "may", "june", "july", "august", "september"],
+  "related": ["lettuce"],
+  "steps": [
+    { "name": "Plant at the right depth", "text": "In spring or in August and September, set plants 35 to 40cm apart with the crown at soil level." },
+    { "name": "Protect flowers and fruit", "text": "Cover flowers if a late frost is forecast, and net the fruit as it ripens." },
+    { "name": "Pick by variety", "text": "Summer varieties crop from early June to early August. Perpetual varieties continue into early autumn." }
+  ],
+  "faqs": [
+    {
+      "question": "When is the best month to plant strawberries?",
+      "answer": [
+        "August or September, if you want them established before they fruit the next year. Spring planting also works. Cold-stored runners are the exception: plant those immediately, from late spring into early summer."
+      ]
+    },
+    {
+      "question": "Do I cut the leaves off after fruiting?",
+      "answer": [
+        "On summer-fruiting plants, yes. Cut the old leaves about 10cm above the crown once the crop is over. Perpetual varieties should not be cut back like that. Remove only the dead or damaged leaves."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "RHS",
+      "title": "How to grow strawberries",
+      "url": "https://www.rhs.org.uk/fruit/strawberries/grow-your-own",
+      "accessed": "11 October 2026"
+    }
+  ]
+}

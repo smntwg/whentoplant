@@ -1,0 +1,85 @@
+{
+  "about": {
+    "path": "/about/",
+    "title": "About",
+    "description": "When to plant is a UK sowing and harvest calendar based on RHS and Gardeners' World guidance, with sources on every page.",
+    "intro": [
+      "When to plant is a calendar for people growing vegetables and fruit in the UK. It answers a practical question: what can I sow, plant out or harvest this month, where I live."
+    ],
+    "blocks": [
+      {
+        "heading": "Why a UK calendar",
+        "paragraphs": [
+          "A lot of planting advice online is written for the United States. Those frost dates and variety lists do not match a British spring, which is long, damp and very different from Cornwall to Caithness.",
+          "The month pages and crop guides on this site follow published UK guidance, chiefly from the Royal Horticultural Society and BBC Gardeners' World. Figures for spacing, depth and timing are taken from those sources and cited on the page. They are not guessed."
+        ]
+      },
+      {
+        "heading": "What the dates can and cannot tell you",
+        "paragraphs": [
+          "A month is a window, not a promise. Soil temperature, a late frost and a wet clay bed all move the right day. The frost page shows how far those windows shift between regions, using Met Office air-frost averages and RHS planting-out advice.",
+          "This is general guidance for home gardeners. It is not a forecast, and it is not a substitute for the instructions on your seed packet."
+        ]
+      },
+      {
+        "heading": "How the site is put together",
+        "paragraphs": [
+          "The pages are generated from data files: one for each month, one for each crop, plus a single list of kit that can later carry shop links. New crops can be added without rebuilding the design."
+        ]
+      }
+    ]
+  },
+  "privacy": {
+    "path": "/privacy/",
+    "title": "Privacy policy",
+    "description": "How whentoplant.uk handles cookies, future advertising and affiliate links. The site stores no accounts and sets no cookies of its own.",
+    "intro": [
+      "This policy explains what whentoplant.uk does with information. It will be updated before any advertising or affiliate shopping links are switched on."
+    ],
+    "blocks": [
+      {
+        "heading": "What this site collects",
+        "paragraphs": [
+          "The site is a set of static pages. There are no accounts, no comment forms and no mailing list. The frost tool and the 'this month' box run in your browser. They are not sent to a server and they are not stored in a cookie.",
+          "Like most websites, the host that serves the pages may keep standard server logs, such as IP address and the page requested, for security and to keep the service running. Those logs are handled by the host, not by a form on this site."
+        ]
+      },
+      {
+        "heading": "Cookies",
+        "paragraphs": [
+          "These pages do not set cookies. The site does not use an analytics cookie and it does not embed third-party advertising.",
+          "If adverts are added later, the advertising provider may set cookies or similar technologies to measure and personalise ads. That will not happen without this page being updated first, including the name of the provider and how to refuse those cookies."
+        ]
+      },
+      {
+        "heading": "Affiliate links",
+        "paragraphs": [
+          "Crop pages include a 'What you'll need' list of seeds, compost and tools. Those items are not links to shops. No commission is earned from them.",
+          "If affiliate links are added later, they will be marked as such. Clicking one may allow the retailer to set a cookie so a purchase can be attributed. Advice on the page will not depend on which products can carry a link. The lists are edited in one data file so any future links can be reviewed in one place."
+        ]
+      },
+      {
+        "heading": "Contact",
+        "paragraphs": [
+          "Contact details are not published yet. See the contact page. If you need a privacy question answered before an address is listed, there is no inbox to write to at the moment."
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "path": "/contact/",
+    "title": "Contact",
+    "description": "Contact details for whentoplant.uk are not published yet.",
+    "intro": [
+      "Contact details coming soon."
+    ],
+    "blocks": [
+      {
+        "heading": "Corrections",
+        "paragraphs": [
+          "Growing pages cite the RHS, Gardeners' World or the Met Office. If a figure on a page does not match the source linked at the bottom, that is the correction worth making. There is no form on this site, and no email address is published yet."
+        ]
+      }
+    ]
+  }
+}

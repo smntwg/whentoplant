@@ -1,0 +1,100 @@
+{
+  "slug": "garlic",
+  "name": "Garlic",
+  "latin": "Allium sativum",
+  "summary": "Plant cloves from mid-autumn into winter, or use a spring variety, and lift the bulbs when the leaves yellow.",
+  "description": "When to plant garlic in the UK. Autumn cloves, spring varieties, spacing, depth and harvest months from the RHS.",
+  "card": "Plant October to March",
+  "intro": [
+    "Garlic is planted as cloves, not sown as fine seed. Most varieties need a cold spell to split into a proper bulb, which is why the main planting time in the UK is mid-autumn to early winter. Some varieties are sold for late winter and early spring if you missed that window.",
+    "Buy named stock from a garden supplier. The RHS does not recommend supermarket bulbs: they may be unsuited to the British climate, and planting them can bring in disease."
+  ],
+  "calendar": [
+    {
+      "id": "plant",
+      "label": "Plant cloves",
+      "months": [10, 11, 12, 1, 2, 3],
+      "detail": "Usually mid-autumn to early winter. Some varieties can be planted in late winter and early spring."
+    },
+    {
+      "id": "harvest",
+      "label": "Harvest",
+      "months": [5, 6, 7, 8, 9],
+      "detail": "Autumn-planted garlic from late spring to early summer. Spring-planted garlic from mid-summer to early autumn."
+    }
+  ],
+  "sowOutdoors": [
+    "Choose a sunny, free-draining spot. Wet winter soil invites rot. If your ground lies wet, start cloves in modules in autumn, keep them in a cold frame or an unheated greenhouse, and plant them out in spring.",
+    "Split the bulb into cloves just before planting. Set them pointed end up, 15cm apart, with the tip about 2.5cm below the surface. Space rows 30cm apart. In light soil the RHS notes that planting a little deeper can give larger bulbs. Birds sometimes tug new cloves out, so cover the bed with netting or fleece until they have rooted.",
+    "Most varieties need one to two months at 0 to 10°C to bulb up. That is the point of an autumn planting. Gardeners' World also repeats the tradition of planting garlic around the shortest day."
+  ],
+  "plantOut": [
+    "Module-raised cloves go out in spring, at the same 15cm spacing, once you are happy with the drainage. Do not wait for the tender-plant dates used for tomatoes. Garlic is hardy.",
+    "Water in dry spells in spring and early summer if you want fatter bulbs, but stop once the bulbs are well formed and the leaves are yellowing. Extra water then encourages rot. Snip off any flower stem as soon as it appears, and eat the young scape if you like."
+  ],
+  "spacing": [
+    { "label": "Between cloves", "value": "15cm" },
+    { "label": "Between rows", "value": "30cm" },
+    { "label": "Depth", "value": "Tip about 2.5cm under the surface" }
+  ],
+  "harvest": [
+    "Lift when the leaves have turned yellow. Autumn plantings are ready from late spring into early summer. Spring plantings are ready from mid-summer into early autumn. Do not leave them until the bulbs have split open, or they will not store as long.",
+    "Dry the bulbs in a single layer somewhere airy, out of very high heat. A greenhouse or a shed is fine. Initial drying takes two to four weeks. Softneck garlic stores longer than hardneck, which the RHS puts at about four to six months."
+  ],
+  "problems": [
+    {
+      "title": "A single clove, or no split bulb",
+      "text": [
+        "The bulb did not get enough cold. Autumn planting, or a variety sold for spring, is the way to avoid a lone round clove. Elephant garlic, which is closer to a leek, is also more likely to stay as one clove if it is planted late. The RHS suggests October for that one."
+      ]
+    },
+    {
+      "title": "Rust and rot",
+      "text": [
+        "Garlic gets the same rust as leeks and onions: bright orange spots on the leaves. It is worse if the foliage stays wet. Rot is a drainage problem. On heavy soil, use modules rather than a wet winter bed."
+      ]
+    },
+    {
+      "title": "Green cloves and split bulbs",
+      "text": [
+        "Green cloves usually mean the planting was too shallow. They are edible but store poorly. Bulbs that open up were usually lifted too late."
+      ]
+    }
+  ],
+  "supplyIds": ["garden-compost", "modules", "multipurpose-compost", "fleece", "netting", "fork"],
+  "months": ["october", "november", "december", "january", "february", "june", "july"],
+  "related": ["onions", "leeks"],
+  "steps": [
+    { "name": "Plant cloves in autumn", "text": "From mid-autumn to early winter, plant cloves 15cm apart with the tip about 2.5cm deep. Use a spring variety if you are planting in late winter." },
+    { "name": "Keep the bed drained", "text": "On wet ground, start cloves in modules and plant them out in spring." },
+    { "name": "Lift when leaves yellow", "text": "Harvest autumn plantings from late spring to early summer, and spring plantings from mid-summer to early autumn, then dry the bulbs." }
+  ],
+  "faqs": [
+    {
+      "question": "Is garlic planted in spring too late?",
+      "answer": [
+        "Not if the variety is meant for it. The main season is mid-autumn to early winter, because most garlic needs a cold period to form a bulb. Suppliers also sell varieties for late winter and early spring, and those are the ones to use if you are planting after Christmas."
+      ]
+    },
+    {
+      "question": "Which stores longer, hardneck or softneck?",
+      "answer": [
+        "Softneck. The RHS says hardneck garlic stores for about four to six months, while softneck can keep much longer, potentially towards a year if it was autumn-planted and dried properly."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "RHS",
+      "title": "How to grow garlic",
+      "url": "https://www.rhs.org.uk/vegetables/garlic/grow-your-own",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "BBC Gardeners' World",
+      "title": "Your seed-sowing year",
+      "url": "https://www.gardenersworld.com/plants/your-seed-sowing-year/",
+      "accessed": "11 October 2026"
+    }
+  ]
+}

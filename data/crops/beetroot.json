@@ -1,0 +1,100 @@
+{
+  "slug": "beetroot",
+  "name": "Beetroot",
+  "latin": "Beta vulgaris",
+  "summary": "Sow from late March or April through to July, pull roots from golf-ball size, and do not let them grow woody.",
+  "description": "When to sow beetroot in the UK, from late February under cover to July, with spacing and harvest size.",
+  "card": "Sow March to July",
+  "intro": [
+    "Beetroot is a succession crop. The RHS says to sow small batches from spring into mid-summer for roots from early summer to mid-autumn. Most are ready in 50 to 60 days, sometimes in as little as 40.",
+    "Each corky 'seed' is a cluster, so one station often gives several seedlings. That is useful if you want baby roots, and it is why multisowing in modules works so well."
+  ],
+  "calendar": [
+    {
+      "id": "sow",
+      "label": "Sow",
+      "months": [2, 3, 4, 5, 6, 7],
+      "detail": "Outdoors from late March or April to July, once the soil is at least 7°C. From late February under fleece with a bolt-resistant variety, or in modules."
+    },
+    {
+      "id": "harvest",
+      "label": "Harvest",
+      "months": [6, 7, 8, 9, 10],
+      "detail": "Early summer through to mid-autumn. Pull from golf-ball size up to about a cricket ball."
+    }
+  ],
+  "sowIndoors": [
+    "Early sowings are worth starting in modules, especially in a colder garden. Sow one cluster 2.5cm deep in each cell. If several seedlings appear, thin to the strongest, unless you want a clump of baby roots, in which case sow up to four clusters and do not thin. Plant the clump out whole, without splitting it."
+  ],
+  "sowOutdoors": [
+    "Wait until the soil is at least 7°C, from late March or April, and carry on until July. You can start in late February with a bolt-resistant variety if the row is covered with fleece or a cloche. On clay, which warms slowly, Gardeners' World suggests waiting a few weeks past late March before a direct sowing.",
+    "Sow 10cm apart, because the clusters are large enough to place one by one. Cover them with soil. For baby roots, sow two or three clusters together every 15cm and leave the clump. Rows on the March Gardeners' World sowing are about 30cm apart. Water the row if the ground is dry.",
+    "A container at least 40cm wide and deep will grow a useful crop. Beetroot is one of the better roots for pots."
+  ],
+  "spacing": [
+    { "label": "Single roots", "value": "10cm apart" },
+    { "label": "Baby clumps", "value": "Groups 15cm apart" },
+    { "label": "Module depth", "value": "2.5cm" },
+    { "label": "Between rows", "value": "About 30cm" }
+  ],
+  "harvest": [
+    "Lift alternate plants once the roots are about golf-ball size, and leave the rest to grow. Stop at about cricket-ball size. Larger roots turn woody. Loosen them with a hand fork rather than pulling hard in heavy soil.",
+    "The leaves are edible too. Late roots can be stored for winter, so a July sowing is still worth making. Early summer to mid-autumn is the picking window from a full run of sowings."
+  ],
+  "problems": [
+    {
+      "title": "Bolting",
+      "text": [
+        "A cold spell after an early sowing can make beetroot flower before the root swells. Use a bolt-resistant variety for late February and early March sowings, and cover the row. Later sowings, once the soil is properly warm, are less likely to bolt."
+      ]
+    },
+    {
+      "title": "Woody roots",
+      "text": [
+        "Left too long, the root toughens. The RHS suggests eating them from golf-ball size and not letting them get much bigger than a cricket ball."
+      ]
+    },
+    {
+      "title": "A crowded module",
+      "text": [
+        "Several seedlings from one cluster will all try to swell. Thin to one if you want a full-sized root, or deliberately keep a clump and eat them as babies. Do not pull the clump apart at planting time."
+      ]
+    }
+  ],
+  "supplyIds": ["seed-compost", "modules", "fleece", "cloches", "fork", "labels"],
+  "months": ["february", "march", "april", "may", "june", "july"],
+  "related": ["carrots", "lettuce"],
+  "steps": [
+    { "name": "Sow into warm soil", "text": "Sow outdoors from late March or April until July, or earlier under fleece with a bolt-resistant variety." },
+    { "name": "Space the clusters", "text": "Set seeds about 10cm apart, or in modules 2.5cm deep." },
+    { "name": "Pull them small", "text": "Harvest from early summer at golf-ball size, and before they reach much more than a cricket ball." }
+  ],
+  "faqs": [
+    {
+      "question": "Why do I get several seedlings from one beetroot seed?",
+      "answer": [
+        "The thing you sow is a cluster of seeds stuck together. Thin to one plant for a full-sized root, or leave up to four and harvest them small. The RHS uses both methods."
+      ]
+    },
+    {
+      "question": "Can I sow beetroot in July?",
+      "answer": [
+        "Yes. July is the end of the outdoor window the RHS gives, and those roots are for late summer and autumn, with the last of them stored for winter."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "RHS",
+      "title": "How to grow beetroot",
+      "url": "https://www.rhs.org.uk/vegetables/beetroot/grow-your-own",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "BBC Gardeners' World",
+      "title": "What to plant in March",
+      "url": "https://www.gardenersworld.com/plants/what-to-plant-march/",
+      "accessed": "11 October 2026"
+    }
+  ]
+}

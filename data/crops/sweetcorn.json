@@ -1,0 +1,108 @@
+{
+  "slug": "sweetcorn",
+  "name": "Sweetcorn",
+  "latin": "Zea mays",
+  "summary": "Sow indoors in mid to late spring, plant out in a block after the last frost, and pick when the kernel juice is creamy.",
+  "description": "When to sow and plant sweetcorn in the UK, with block spacing and the fingernail test for a ripe cob.",
+  "card": "Sow April and May",
+  "intro": [
+    "Sweetcorn needs a warm summer, but modern varieties do crop in Britain if they get a head start and a sunny, sheltered site. The RHS expects cobs to ripen from August, often two per plant, and about six to nine cobs from a square metre.",
+    "Seed is best sown indoors. Outdoor sowing is only really worth trying in the south, in warm light soil, because a late start may not leave enough season to ripen the cobs."
+  ],
+  "calendar": [
+    {
+      "id": "sow",
+      "label": "Sow indoors",
+      "months": [4, 5],
+      "detail": "Mid to late spring, 2.5cm deep, somewhere at 18 to 21°C."
+    },
+    {
+      "id": "plant",
+      "label": "Plant or sow outside",
+      "months": [5, 6],
+      "detail": "Plant out in late May or early June after frost. Outdoor seed only in late spring or early summer, and mainly in the south."
+    },
+    {
+      "id": "harvest",
+      "label": "Harvest",
+      "months": [8, 9],
+      "detail": "Cobs ripen from August. Test a kernel before you pick the whole crop."
+    }
+  ],
+  "sowIndoors": [
+    "From mid to late spring, sow one seed 2.5cm deep in a deep pot or module of peat-free compost. They germinate well at 18 to 21°C, on a warm windowsill or in a heated propagator, usually within two weeks. Sow an early, a mid-season and a late variety together if you want a longer harvest, or sow one early variety in two or three batches.",
+    "Keep them in bright light. They are ready to move once they are at least 8cm tall."
+  ],
+  "sowOutdoors": [
+    "Only try this in a southern garden with warm, light soil, and only from late spring or early summer when the soil is above 10°C. Warm the bed with a cloche or fleece first. Sow two or three seeds 2.5cm deep at each station, 34 to 45cm apart in a grid, and thin to one. Mice, slugs and a cool summer are the reasons this fails. Baby corn is the exception to the grid: sow it 20cm apart in rows, because those cobs are eaten before the kernels swell and should not be pollinated."
+  ],
+  "plantOut": [
+    "Plant in late May or early June, after the last frost, once plants are 8 to 15cm tall and have been hardened off. Sweetcorn is wind-pollinated. A single long row pollinates badly and you get cobs with gaps. Plant a block, with plants 34 to 45cm apart each way, so every plant has neighbours.",
+    "Do not mix a supersweet variety with an older type nearby. Cross-pollination spoils the extra sweetness. In a cold garden, choose an early variety. Water in dry spells, especially as the flowers open and the cobs swell. Tall plants can rock in the wind. A cane, or a string around the outside of the block, plus a bit of soil mounded at the base, keeps them upright."
+  ],
+  "spacing": [
+    { "label": "In the block", "value": "34 to 45cm each way" },
+    { "label": "Depth", "value": "2.5cm" },
+    { "label": "Baby corn", "value": "20cm apart, in rows rather than a block" }
+  ],
+  "harvest": [
+    "Cobs start to ripen in late summer. When the silks turn brown, peel a little husk and press a kernel with a fingernail. Watery juice means wait. Creamy juice means pick. Thick, doughy juice means the cob is past its best.",
+    "Twist the cob off the stem and cook it soon. The sugar starts turning to starch as soon as it is picked, which is the reason a home-grown cob tastes different from a shop one. For popcorn, leave the cobs to dry on the plant, then finish drying them indoors until the kernels are hard."
+  ],
+  "problems": [
+    {
+      "title": "Gaps in the cob",
+      "text": [
+        "That is poor pollination. Plant in a block, not a row, and do not strip off the tassels. Baby corn is the one type you grow in rows, because you do not want the kernels to swell."
+      ]
+    },
+    {
+      "title": "Something ate the cobs",
+      "text": [
+        "Birds, mice, squirrels, rats and badgers all take sweetcorn. Sow indoors so mice do not get the seed, and net the plants or bag the cobs once they form."
+      ]
+    },
+    {
+      "title": "A cool summer",
+      "text": [
+        "Cobs that never ripen were usually sown late, planted in shade, or grown from a late variety in a short season. An early variety, an indoor sowing and a sunny block are the three things that fix that next year."
+      ]
+    }
+  ],
+  "supplyIds": ["multipurpose-compost", "modules", "fleece", "cloches", "netting", "canes", "garden-compost"],
+  "months": ["april", "may", "june", "august", "september"],
+  "related": ["courgettes", "tomatoes", "runner-beans"],
+  "steps": [
+    { "name": "Sow in warmth", "text": "In mid to late spring, sow 2.5cm deep indoors at about 18 to 21°C." },
+    { "name": "Plant a block after frost", "text": "In late May or early June, set plants 34 to 45cm apart in a block in full sun." },
+    { "name": "Test a kernel", "text": "From August, pick when the silks are brown and the juice from a kernel is creamy." }
+  ],
+  "faqs": [
+    {
+      "question": "Can I grow sweetcorn in a single row?",
+      "answer": [
+        "You can, but the cobs will be patchy. Pollen has to blow from the tassels onto the silks. A block of at least a few plants each way is what the RHS recommends. Baby corn is the type that is sown in rows."
+      ]
+    },
+    {
+      "question": "Is sweetcorn worth growing in the north?",
+      "answer": [
+        "It is more reliable in a long, warm summer, and outdoors it is a gamble in a cold district. Choose an early variety, sow indoors, and use the frost page so you are not planting out in May if your area is an early June garden. A greenhouse or polytunnel removes most of the risk."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "RHS",
+      "title": "How to grow sweetcorn",
+      "url": "https://www.rhs.org.uk/vegetables/sweetcorn/grow-your-own",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "Direct sowing tender veg outdoors",
+      "url": "https://www.rhs.org.uk/advice/grow-your-own/allotments/sow-tender-veg-outdoors",
+      "accessed": "11 October 2026"
+    }
+  ]
+}

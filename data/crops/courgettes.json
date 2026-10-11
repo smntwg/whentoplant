@@ -1,0 +1,109 @@
+{
+  "slug": "courgettes",
+  "name": "Courgettes",
+  "latin": "Cucurbita pepo",
+  "summary": "Sow indoors in mid to late spring, plant out in early summer at least 90cm apart, and cut the fruits small.",
+  "description": "When to sow and plant courgettes in the UK, with the 90cm spacing and the size to pick them.",
+  "card": "Sow April to June",
+  "intro": [
+    "One courgette plant is usually enough. In a decent summer the RHS expects three or four fruits a week, and they get out of hand the week you go away.",
+    "They are tender. Sow them indoors in mid to late spring, or outdoors in late May or early June once the soil is warm, and do not plant them out until early summer."
+  ],
+  "calendar": [
+    {
+      "id": "sow",
+      "label": "Sow indoors",
+      "months": [4, 5],
+      "detail": "Mid to late spring, in individual pots."
+    },
+    {
+      "id": "plant",
+      "label": "Sow or plant outside",
+      "months": [5, 6],
+      "detail": "Outdoor seed in late May or early June. Indoor plants go out in early summer, after hardening off."
+    },
+    {
+      "id": "harvest",
+      "label": "Harvest",
+      "months": [7, 8, 9],
+      "detail": "Through the summer, while the fruits are still small. Regular picking keeps them coming."
+    }
+  ],
+  "sowIndoors": [
+    "Sow in mid to late spring, one seed to a small pot, on its edge, and keep the pot warm. Gardeners' World includes courgettes with the April sowings that still need a greenhouse or a sunny windowsill. A May sowing under cover is still in good time, and it avoids a huge plant waiting for the last frost.",
+    "Pot on if the roots fill the pot before planting time. Harden the plants off before they go outside for good."
+  ],
+  "sowOutdoors": [
+    "In late May or early June, once the soil has warmed, sow two or three seeds 2.5cm deep where the plant will grow, at least 90cm from the next plant. Thin to the strongest seedling. This is more reliable in warmer parts of the country. Slugs will target the seedlings, so sow a spare.",
+    "Prepare the spot with plenty of garden compost or well-rotted manure. Courgettes are hungry and they need water once they are flowering."
+  ],
+  "plantOut": [
+    "Indoor-sown plants, and plants bought in late spring, go out in early summer after hardening off. Set each plant in the middle of its prepared patch, at least 90cm from its neighbour, and water it in. In a cool region, check the frost page before you commit. A fleece on a cold night is worth having for the first fortnight.",
+    "You can also grow a plant in a large container, but it will need more watering than one in the ground. Give it the same sort of room: a cramped plant mildews and crops poorly."
+  ],
+  "spacing": [
+    { "label": "Between plants", "value": "At least 90cm" },
+    { "label": "Outdoor seed depth", "value": "2.5cm" },
+    { "label": "Fruits", "value": "Cut at 10 to 12.5cm long" }
+  ],
+  "harvest": [
+    "Cut fruits at 10 to 12.5cm, while they are firm and the flower may still be attached. A courgette left on the plant becomes a marrow and the plant slows down. Check the plant every couple of days in July and August.",
+    "Male flowers, the ones with a plain stem rather than a tiny fruit behind them, can be picked for the kitchen without reducing the crop. Leave some males if you are relying on insects to pollinate."
+  ],
+  "problems": [
+    {
+      "title": "Slugs on young plants",
+      "text": [
+        "The RHS flags slugs and snails as the main threat just after planting. A plant that has been raised in a pot and planted out stocky survives better than a seedling in the open row. Protect the stem area for the first weeks."
+      ]
+    },
+    {
+      "title": "A plant that stalls",
+      "text": [
+        "Courgettes need warmth, rich soil and steady water once they are flowering. A plant put out before early summer, into cold soil, sits and sulks. Wait for your frost window, then water in dry spells."
+      ]
+    },
+    {
+      "title": "A marrow by accident",
+      "text": [
+        "If you want courgettes rather than marrows, cut them small and keep cutting. One overlooked fruit is enough to slow the whole plant."
+      ]
+    }
+  ],
+  "supplyIds": ["multipurpose-compost", "modules", "garden-compost", "fleece", "watering-can", "labels"],
+  "months": ["april", "may", "june", "july", "august"],
+  "related": ["runner-beans", "sweetcorn", "tomatoes"],
+  "steps": [
+    { "name": "Sow in warmth", "text": "Sow indoors in mid to late spring, or outdoors in late May or early June in warm soil." },
+    { "name": "Plant at least 90cm apart", "text": "Set plants out in early summer, after the last frost, into a rich, sunny spot." },
+    { "name": "Cut them small", "text": "Harvest at 10 to 12.5cm, several times a week, so the plant keeps producing." }
+  ],
+  "faqs": [
+    {
+      "question": "How many courgette plants do I need?",
+      "answer": [
+        "Often one. The RHS says a plant in good weather can give three or four fruits a week. Two plants is plenty for most households, and they each need at least 90cm of room."
+      ]
+    },
+    {
+      "question": "Can I sow courgettes outside?",
+      "answer": [
+        "Yes, in late May or early June, 2.5cm deep, once the soil is warm. Indoor sowing in April or May is more reliable, especially outside the south."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "RHS",
+      "title": "How to grow courgettes",
+      "url": "https://www.rhs.org.uk/vegetables/courgettes/grow-your-own",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "BBC Gardeners' World",
+      "title": "Your seed-sowing year",
+      "url": "https://www.gardenersworld.com/plants/your-seed-sowing-year/",
+      "accessed": "11 October 2026"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "intro": [
+    "These windows are approximate. They are not a forecast for your garden, and a cold spring can still bring a frost after the usual month.",
+    "Two different ideas get called the last frost. An air frost is a night when the air temperature falls below 0°C. The Met Office regional figures below count how many of those nights a month had, on average, from 1991 to 2020. They are not the calendar date of the first or last frost in one postcode. A month shown as about one frost day can still be the month the first or last frost arrives.",
+    "The RHS points out that the last air frost is typically two to four weeks before it is safe to plant tender crops. Tomatoes, courgettes, runner beans and sweetcorn want nights that stay mild, above at least 7°C, and tomatoes do better when nights stay above 10°C. Use the planting-out line for your region, then check a five to ten day forecast before you plant."
+  ],
+  "regions": [
+    {
+      "id": "south-west",
+      "name": "South West",
+      "covers": "Cornwall, Devon, Somerset, Dorset and the south-west coast.",
+      "seriesName": "England SW and S Wales",
+      "seriesNote": "This Met Office district also includes south Wales, so it is a regional picture rather than a reading for one garden. Coasts are milder than Dartmoor, Exmoor and inland frost pockets.",
+      "frostDays": { "apr": "2.6", "may": "0.4", "jun": "0.0", "sep": "0.0", "oct": "1.0", "nov": "3.4" },
+      "lastWindow": "April is the usual month for the last air frost. May still averages a fraction of a day, so a late frost is uncommon but not impossible inland or on higher ground.",
+      "firstWindow": "September is effectively frost-free in this series. October is when the first air frosts show up, and by November they are regular.",
+      "plantOut": "On the south-west tip and along the south coast, the RHS puts the first safe planting-out time in the first to second half of May. Exposed or higher gardens should wait longer.",
+      "sowingNote": "You can often start hardy outdoor sowings, such as broad beans, peas and early carrots under fleece, a little ahead of the Midlands. Keep tender sowings of tomatoes, courgettes and sweetcorn timed so the plants are ready for a May planting, not sitting in pots through April. Have fleece ready into May."
+    },
+    {
+      "id": "south-east",
+      "name": "South East",
+      "covers": "Kent, Sussex, Surrey, Hampshire, Berkshire and the other parts of southern England away from the far south-west.",
+      "seriesName": "England SE and Central S",
+      "seriesNote": "Averages for the Met Office district England SE and Central S, 1991 to 2020, rounded to one decimal place. A shown value of 0.0 means the average was under 0.05 of a day.",
+      "frostDays": { "apr": "2.8", "may": "0.3", "jun": "0.0", "sep": "0.0", "oct": "1.1", "nov": "4.5" },
+      "lastWindow": "April is the usual month for the last air frost. May frosts are uncommon in the regional average, but clear inland spots and valley bottoms can still get one.",
+      "firstWindow": "September has essentially no air frost in this series. The first frosts of autumn usually fall in October or November, and November is the month they become regular.",
+      "plantOut": "The RHS puts southern England in the second half of May for the first safe planting of tender crops. The Cotswolds edge and other exposed ground should add one to three weeks.",
+      "sowingNote": "March and April outdoor sowings of carrots, beetroot, peas and lettuce suit this region once the soil is workable. Sow tomatoes for outdoors from March into early April, and courgettes and runner beans under cover in April and May, aiming to plant out in the second half of May if the nights are mild."
+    },
+    {
+      "id": "london",
+      "name": "London",
+      "covers": "Greater London and other large city centres in the south, which hold heat overnight.",
+      "seriesName": "",
+      "frostNote": "There is no separate Met Office air-frost series for London in this tool. Use the South East figures as a cautious baseline. City centres are milder than the surrounding countryside.",
+      "frostDays": null,
+      "lastWindow": "Treat April as the cautious month for a last air frost, using the South East series as the baseline. Central London often runs earlier than the suburbs and the open countryside around the city. A roof garden can still be colder than a sheltered back garden.",
+      "firstWindow": "The first air frost is often later than in rural parts of the South East. October and November are still the months to watch, and a clear night can catch tender plants that are still cropping.",
+      "plantOut": "The RHS says sheltered urban spots, including city centres, can be one to two weeks earlier than the surrounding area. For London that often means early to mid-May, but only when nights are forecast to stay above about 7°C, and above 10°C for tomatoes.",
+      "sowingNote": "You can sow and plant out a week or two ahead of a rural South East garden if your plot is sheltered by walls and buildings. Do not bring that forward again just because a shop is selling tender plants in April. Balconies and exposed roof gardens should follow the South East date, not the earliest city date."
+    },
+    {
+      "id": "midlands",
+      "name": "Midlands",
+      "covers": "The English Midlands, from the Trent and Severn valleys across to the eastern side of the region.",
+      "seriesName": "Midlands",
+      "seriesNote": "Met Office Midlands district, 1991 to 2020, rounded to one decimal place. Frost pockets such as low valley bottoms are colder than the district average.",
+      "frostDays": { "apr": "3.2", "may": "0.5", "jun": "0.0", "sep": "0.0", "oct": "1.3", "nov": "4.9" },
+      "lastWindow": "April still has several air frosts in an average year. May is much quieter, but the average is not zero, so the last frost can fall in late April or, in a colder year, in May.",
+      "firstWindow": "September is frost-free in this series. October is when the first air frosts return, and November is when they settle in.",
+      "plantOut": "The RHS groups the Midlands with north-west England, Yorkshire and north Wales, and puts the first safe planting-out time at the end of May.",
+      "sowingNote": "Start tomatoes, courgettes and sweetcorn under cover on a similar timetable to the south, but expect to hold the plants longer before they go out. Direct sowings of runner beans and courgettes are safer in early June than in mid-May. Hardy crops such as peas, broad beans, carrots and beetroot can still be sown through the spring."
+    },
+    {
+      "id": "wales",
+      "name": "Wales",
+      "covers": "Wales, from the south coast to the north, including inland valleys. High ground is a different climate from the coast.",
+      "seriesName": "Wales",
+      "seriesNote": "Met Office Wales series, 1991 to 2020, rounded to one decimal place. The coast is milder than the uplands, which are inside the same average.",
+      "frostDays": { "apr": "3.4", "may": "0.8", "jun": "0.0", "sep": "0.0", "oct": "1.3", "nov": "4.2" },
+      "lastWindow": "April is still a frost month. May averages under a day, so the last air frost is often late April on the coast and can run into May inland.",
+      "firstWindow": "September barely registers. The first autumn air frosts usually appear in October, with November the month they become frequent.",
+      "plantOut": "The RHS puts south Wales with southern England, in the second half of May, and north Wales with the Midlands, at the end of May. Higher and exposed gardens should add time.",
+      "sowingNote": "Coastal south Wales can follow southern England for outdoor sowings. Inland and northern gardens should delay tender plantings towards the end of May or early June. Garlic still needs an autumn or winter planting wherever you are, as long as the soil is not waterlogged."
+    },
+    {
+      "id": "north-england",
+      "name": "North England",
+      "covers": "Northern England, including the north-west, Yorkshire and the north-east. The Pennines are colder than the lowlands.",
+      "seriesName": "England N",
+      "seriesNote": "Met Office England N series, 1991 to 2020, rounded to one decimal place. It blends milder lowlands with colder uplands.",
+      "frostDays": { "apr": "3.7", "may": "0.9", "jun": "0.0", "sep": "0.0", "oct": "1.4", "nov": "5.2" },
+      "lastWindow": "April has several air frosts, and May still averages close to a day. The last frost is often late April or May, later on high ground.",
+      "firstWindow": "September is almost frost-free in the regional average. October brings the first air frosts, and November is firmly a frost month.",
+      "plantOut": "The RHS puts north-west England and Yorkshire at the end of May, and north-east England at early June. Exposed and higher sites should delay by one to three weeks.",
+      "sowingNote": "Sow tender crops indoors so they are ready for a late May or early June planting, not a mid-May one. In cold locations choose an early sweetcorn variety. Potatoes, peas, broad beans, carrots and leeks are the more reliable outdoor programme if your season is short."
+    },
+    {
+      "id": "scotland",
+      "name": "Scotland",
+      "covers": "Lowland coasts, especially in the west, are much milder than the Highlands and inland glens.",
+      "seriesName": "Scotland",
+      "seriesNote": "Met Office Scotland series, 1991 to 2020, rounded to one decimal place. This average includes high ground, so a sheltered west-coast garden will be milder and a highland garden colder.",
+      "frostDays": { "apr": "6.1", "may": "2.5", "jun": "0.2", "sep": "0.3", "oct": "2.7", "nov": "7.8" },
+      "lastWindow": "April and May are both frost months. June still shows a small average, so the last air frost is often in May and can fall in June in colder places.",
+      "firstWindow": "September already shows some air frost, unlike most of England. October is a genuine frost month, and November has many more frost days. The first frost can arrive in September in colder districts and in October more widely.",
+      "plantOut": "The RHS puts southern Scotland in early June and the Highlands and northern Scotland in mid-June. Sheltered city and coastal gardens can be one to two weeks earlier. Tender crops are often more reliable in a greenhouse than outdoors in the north.",
+      "sowingNote": "Move indoor sowings of tomatoes, courgettes and sweetcorn so plants are ready for June, not May. A February tomato sowing is for a heated greenhouse, not for an outdoor Highland plot. Lean on hardy crops: broad beans, peas, potatoes, leeks, cabbage and early carrots under cover."
+    },
+    {
+      "id": "northern-ireland",
+      "name": "Northern Ireland",
+      "covers": "Northern Ireland. Coasts are milder than inland and upland gardens.",
+      "seriesName": "Northern Ireland",
+      "seriesNote": "Met Office Northern Ireland series, 1991 to 2020, rounded to one decimal place.",
+      "frostDays": { "apr": "2.9", "may": "0.6", "jun": "0.0", "sep": "0.1", "oct": "1.0", "nov": "3.9" },
+      "lastWindow": "April is the main month for late frosts. May still averages a little over half a day, so the last air frost can fall in late April or May.",
+      "firstWindow": "September is nearly frost-free. October is when the first air frosts appear, and November is when they become regular.",
+      "plantOut": "The RHS groups Northern Ireland with north-east England and southern Scotland, and puts the first safe planting-out time in early June.",
+      "sowingNote": "Treat early June as the outdoor date for tomatoes, courgettes, runner beans and sweetcorn, unless you are on a very sheltered coastal plot and the forecast is mild. Start those sowings under cover in April and May. Autumn garlic, overwintered broad beans and spring peas still earn their place."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I plant tomatoes on the last frost date?",
+      "answer": [
+        "Not on the strength of that date alone. The RHS says the last spring air frost is typically two to four weeks before tender plants should go out, because cool nights above freezing can still stall them. Wait until nights are forecast to stay above at least 7°C, and above 10°C for tomatoes, after you have hardened the plants off for two to three weeks."
+      ]
+    },
+    {
+      "question": "Why is there no exact date?",
+      "answer": [
+        "The Met Office publishes how many air-frost days a region had in each month, not a single last-frost date for a garden. Frost also depends on whether you are on a coast, in a city, on a hill or in a valley bottom. The windows on this page are there so you can shift sowing and planting, then confirm with the forecast."
+      ]
+    },
+    {
+      "question": "Do I sow earlier if my last frost is earlier?",
+      "answer": [
+        "Only for the crops that will be ready when it is safe to plant them out. Sowing tomatoes or courgettes weeks earlier just leaves you with large, leggy plants and nowhere frost-free to put them. Hardy crops such as broad beans, peas, garlic and onion sets follow soil condition more than the tender-plant date."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "Met Office",
+      "title": "Air frost days, regional series, 1991 to 2020",
+      "url": "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/datasets/AirFrost/date/UK.txt",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "When to plant out tender plants, avoiding late frosts",
+      "url": "https://www.rhs.org.uk/garden-jobs/when-to-plant-out-tender-plants-avoiding-late-frosts",
+      "accessed": "11 October 2026"
+    }
+  ]
+}

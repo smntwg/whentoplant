@@ -1,0 +1,12 @@
+{
+  "name": "whentoplant",
+  "private": true,
+  "description": "UK planting calendar for whentoplant.uk",
+  "scripts": {
+    "build": "node build.js",
+    "check": "node build.js && node check.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

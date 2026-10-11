@@ -1,0 +1,132 @@
+{
+  "slug": "december",
+  "number": 12,
+  "name": "December",
+  "summary": "Plant garlic if you still have not, sow microgreens, and plan next year while you harvest leeks and winter cabbage.",
+  "description": "What to plant and harvest in December in the UK: garlic around the shortest day, leeks, winter cabbage and next year's seed list.",
+  "highlights": [
+    "Plant garlic, traditionally around the shortest day",
+    "Sow microgreens on a windowsill",
+    "Harvest leeks and winter cabbage",
+    "Order seed potatoes and onion sets for spring"
+  ],
+  "intro": [
+    "December is the shortest month in the garden and one of the most useful for next year. Gardeners' World says garlic is traditionally planted on the shortest day, and that microgreens can be sown in any month. Everything else can wait for the seed catalogues.",
+    "The harvest does not stop. Leeks and winter cabbage are in the ground for exactly this. The planning you do now, variety by variety, is what makes January sowing deliberate instead of panicked."
+  ],
+  "sections": [
+    {
+      "title": "Sow indoors",
+      "intro": [
+        "Keep it to crops that do not need a long, bright greenhouse."
+      ],
+      "items": [
+        {
+          "name": "Microgreens",
+          "text": "Gardeners' World lists them for December. A shallow tray of peat-free compost on a windowsill, sown thickly and cut young, is a real crop when the plot is dark. It is also good practice before the January sowings of chillies and greenhouse tomatoes."
+        },
+        {
+          "name": "Broad beans",
+          "crop": "broad-beans",
+          "text": "You can still sow a hardy variety in pots if November passed you by and your outdoor soil is poor. Keep them in a cold frame, not on a hot windowsill. February is also fine."
+        }
+      ]
+    },
+    {
+      "title": "Sow outdoors",
+      "intro": [
+        "Garlic is the outdoor job. Fine seed stays in the packet."
+      ],
+      "items": [
+        {
+          "name": "Garlic",
+          "crop": "garlic",
+          "text": "Early winter is the close of the main planting window. If the ground is frozen, wait for a thaw or use modules. Cloves still go in 15cm apart with the tip about 2.5cm deep. A December planting gets the cold that most varieties need. Supermarket bulbs are still a bad idea."
+        }
+      ]
+    },
+    {
+      "title": "Plant out",
+      "intro": [
+        "Only if the soil is workable. A frozen or flooded bed should be left until January or February."
+      ],
+      "items": [
+        {
+          "name": "Bare-root fruit and hedging",
+          "text": "The dormant season runs to March. December planting works when the ground is open. If a parcel arrives during a freeze, keep the roots moist and heeled into compost somewhere sheltered until you can plant properly."
+        },
+        {
+          "name": "The last onion sets",
+          "crop": "onions",
+          "text": "If you still have overwintering sets and the soil drains, they can go in. Tip just showing, net on top. If the bed is sodden, do not force it. Spring sets in March are the safer crop."
+        }
+      ]
+    },
+    {
+      "title": "Harvest",
+      "intro": [
+        "Harvest little and often so the standing crops last until the spring cabbage and the first sowings take over."
+      ],
+      "items": [
+        {
+          "name": "Leeks",
+          "crop": "leeks",
+          "text": "This is what a late variety is for. Lift one or two with a fork when you need them. They will still be there in January and, for the latest types, into spring."
+        },
+        {
+          "name": "Winter cabbage",
+          "crop": "cabbage",
+          "text": "Cut heads as you want them. A cabbage left standing in good condition is a better store than one cut early and kept in the fridge. Check for pigeon damage and slug holes in the outer leaves."
+        },
+        {
+          "name": "Stored crops",
+          "text": "Onions, garlic and maincrop potatoes in store are part of the December supply. Look through them. One rotten onion in a net spoils the rest. Potatoes should be somewhere dark, so they do not turn green, and frost-free."
+        }
+      ]
+    }
+  ],
+  "jobs": [
+    "Write a seed list from this year's gaps: what you actually ate, and what bolted, got blight, or took too much space.",
+    "Order seed potatoes. Earlies worth chitting in late January need to be in your hand by then.",
+    "Clean pots and labels so the first sowings are not held up by a dirty tray.",
+    "Note your frost region and pencil planting-out dates on the packets for tomatoes, courgettes and sweetcorn."
+  ],
+  "holdOff": [
+    "Do not sow tomatoes, chillies or aubergines yet unless you already know you have a heated greenhouse and lights. Late December seedlings suffer in the darkest weeks. January is early enough for those, and March is better for outdoor tomatoes.",
+    "Do not empty the leek bed for the sake of tidiness. You cannot replace that harvest until next autumn."
+  ],
+  "faqs": [
+    {
+      "question": "Is the shortest day really when you plant garlic?",
+      "answer": [
+        "It is the tradition Gardeners' World mentions, and it sits inside the RHS window of mid-autumn to early winter. Any workable day from October to early winter is fine. The shortest day is a reminder, not a rule that makes the 20th wrong and the 22nd right."
+      ]
+    },
+    {
+      "question": "What is worth harvesting in December?",
+      "answer": [
+        "Leeks and winter cabbage from the garden, plus onions, garlic and potatoes from store if you dried them properly in summer and autumn. There is no new sowing that will crop before spring except microgreens."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "BBC Gardeners' World",
+      "title": "Your seed-sowing year",
+      "url": "https://www.gardenersworld.com/plants/your-seed-sowing-year/",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "How to grow garlic",
+      "url": "https://www.rhs.org.uk/vegetables/garlic/grow-your-own",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "How to grow leeks",
+      "url": "https://www.rhs.org.uk/vegetables/leeks/grow-your-own",
+      "accessed": "11 October 2026"
+    }
+  ]
+}

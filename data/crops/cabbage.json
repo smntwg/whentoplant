@@ -1,0 +1,111 @@
+{
+  "slug": "cabbage",
+  "name": "Cabbage",
+  "latin": "Brassica oleracea",
+  "summary": "Sow summer, autumn, winter and spring types at different times and you can cut a cabbage in every season.",
+  "description": "When to sow spring, summer, autumn and winter cabbage in the UK, with spacing and how to keep pigeons off.",
+  "card": "Sow February to July",
+  "intro": [
+    "Cabbage is four crops that share a method. The RHS times them like this: summer types sown from late winter to mid-spring, autumn types from mid-spring to early summer, winter types in late spring or early summer, and spring cabbage in July for heads the following year.",
+    "Outdoor sowings line up as February to April for summer cabbage, April to June for autumn and winter cabbage, and July for spring cabbage. Plants take about four to six months. A mix of types is how you cut cabbage all year."
+  ],
+  "calendar": [
+    {
+      "id": "sow",
+      "label": "Sow summer types",
+      "months": [2, 3, 4],
+      "detail": "February to April. Protect the earliest sowings with a cloche or fleece."
+    },
+    {
+      "id": "plant",
+      "label": "Sow autumn, winter and spring",
+      "months": [4, 5, 6, 7],
+      "detail": "April to June for autumn and winter cabbage. July for spring cabbage, which overwinters."
+    },
+    {
+      "id": "harvest",
+      "label": "Harvest",
+      "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "detail": "Possible in every month if you grow spring, summer, autumn and winter varieties. One sowing does not crop all year."
+    }
+  ],
+  "sowIndoors": [
+    "Modules give you a cleaner start, out of reach of slugs, and they can reduce the effect of club root because the plants are already growing before they meet garden soil. Sow two seeds per cell, about 1cm deep, and thin to one. Sowing time still depends on the type, from late winter through summer.",
+    "Plant out when the plants are 10 to 15cm tall, with five or six true leaves, usually about five weeks from a module sowing. Harden off anything that has been on a windowsill."
+  ],
+  "sowOutdoors": [
+    "Cabbages are often sown in a seedbed and moved later, because they sit for a long time at their final wide spacing. You can also sow them where they will stay. Outdoor drills are about 2cm deep.",
+    "February to April is for summer cabbage, with cover on the early sowings. April to June covers autumn and winter types. July is spring cabbage. In a seedbed, aim for seedlings about 10cm apart, then transplant. In the final row, sow three seeds at each station, 30 to 45cm apart, and thin to one.",
+    "Spring cabbage is sown in July and overwintered. Space those plants about 10cm apart at first, then thin in late February or March to 30cm. Eat the thinnings as spring greens."
+  ],
+  "plantOut": [
+    "Water the day before you move them, and plant firmly into ground that was manured the previous autumn if you can. Cabbages like rich, firm soil, and they should not follow other brassicas. If the soil is very acid, lime it the winter before to raise the pH above 6, which also discourages club root.",
+    "Compact varieties can sit 30cm apart. Large autumn and winter heads need up to 45cm. Cover the bed with insect-proof mesh on hoops. It keeps off caterpillars, cabbage root fly, whitefly and pigeons."
+  ],
+  "spacing": [
+    { "label": "Compact varieties", "value": "About 30cm apart" },
+    { "label": "Large varieties", "value": "Up to 45cm apart" },
+    { "label": "Spring cabbage", "value": "10cm at first, then 30cm in late February or March" },
+    { "label": "Outdoor drill", "value": "About 2cm deep" }
+  ],
+  "harvest": [
+    "Cut when the head is firm and the size you want. Taking every other plant first lets the rest grow on. Spring and summer stumps, scored with a cross about 1cm deep, often throw a smaller second head. Dig the finished stump out rather than leaving it to harbour disease.",
+    "Winter cabbages, including Savoys, stand in the garden for months once they are mature, or they can be stored somewhere cool, dry and frost-free. Spring cabbage is the April to June crop from a July sowing, picked either as greens or as a heart."
+  ],
+  "problems": [
+    {
+      "title": "Pigeons and caterpillars",
+      "text": [
+        "Pigeons strip leaves back to the midrib. Cabbage white caterpillars do the same from the inside of the plant. A proper mesh cover, held off the leaves, is the RHS approach from planting onwards. Check inside the cover now and then."
+      ]
+    },
+    {
+      "title": "Club root",
+      "text": [
+        "Swollen, distorted roots and a plant that wilts in mild weather can be club root, a long-lived soil disease. Do not replant brassicas in that spot. Lime acid soil the winter before, choose a resistant variety, and consider modules or a large pot of fresh compost so the young plant is not in infected ground from day one."
+      ]
+    },
+    {
+      "title": "Slugs",
+      "text": [
+        "Seedlings in a seedbed disappear overnight. Module sowing avoids the worst of it. Once plants are outside, they still need protection until the stems toughen."
+      ]
+    }
+  ],
+  "supplyIds": ["seed-compost", "modules", "mesh", "fleece", "garden-compost", "labels"],
+  "months": ["february", "march", "april", "may", "june", "july", "august", "september", "october"],
+  "related": ["lettuce", "leeks"],
+  "steps": [
+    { "name": "Sow the type that matches the season", "text": "February to April for summer cabbage, April to June for autumn and winter, and July for spring cabbage." },
+    { "name": "Plant firmly and cover", "text": "Transplant at 10 to 15cm tall, 30 to 45cm apart, and cover with insect-proof mesh." },
+    { "name": "Cut a firm head", "text": "Harvest from about four to six months, or leave winter varieties standing until you need them." }
+  ],
+  "faqs": [
+    {
+      "question": "When do I sow spring cabbage?",
+      "answer": [
+        "In July. The plants overwinter and are eaten as spring greens or as hearts from mid-spring into mid-summer. Thin them to about 30cm in late February or March."
+      ]
+    },
+    {
+      "question": "Can I grow cabbage in a pot?",
+      "answer": [
+        "A compact variety can. The RHS suggests one plant in a 30cm pot, or up to three in a 50cm pot, in peat-free compost. They still need mesh if caterpillars and pigeons can reach them. Growing bags are not suitable."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "RHS",
+      "title": "How to grow cabbages",
+      "url": "https://www.rhs.org.uk/vegetables/cabbages/grow-your-own",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "Vegetables: growing for spring",
+      "url": "https://www.rhs.org.uk/vegetables/growing-for-spring",
+      "accessed": "11 October 2026"
+    }
+  ]
+}

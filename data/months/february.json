@@ -1,0 +1,155 @@
+{
+  "slug": "february",
+  "number": 2,
+  "name": "February",
+  "summary": "Start leeks, peas and broad beans under cover, keep sowing greenhouse tomatoes, and move strawberry pots inside for an early crop.",
+  "description": "What to sow and plant in February in the UK: leeks, peas, broad beans, garlic and an early strawberry crop.",
+  "highlights": [
+    "Sow leeks, peas and broad beans under cover",
+    "Sow greenhouse tomatoes, chillies and aubergines if you have not already",
+    "Plant garlic and the last of the autumn-style alliums if the soil allows",
+    "Bring potted strawberries under glass for an earlier crop"
+  ],
+  "intro": [
+    "February is when hardy vegetables can be started without pretending it is summer. The days are lengthening, but the soil in most of the UK is still cold. Sow into pots and modules, and let the ground warm up.",
+    "Gardeners' World puts spinach, peas and broad beans under cover this month, alongside chillies, tomatoes, cucumbers and aubergines, with garlic still going outside. It is also the month the RHS suggests moving potted strawberries into an unheated greenhouse or cold frame if you want fruit a couple of weeks early."
+  ],
+  "sections": [
+    {
+      "title": "Sow indoors",
+      "intro": [
+        "A sunny windowsill or an unheated greenhouse is enough for the hardy crops. Tender ones still want warmth."
+      ],
+      "items": [
+        {
+          "name": "Peas",
+          "crop": "peas",
+          "text": "Sow about 5cm deep in pots, modules or a length of guttering. This is how you get an earlier row than a March outdoor sowing, and it keeps the seed away from mice and wet soil. Plant them out once they are growing strongly and have been hardened off."
+        },
+        {
+          "name": "Broad beans",
+          "crop": "broad-beans",
+          "text": "A February sowing in pots is the RHS alternative to autumn sowing if your site is too wet or windy. One bean to a pot, about 5cm deep, scar downwards. They do not need a heated propagator."
+        },
+        {
+          "name": "Leeks",
+          "crop": "leeks",
+          "text": "Late winter is the indoor sowing the RHS describes, for planting out in mid to late spring. Sow thinly and do not worry that they look like grass for a long time. They are supposed to be slow."
+        },
+        {
+          "name": "Tomatoes",
+          "crop": "tomatoes",
+          "text": "Early February is the Gardeners' World start for plants that will crop in a greenhouse. Outdoor plants can wait until March. Give February seedlings as much light as you have, or they will stretch."
+        },
+        {
+          "name": "Lettuce",
+          "crop": "lettuce",
+          "text": "An early February sowing, planted out in early March under cloches, is the RHS route to the first outdoor leaves. A winter variety sown last autumn should already be ticking over under cover."
+        }
+      ]
+    },
+    {
+      "title": "Sow outdoors",
+      "intro": [
+        "Only sow outside if you can cover the row, or if you are planting cloves rather than fine seed."
+      ],
+      "items": [
+        {
+          "name": "Garlic",
+          "crop": "garlic",
+          "text": "February is still a planting month for varieties sold for late winter and early spring. Tip about 2.5cm deep, 15cm apart. If the bed is sodden, keep cloves in modules until March or April."
+        },
+        {
+          "name": "Broad beans and early carrots",
+          "text": "In a mild spell, on light soil, you can sow broad beans direct and early carrot varieties under fleece or a cloche. If the soil sticks to your boots, wait. A February carrot sowing that sits cold often comes up with the March one.",
+          "crops": [
+            "broad-beans",
+            "carrots"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Plant out",
+      "intro": [
+        "Hardy plants can move. Tender ones cannot."
+      ],
+      "items": [
+        {
+          "name": "Strawberries",
+          "crop": "strawberries",
+          "text": "Move potted plants into an unheated greenhouse or cold frame, or cover outdoor rows with cloches. Open the cover when they flower so insects can pollinate them, or use a soft brush. You may pick in late spring rather than June."
+        },
+        {
+          "name": "Onion sets",
+          "crop": "onions",
+          "text": "Early spring planting starts as the soil becomes workable. If February is still wet and cold, wait until March. Sets planted into cold mud rot or get pulled out by birds. Net them until they root."
+        }
+      ]
+    },
+    {
+      "title": "Harvest",
+      "intro": [
+        "The winter crops are still the point of the plot. Do not strip a whole row if you want them to last until the spring sowings take over."
+      ],
+      "items": [
+        {
+          "name": "Leeks",
+          "crop": "leeks",
+          "text": "Keep lifting a few at a time. Late varieties are in the ground for this month on purpose."
+        },
+        {
+          "name": "Winter and spring cabbage",
+          "text": "Winter heads can still be cut. Spring cabbage sown last July may be big enough for a few leaves as greens, with the hearts still to come.",
+          "crops": [
+            "cabbage"
+          ]
+        }
+      ]
+    }
+  ],
+  "jobs": [
+    "Finish pruning and tying fruit if you have not, while the plants are still dormant.",
+    "Put fleece or a cloche over beds you want to sow in March, so the soil starts to dry and warm.",
+    "Chit potatoes if you did not start in late January. Earlies need four to six weeks before planting.",
+    "Check the frost page and write your own planting-out month on the seed packets, so February sowings are not aimed at a May date you do not have."
+  ],
+  "holdOff": [
+    "Do not sow courgettes, runner beans or sweetcorn yet. Mid to late spring is soon enough.",
+    "Do not plant early potatoes unless you are in a very mild spot and can cover the shoots. Late March is the RHS timing for first earlies."
+  ],
+  "faqs": [
+    {
+      "question": "What can I sow in February without a greenhouse?",
+      "answer": [
+        "Peas, broad beans and leeks in pots on a bright windowsill or in a cold frame, plus microgreens. Chillies and greenhouse tomatoes want more warmth. Outdoor sowings can wait, apart from garlic and a covered row of early carrots if the soil is workable."
+      ]
+    },
+    {
+      "question": "Should I put strawberries outside or inside?",
+      "answer": [
+        "Leave the main bed outside. If you want an earlier bowlful, move a few pots into an unheated greenhouse or cold frame in February, or cover a row with cloches. Remember to let pollinators in at flowering time."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "BBC Gardeners' World",
+      "title": "What to plant in February",
+      "url": "https://www.gardenersworld.com/plants/what-to-plant-in-february/",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "How to grow strawberries",
+      "url": "https://www.rhs.org.uk/fruit/strawberries/grow-your-own",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "How to grow leeks",
+      "url": "https://www.rhs.org.uk/vegetables/leeks/grow-your-own",
+      "accessed": "11 October 2026"
+    }
+  ]
+}

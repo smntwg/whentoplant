@@ -1,0 +1,155 @@
+{
+  "slug": "september",
+  "number": 9,
+  "name": "September",
+  "summary": "Sow winter leaves, move spring cabbage to its final spot, plant strawberries if you did not in August, and bring in the maincrop potatoes and tomatoes.",
+  "description": "What to sow, plant and harvest in September in the UK: winter salads, strawberries, maincrop potatoes and the last tomatoes.",
+  "highlights": [
+    "Sow spinach, winter salads and radish",
+    "Plant strawberries and transplant spring cabbage",
+    "Lift maincrop potatoes on a dry day",
+    "Pick the last outdoor tomatoes before blight or a cold night"
+  ],
+  "intro": [
+    "September is a clearing month with a few important sowings hiding in it. Gardeners' World lists spinach, winter salads and radish. The summer beans and courgettes are finishing. What you plant now is for winter and next year.",
+    "Do not strip the plot bare and leave it empty. Spring cabbage, strawberries and winter leaves all want a home this month, and the RHS still counts early autumn as strawberry planting time."
+  ],
+  "sections": [
+    {
+      "title": "Sow indoors",
+      "intro": [
+        "A greenhouse border or a tray in a porch is enough. You are not chasing heat."
+      ],
+      "items": [
+        {
+          "name": "Winter lettuce",
+          "crop": "lettuce",
+          "text": "September and October are when the RHS sows a winter variety such as Winter Density, in a greenhouse or, in mild areas, under cloches or in a cold frame. Those plants are for spring, not for eating in October."
+        },
+        {
+          "name": "Spinach and winter salads",
+          "text": "A tray of spinach or lamb's lettuce sown now can be planted into gaps as you lift potatoes and beans. Gardeners' World puts both on the September list."
+        }
+      ]
+    },
+    {
+      "title": "Sow outdoors",
+      "intro": [
+        "Sow into ground you have just cleared, while it is still warm."
+      ],
+      "items": [
+        {
+          "name": "Winter salads and radish",
+          "text": "Radish is quick enough to sow between slower winter plants. Winter salads sown now stand as the days shorten. Water them in, then let the cooler weather do the rest."
+        },
+        {
+          "name": "Spinach",
+          "text": "A September sowing is for leaves in autumn and, if the variety is hardy, into the colder months. It is a different sowing from the spring one, which bolts as the days lengthen."
+        }
+      ]
+    },
+    {
+      "title": "Plant out",
+      "intro": [
+        "Firm planting and water matter more than feed. The soil is still warm enough for roots to grow."
+      ],
+      "items": [
+        {
+          "name": "Spring cabbage",
+          "crop": "cabbage",
+          "text": "Plants sown in July should be in their final place, about 10cm apart if you plan to thin them later, or towards 30cm if you want hearts only. Net them. Pigeons spend the winter on unprotected brassicas."
+        },
+        {
+          "name": "Strawberries",
+          "crop": "strawberries",
+          "text": "September is the second of the two best months, with August. Crown at soil level, 35 to 40cm apart, rows about 75cm apart. Plants set now fruit next summer. Leave it much later and they do not establish as well."
+        },
+        {
+          "name": "Overwintering onion sets",
+          "crop": "onions",
+          "text": "Autumn is the planting time for the sets sold as overwintering or Japanese onions. They are ready in June and July, earlier than spring sets, and they store for a shorter time. Avoid waterlogged soil or they rot. Net them against birds."
+        }
+      ]
+    },
+    {
+      "title": "Harvest",
+      "intro": [
+        "Bring tender crops in before the weather, not after. Maincrops can wait for a dry day."
+      ],
+      "items": [
+        {
+          "name": "Maincrop potatoes",
+          "crop": "potatoes",
+          "text": "August to October is the window, once the tops have died back. September is the sensible month if blight has marked the foliage: cut the tops off, wait, then lift on a dry day and dry the tubers before storing."
+        },
+        {
+          "name": "Tomatoes",
+          "crop": "tomatoes",
+          "text": "Keep picking ripe fruit. When blight or a cold night is forecast, pick the green fruit and ripen it indoors. A greenhouse crop carries on longer than an outdoor one."
+        },
+        {
+          "name": "Sweetcorn",
+          "crop": "sweetcorn",
+          "text": "Late cobs may still be ripening. Use the kernel test. Once a cob is ready, pick and cook it. There is no benefit in leaving a ripe cob on the plant."
+        },
+        {
+          "name": "Runner beans and courgettes",
+          "text": "Both are near the end. A bean sowing from May can still be giving pods into early autumn if you have kept picking. Clear them once they stop, and leave the bean roots in the soil.",
+          "crops": [
+            "runner-beans",
+            "courgettes"
+          ]
+        },
+        {
+          "name": "Onions",
+          "crop": "onions",
+          "text": "Spring-sown and spring-planted bulbs can be lifted through to October. Get them dried if they are still on the ground. A wet September ruins storage."
+        }
+      ]
+    }
+  ],
+  "jobs": [
+    "Cover August lettuce with cloches from late September if you sowed for early winter.",
+    "Cut down finished bean tops and compost them. Leave the roots.",
+    "Sow a green manure or spread compost on beds you will not plant until spring, once they are clear.",
+    "Check stored onions and garlic. Use anything that is soft."
+  ],
+  "holdOff": [
+    "Do not sow broad beans in the first week of September and expect the autumn result. October and November are the months the RHS names, and only in a mild, sheltered, well-drained spot.",
+    "Do not plant tender herbs or tomatoes outside now, whatever a shop still has on the bench."
+  ],
+  "faqs": [
+    {
+      "question": "Is September too late for strawberries?",
+      "answer": [
+        "No. The RHS includes early autumn, and names August or September as the planting that establishes plants for next year. Later than that, they have less time to root before winter."
+      ]
+    },
+    {
+      "question": "Should I lift all the potatoes now?",
+      "answer": [
+        "Lift maincrops once the tops have yellowed, and earlier if blight has killed the foliage. Do it on a dry day, dry the tubers, and store them cool, dark and frost-free. First and second earlies should already have been eaten."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "BBC Gardeners' World",
+      "title": "Your seed-sowing year",
+      "url": "https://www.gardenersworld.com/plants/your-seed-sowing-year/",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "How to grow strawberries",
+      "url": "https://www.rhs.org.uk/fruit/strawberries/grow-your-own",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "How to grow onions",
+      "url": "https://www.rhs.org.uk/vegetables/onions/grow-your-own",
+      "accessed": "11 October 2026"
+    }
+  ]
+}

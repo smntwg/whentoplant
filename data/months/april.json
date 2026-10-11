@@ -1,0 +1,179 @@
+{
+  "slug": "april",
+  "number": 4,
+  "name": "April",
+  "summary": "The busiest sowing month: roots and salads outside, courgettes and beans under cover, and potatoes in the ground.",
+  "description": "What to sow and plant in April in the UK: potatoes, courgettes under cover, carrots, beetroot, lettuce and leeks.",
+  "highlights": [
+    "Sow courgettes, squash and runner beans under cover",
+    "Sow carrots, beetroot, lettuce, peas and leeks",
+    "Plant second early and maincrop potatoes",
+    "Plant onion sets if they are not already in"
+  ],
+  "intro": [
+    "April is when seed sowing gets serious. The days are long enough for outdoor rows of hardy vegetables, but runner beans, courgettes and the other tender crops still belong in a pot on the windowsill or in the greenhouse.",
+    "Gardeners' World puts second early potatoes in during early to mid-April and maincrops from mid to late April, alongside onion sets, shallots and garlic. It is also the month to sow leeks under cover if you did not start them in February."
+  ],
+  "sections": [
+    {
+      "title": "Sow indoors",
+      "intro": [
+        "Sow tender crops one seed to a pot. They grow fast, and a cramped tray in April becomes a problem in May."
+      ],
+      "items": [
+        {
+          "name": "Courgettes",
+          "crop": "courgettes",
+          "text": "Mid to late spring is the indoor sowing. One seed to a pot, kept warm. Do not sow a dozen. Two plants feed most households if you pick them small."
+        },
+        {
+          "name": "Runner beans",
+          "crop": "runner-beans",
+          "text": "From mid-April, sow 5cm deep in deep pots and keep them above 12°C. Put the cane wigwam up this month so it is ready when the plants are."
+        },
+        {
+          "name": "Sweetcorn",
+          "crop": "sweetcorn",
+          "text": "Sow 2.5cm deep in deep pots, somewhere at about 18 to 21°C. An April sowing gives you plants large enough for a late May or early June planting. In a cold garden, choose an early variety."
+        },
+        {
+          "name": "Leeks",
+          "crop": "leeks",
+          "text": "Gardeners' World still has leeks on the under-cover list. A second sowing now spreads the harvest. They will be planted into their final holes later, not left in the tray all summer."
+        },
+        {
+          "name": "Tomatoes",
+          "crop": "tomatoes",
+          "text": "Early April is the tail end of the outdoor sowing window. Later than this and the plants may not ripen a full crop outside. Greenhouse plants should be in larger pots by now, waiting for milder nights."
+        }
+      ]
+    },
+    {
+      "title": "Sow outdoors",
+      "intro": [
+        "This is the main month for roots and salads. Sow a portion, not the whole packet."
+      ],
+      "items": [
+        {
+          "name": "Carrots",
+          "crop": "carrots",
+          "text": "April starts the main sowing season, which runs to early July. Drills about 1cm deep, rows 15 to 30cm apart, mesh over the top. Thin later to 5 to 7.5cm."
+        },
+        {
+          "name": "Beetroot",
+          "crop": "beetroot",
+          "text": "Sow 10cm apart if the soil is at least 7°C. Repeat every few weeks until July. Module sowings from a cold garden can be planted out now without splitting the clumps."
+        },
+        {
+          "name": "Lettuce",
+          "crop": "lettuce",
+          "text": "Sow another short row. Thin hearting types to 30cm and loose-leaf types to 15cm. A row sown in March may be ready to plant out from modules, with fleece if you are not in the south."
+        },
+        {
+          "name": "Peas and broad beans",
+          "text": "Keep sowing. An April row of peas will follow the March one instead of cropping on the same day. Broad beans sown after mid-April set fewer pods, so make this the last big sowing and switch the energy to runner beans next month.",
+          "crops": [
+            "peas",
+            "broad-beans"
+          ]
+        },
+        {
+          "name": "Cabbage",
+          "crop": "cabbage",
+          "text": "April is still summer cabbage territory, and it is the start of autumn and winter sowings, which run to June. Cover the seedbed or use modules. Slugs are awake."
+        }
+      ]
+    },
+    {
+      "title": "Plant out",
+      "intro": [
+        "Potatoes and sets, yes. Tomatoes and courgettes, not yet, unless they are going into a greenhouse that stays frost-free."
+      ],
+      "items": [
+        {
+          "name": "Potatoes",
+          "crop": "potatoes",
+          "text": "Second earlies go in during early to mid-April, maincrops from mid-April to early May. Maincrops want 37cm between plants and 75cm between rows, in a trench about 15cm deep. Cover early shoots if a frost is forecast."
+        },
+        {
+          "name": "Onions and garlic",
+          "text": "Onion sets can still be planted, tip just showing. Garlic planted in modules over winter can go out into ground that has dried a little. Birds will still pull both up, so keep the net on.",
+          "crops": [
+            "onions",
+            "garlic"
+          ]
+        },
+        {
+          "name": "Lettuce and summer cabbage",
+          "text": "Module-raised plants can go out once they are hardened off. This is not the same as planting tender crops. A fleece over the row helps them settle.",
+          "crops": [
+            "lettuce",
+            "cabbage"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Harvest",
+      "intro": [
+        "The hungry gap is real. April harvests are mostly overwintered plants, not the rows you are sowing now."
+      ],
+      "items": [
+        {
+          "name": "Spring cabbage",
+          "crop": "cabbage",
+          "text": "Hearts from a July sowing start from mid-spring. Cut what you need. A scored stump on a spring cabbage often gives a smaller second head."
+        },
+        {
+          "name": "Leeks",
+          "crop": "leeks",
+          "text": "Use up the last of the winter leeks. They will bolt if you leave them into warm weather."
+        }
+      ]
+    }
+  ],
+  "jobs": [
+    "Build bean supports before the plants exist. A 2.5m wigwam is much easier to make in an empty bed.",
+    "Earth up early potatoes as the shoots reach 20 to 30cm, leaving about 10cm of leaf showing.",
+    "Harden off hardy seedlings for a week or two before they are planted, even if they seem tough.",
+    "Watch for aphids on broad bean tips. Early plants are the ones that often crop before blackfly peaks."
+  ],
+  "holdOff": [
+    "Do not plant courgettes, tomatoes, sweetcorn or runner beans into the open ground. Frost and cold nights are still normal in April.",
+    "Do not sow runner beans outdoors yet. Mid-May in the south and early June further north is the RHS timing, once the soil is at 12°C."
+  ],
+  "faqs": [
+    {
+      "question": "Can I plant tomatoes outside in April?",
+      "answer": [
+        "Not in a typical UK garden. April is for sowing and growing them on under cover. The RHS planting-out times run from the first half of May on the south coast to mid-June in northern Scotland, and only once nights are mild."
+      ]
+    },
+    {
+      "question": "What if I have not chitted my potatoes?",
+      "answer": [
+        "Plant them anyway. Chitting helps earlies, but it is not compulsory. Maincrops in particular will still crop from an April planting of unsprouted tubers."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "BBC Gardeners' World",
+      "title": "Your seed-sowing year",
+      "url": "https://www.gardenersworld.com/plants/your-seed-sowing-year/",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "How to grow potatoes",
+      "url": "https://www.rhs.org.uk/vegetables/potatoes/grow-your-own",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "How to grow courgettes",
+      "url": "https://www.rhs.org.uk/vegetables/courgettes/grow-your-own",
+      "accessed": "11 October 2026"
+    }
+  ]
+}

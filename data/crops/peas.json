@@ -1,0 +1,105 @@
+{
+  "slug": "peas",
+  "name": "Peas",
+  "latin": "Pisum sativum",
+  "summary": "Sow from March to June for a summer crop, with an earlier start under cover in February and a possible autumn sowing.",
+  "description": "When to sow peas in the UK, from February under cover to June, with spacing, supports and harvest months.",
+  "card": "Sow March to June",
+  "intro": [
+    "Peas are a cool-season crop, and they are at their best the hour they are picked. The RHS splits them into first earlies, second earlies and maincrops, all sown between March and June, and ready in roughly 12 to 16 weeks depending on the type.",
+    "A February sowing under cover, or an October sowing of a hardy variety, stretches the season at either end. Mice are the pest to plan for on those early and late sowings."
+  ],
+  "calendar": [
+    {
+      "id": "sow",
+      "label": "Sow",
+      "months": [2, 3, 4, 5, 6, 10],
+      "detail": "The main outdoor season is March to June. February works under cover. October is for a hardy sowing, protected from mice."
+    },
+    {
+      "id": "harvest",
+      "label": "Harvest",
+      "months": [6, 7, 8, 9, 10],
+      "detail": "From June through to October if you sow more than one type or sow in succession."
+    }
+  ],
+  "sowIndoors": [
+    "Sowing in guttering, pots or modules in February gives an earlier crop and keeps the seed away from mice and wet soil. Gardeners' World suggests pushing the seed in about 5cm deep. The RHS says the same depth for modules and tubes. Plant the seedlings out from March onwards, once they are growing strongly, and harden them off if they have been indoors rather than in a cold frame."
+  ],
+  "sowOutdoors": [
+    "The main season is March to June, once the soil is around 10°C. Sow a short row every few weeks, or sow an early and a maincrop variety on the same day. They will not all ripen together.",
+    "Taller varieties are sown 7.5cm apart in a single row, or in a double row with 30cm between the two lines. A wide gap between those double rows keeps the air moving, which matters because crowded peas get powdery mildew. The RHS also describes a flat trench 5cm deep and 15cm wide, sown as a staggered triple row. In a container at least 45cm wide, sow 7.5cm apart and 5cm deep.",
+    "Put supports in at sowing time, or as soon as the seedlings show. Netting, chicken wire or twiggy sticks all work. Gardeners' World lists an October sowing too, with protection from mice. That is a hardy extra, not a replacement for the spring sowings."
+  ],
+  "spacing": [
+    { "label": "Along the row", "value": "About 7.5cm for taller varieties" },
+    { "label": "Depth", "value": "About 5cm" },
+    { "label": "Supports", "value": "Netting, wire or sticks, in place early" }
+  ],
+  "harvest": [
+    "By mixing types you can pick from June through to October. First earlies take about 12 weeks, second earlies 13 to 14, and maincrops 14 to 16. Pick often. Pods left on the plant tell it to stop flowering.",
+    "Pea shoots are a separate, quicker crop. The RHS says seed sown indoors at any time of year will give shoots for salads. Mangetout and sugar snaps are picked while the pod is still flat or just filling. Shelling peas want a filled pod and a tender pea inside."
+  ],
+  "problems": [
+    {
+      "title": "Mice and pigeons",
+      "text": [
+        "Mice take the seed, especially from autumn and early sowings. Gardeners' World says to protect an October sowing from them. Cover the drill or the pots until the seedlings are through."
+      ]
+    },
+    {
+      "title": "Powdery mildew",
+      "text": [
+        "A white coating on the leaves is common late in the season and in dry weather. Wider spacing and airflow help. Water at the base in a dry spell so the plants are not stressed, and sow an earlier batch so you are not relying on September plants."
+      ]
+    },
+    {
+      "title": "A glut of tough peas",
+      "text": [
+        "They pass their best quickly. Pick every couple of days, and freeze what you cannot eat. Plants that are left unpicked stop producing."
+      ]
+    }
+  ],
+  "supplyIds": ["multipurpose-compost", "modules", "canes", "netting", "fleece", "labels"],
+  "months": ["february", "march", "april", "may", "june", "october"],
+  "related": ["broad-beans", "runner-beans"],
+  "steps": [
+    { "name": "Sow in succession", "text": "Sow outdoors from March to June, or start a row under cover in February. An October sowing is possible with a hardy variety." },
+    { "name": "Support them early", "text": "Sow about 5cm deep and 7.5cm apart, and put netting or sticks in as the seedlings appear." },
+    { "name": "Pick from June", "text": "Harvest from about 12 weeks after sowing, and keep picking so the plants carry on until autumn." }
+  ],
+  "faqs": [
+    {
+      "question": "How late can I sow peas?",
+      "answer": [
+        "The RHS main season runs to June. A June sowing of an early variety can still crop in autumn. After that you are into the October hardy sowing, which is for an overwintered or very early crop, not a quick summer one."
+      ]
+    },
+    {
+      "question": "Do peas need a trench?",
+      "answer": [
+        "A single line works. The RHS also sows a triple row in a flat trench about 5cm deep and 15cm wide, with the seeds staggered. Either way, they need support and a bit of air between the rows."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "RHS",
+      "title": "How to grow peas",
+      "url": "https://www.rhs.org.uk/vegetables/peas/grow-your-own",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "BBC Gardeners' World",
+      "title": "What to plant in February",
+      "url": "https://www.gardenersworld.com/plants/what-to-plant-in-february/",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "BBC Gardeners' World",
+      "title": "Your seed-sowing year",
+      "url": "https://www.gardenersworld.com/plants/your-seed-sowing-year/",
+      "accessed": "11 October 2026"
+    }
+  ]
+}

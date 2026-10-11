@@ -1,0 +1,141 @@
+{
+  "slug": "november",
+  "number": 11,
+  "name": "November",
+  "summary": "Sow broad beans in mild gardens, plant the last garlic and overwintering alliums, and harvest leeks and winter cabbage as you need them.",
+  "description": "What to sow and plant in November in the UK: broad beans, garlic, onion sets, and the start of the winter harvest.",
+  "highlights": [
+    "Sow hardy broad beans in mild, well-drained soil",
+    "Plant garlic, onion sets and shallots",
+    "Harvest leeks and winter cabbage as you need them",
+    "Protect brassicas from pigeons"
+  ],
+  "intro": [
+    "November is quiet, but it is not empty. Gardeners' World lists garlic, onions, shallots and broad beans. The RHS is more specific about the beans: October or November sowings work in milder parts of the UK or in a very sheltered, well-drained spot, with a hardy variety.",
+    "Aquadulce is the variety Guy Barter names for a November sowing. If your garden is wet or exposed, sow those beans in pots in a cold frame, or wait until February. There is almost no time penalty."
+  ],
+  "sections": [
+    {
+      "title": "Sow indoors",
+      "intro": [
+        "Cold frames and unheated greenhouses beat a warm kitchen for these sowings. Too much heat makes soft growth that cannot go outside."
+      ],
+      "items": [
+        {
+          "name": "Broad beans",
+          "crop": "broad-beans",
+          "text": "One seed to a pot, about 5cm deep, scar down. Keep them cool and safe from mice. Plant them out in early spring. Barter notes that a February pot sowing of a quick variety matures at a similar time to an autumn sowing, so this is a choice, not a deadline."
+        },
+        {
+          "name": "Garlic in modules",
+          "crop": "garlic",
+          "text": "If the garden is heavy and wet, this is the better November planting. One clove per module, tip covered by about 2.5cm, kept in a cold frame over winter and planted out in spring."
+        }
+      ]
+    },
+    {
+      "title": "Sow outdoors",
+      "intro": [
+        "Only on soil that drains. A November sowing in a puddle is a gift to rot and mice."
+      ],
+      "items": [
+        {
+          "name": "Broad beans",
+          "crop": "broad-beans",
+          "text": "In a mild or very sheltered garden, sow a hardy variety 5 to 7.5cm deep and 15 to 23cm apart. Fleece or a cloche over the young plants gets them through a cold snap. Expect beans from May if the winter is kind."
+        },
+        {
+          "name": "Garlic",
+          "crop": "garlic",
+          "text": "Still inside the mid-autumn to early-winter window. Cloves 15cm apart, rows 30cm apart, tip about 2.5cm deep. Birds are the immediate problem. Net until the cloves have rooted."
+        }
+      ]
+    },
+    {
+      "title": "Plant out",
+      "intro": [
+        "Plant firm, and only when you can stand on the bed without compacting it into a smear."
+      ],
+      "items": [
+        {
+          "name": "Onion and shallot sets",
+          "text": "Gardeners' World includes both this month. Overwintering onion sets planted now are for a June and July harvest. Shallots follow the same idea: tip just showing, net on top, no planting into waterlogged ground.",
+          "crops": [
+            "onions"
+          ]
+        },
+        {
+          "name": "Bare-root fruit",
+          "text": "The bare-root season runs through to March. November is a good month if the soil is workable, because the plants are fully dormant. Do not plant into frozen ground."
+        }
+      ]
+    },
+    {
+      "title": "Harvest",
+      "intro": [
+        "Take what you need and leave the rest standing. The garden is the store for several of these crops."
+      ],
+      "items": [
+        {
+          "name": "Leeks",
+          "crop": "leeks",
+          "text": "Lift with a fork from the late-summer plantings onwards. Late varieties are only just getting into their main season and will carry on to spring. Frost can make them sweeter."
+        },
+        {
+          "name": "Winter cabbage",
+          "crop": "cabbage",
+          "text": "Cut a firm head when you want it. Savoys and other winter types are bred to stand. Remove yellow outer leaves so air can move, and keep the net on."
+        },
+        {
+          "name": "Carrots",
+          "crop": "carrots",
+          "text": "Lift from under the straw or cardboard cover as you need them. If the cover is soggy and the roots are starting to rot, bring the rest in."
+        }
+      ]
+    }
+  ],
+  "jobs": [
+    "Net brassicas if you have not. Pigeons do most of their damage in the winter months.",
+    "Check stored potatoes, onions and garlic once a fortnight.",
+    "Mulch empty beds with garden compost or leaves if the soil is not waterlogged. Keep mulch off the crowns of strawberries.",
+    "Clean the greenhouse glass so the weak winter light can reach winter salads."
+  ],
+  "holdOff": [
+    "Do not sow broad beans outside in a cold, wet, inland garden just because the month has arrived. Use pots, or wait until February.",
+    "Do not prune tender plants hard or turn the compost heap onto frozen ground for the sake of being busy."
+  ],
+  "faqs": [
+    {
+      "question": "Will November broad beans survive?",
+      "answer": [
+        "In a mild, sheltered, well-drained spot, a hardy variety such as Aquadulce usually does, with fleece in a hard spell. In a wet or exposed garden they are a gamble. A February sowing in pots gives you a similar harvest with less risk."
+      ]
+    },
+    {
+      "question": "Can I still plant garlic in November?",
+      "answer": [
+        "Yes. Early winter is still within the RHS planting period. The cloves need cold to split into a bulb, which a November planting provides. Keep them out of standing water."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "BBC Gardeners' World",
+      "title": "Your seed-sowing year",
+      "url": "https://www.gardenersworld.com/plants/your-seed-sowing-year/",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "How to grow broad beans",
+      "url": "https://www.rhs.org.uk/vegetables/broad-beans/grow-your-own",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "Sowing broad beans in autumn or spring",
+      "url": "https://www.rhs.org.uk/advice/grow-your-own/features/sowing-broad-beans",
+      "accessed": "11 October 2026"
+    }
+  ]
+}

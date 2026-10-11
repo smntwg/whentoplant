@@ -1,0 +1,107 @@
+{
+  "note": "Set affiliateUrl on an item to turn that name into a link on every crop that lists it. Leave affiliateUrl as an empty string to show the item as plain text.",
+  "items": [
+    {
+      "id": "seed-potatoes",
+      "name": "Certified seed potatoes",
+      "detail": "Named seed potatoes, not tubers from the supermarket.",
+      "affiliateUrl": ""
+    },
+    {
+      "id": "seed-compost",
+      "name": "Peat-free seed compost",
+      "detail": "A fine compost for modules and small pots. The RHS recommends peat-free mixes.",
+      "affiliateUrl": ""
+    },
+    {
+      "id": "multipurpose-compost",
+      "name": "Peat-free multi-purpose compost",
+      "detail": "For pots, modules and containers once seedlings need more body.",
+      "affiliateUrl": ""
+    },
+    {
+      "id": "modules",
+      "name": "Module trays or small pots",
+      "detail": "For crops started under cover. Deep pots suit peas, beans and sweetcorn.",
+      "affiliateUrl": ""
+    },
+    {
+      "id": "labels",
+      "name": "Labels",
+      "detail": "Variety and sowing date, so succession sowings do not get mixed up.",
+      "affiliateUrl": ""
+    },
+    {
+      "id": "fleece",
+      "name": "Horticultural fleece",
+      "detail": "For early sowings and for covering tender plants if a late frost is forecast.",
+      "affiliateUrl": ""
+    },
+    {
+      "id": "cloches",
+      "name": "Cloches",
+      "detail": "Useful for warming a row before you sow, and for protecting early carrots and salads.",
+      "affiliateUrl": ""
+    },
+    {
+      "id": "mesh",
+      "name": "Insect-proof mesh",
+      "detail": "The RHS found a full cover is the most effective defence against carrot fly, and it also keeps pigeons and caterpillars off brassicas.",
+      "affiliateUrl": ""
+    },
+    {
+      "id": "canes",
+      "name": "Canes or hazel poles",
+      "detail": "Runner beans need supports about 2.5m tall. Cordons of tomatoes need a cane or a string.",
+      "affiliateUrl": ""
+    },
+    {
+      "id": "twine",
+      "name": "Soft twine",
+      "detail": "For tying in tomatoes and beans without cutting the stem.",
+      "affiliateUrl": ""
+    },
+    {
+      "id": "fork",
+      "name": "Fork",
+      "detail": "For lifting roots and potatoes without spearing the crop.",
+      "affiliateUrl": ""
+    },
+    {
+      "id": "dibber",
+      "name": "Dibber",
+      "detail": "For leek holes about 15cm deep. A trowel handle will do.",
+      "affiliateUrl": ""
+    },
+    {
+      "id": "watering-can",
+      "name": "Watering can with a rose",
+      "detail": "A fine rose avoids washing small seed out of the drill.",
+      "affiliateUrl": ""
+    },
+    {
+      "id": "potash-feed",
+      "name": "High-potassium liquid feed",
+      "detail": "For tomatoes and other container crops once the first fruits start to swell.",
+      "affiliateUrl": ""
+    },
+    {
+      "id": "pots",
+      "name": "Pots or a growing bag",
+      "detail": "Tomatoes can go one to a 30 to 45cm pot, or two to a standard growing bag.",
+      "affiliateUrl": ""
+    },
+    {
+      "id": "netting",
+      "name": "Netting",
+      "detail": "Birds pull up new garlic and onion sets, and they take strawberries and sweetcorn.",
+      "affiliateUrl": ""
+    },
+    {
+      "id": "garden-compost",
+      "name": "Garden compost or well-rotted manure",
+      "detail": "Dug or mulched in before planting. Do not use fresh manure.",
+      "affiliateUrl": ""
+    }
+  ]
+}

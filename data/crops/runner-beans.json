@@ -1,0 +1,103 @@
+{
+  "slug": "runner-beans",
+  "name": "Runner beans",
+  "latin": "Phaseolus coccineus",
+  "summary": "Sow indoors from mid-April, or outdoors once the soil is warm, and pick young pods every few days.",
+  "description": "When to sow and plant runner beans in the UK, with cane spacing, depth and the frost date to wait for.",
+  "card": "Sow April to June",
+  "intro": [
+    "Runner beans are tender, thirsty, and one of the heaviest crops you can grow up a small bed. They will not survive a frost, and the seed will not germinate in cold soil.",
+    "The RHS puts indoor sowing from mid-April to May. Outdoor sowing waits until the soil has reached 12°C and frost is over, usually mid-May in the south and early June in the north."
+  ],
+  "calendar": [
+    {
+      "id": "sow",
+      "label": "Sow indoors",
+      "months": [4, 5],
+      "detail": "From mid-April to May, one bean about 5cm deep in a small pot."
+    },
+    {
+      "id": "plant",
+      "label": "Sow or plant outside",
+      "months": [5, 6],
+      "detail": "Outdoors from mid-May in the south and early June in the north. Indoor plants go out in late May or early June."
+    },
+    {
+      "id": "harvest",
+      "label": "Harvest",
+      "months": [7, 8, 9],
+      "detail": "From around mid-summer, for eight weeks or more if you keep picking."
+    }
+  ],
+  "sowIndoors": [
+    "From mid-April, sow one bean in the middle of a small deep pot, 5cm deep. Keep it above 12°C in a bright place. Indoor sowing is the better route in colder parts of the country, and it keeps the seedlings away from slugs.",
+    "Put the canes up before you sow or plant. A double row of 2.5m canes, 45 to 60cm between the rows and 15 to 30cm between canes, tied as an A-frame, is the usual support. A wigwam of five or more canes, 15 to 30cm apart at the base, fits a border or a large pot."
+  ],
+  "sowOutdoors": [
+    "Wait until frost is finished and the soil is at least 12°C. Sow two seeds 5cm deep at the base of each cane and thin to the stronger plant. Dwarf runner beans, which stay under about 45cm, are sown 30cm apart with 50cm between rows, and they need only short twiggy sticks.",
+    "A large container can be the final home. Climbing beans want a pot about 75cm wide and 45cm deep, heavy enough not to tip. Dwarf beans fit a 30 to 45cm pot."
+  ],
+  "plantOut": [
+    "Plants raised indoors, or bought in a pot, go out from late May or early June, after hardening off. Plant one at the foot of each cane and tie it in loosely. Water well. A mulch of compost or well-rotted manure after planting holds moisture, which these plants need once they flower."
+  ],
+  "spacing": [
+    { "label": "Along the cane row", "value": "15 to 30cm between canes" },
+    { "label": "Between the pair of rows", "value": "45 to 60cm" },
+    { "label": "Depth", "value": "5cm" },
+    { "label": "Dwarf plants", "value": "30cm apart, rows 50cm apart" }
+  ],
+  "harvest": [
+    "Plants usually start cropping around mid-summer and will keep going for eight weeks or more. Pick pods young, about 20 to 25cm long, while they still snap and the beans inside are small. Every two or three days is not fussy, it is how you stop the plants shutting down. Once pods mature, flowering stops.",
+    "At the end, cut the tops off and compost them, but leave the roots in the ground. Beans fix nitrogen, and the RHS suggests leaving those roots to feed the bed."
+  ],
+  "problems": [
+    {
+      "title": "Flowers fall and no pods set",
+      "text": [
+        "Hot, dry weather and dry roots are the usual reasons. Water regularly once flowering starts, especially in pots. A mulch helps. Some modern varieties with French bean in the parentage cope better with hot summers."
+      ]
+    },
+    {
+      "title": "Slugs and blackfly",
+      "text": [
+        "Seedlings are an easy meal for slugs. Indoor sowing avoids the worst of that. Black aphids can build up on the soft tips. Squash small clusters, and keep plants well watered so they grow through an attack."
+      ]
+    },
+    {
+      "title": "Frost",
+      "text": [
+        "A single frost kills them. Do not be tempted by a warm week in early May if your region's safe planting time is later. See the frost date page before you plant out."
+      ]
+    }
+  ],
+  "supplyIds": ["multipurpose-compost", "modules", "canes", "twine", "garden-compost", "watering-can"],
+  "months": ["april", "may", "june", "july", "august", "september"],
+  "related": ["broad-beans", "peas", "courgettes"],
+  "steps": [
+    { "name": "Put up supports", "text": "Before sowing, set 2.5m canes 15 to 30cm apart as a wigwam or a double row." },
+    { "name": "Sow after the soil warms", "text": "Sow indoors from mid-April, or outdoors from mid-May in the south and early June in the north, 5cm deep." },
+    { "name": "Pick young and often", "text": "From mid-summer, pick pods around 20 to 25cm long every two or three days." }
+  ],
+  "faqs": [
+    {
+      "question": "Can I sow runner beans straight outside?",
+      "answer": [
+        "Yes, once frost has passed and the soil is at least 12°C. The RHS puts that at about mid-May in the south and early June in the north. Indoor sowing from mid-April gives an earlier and more reliable start."
+      ]
+    },
+    {
+      "question": "Why have my runner beans stopped cropping?",
+      "answer": [
+        "A pod left to fatten tells the plant to stop flowering. Pick every couple of days while the pods are still tender. Dry soil at flowering time has the same effect."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "RHS",
+      "title": "How to grow runner beans",
+      "url": "https://www.rhs.org.uk/vegetables/runner-beans/grow-your-own",
+      "accessed": "11 October 2026"
+    }
+  ]
+}

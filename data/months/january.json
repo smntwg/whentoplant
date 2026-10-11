@@ -1,0 +1,138 @@
+{
+  "slug": "january",
+  "number": 1,
+  "name": "January",
+  "summary": "Order seed, chit early potatoes if you are in a mild area, and sow only the crops that truly need a long season.",
+  "description": "What to sow, plant and harvest in January in the UK, from garlic and early chillies to leeks still in the ground.",
+  "highlights": [
+    "Chit early seed potatoes from late January in milder areas",
+    "Sow chillies, aubergines and greenhouse tomatoes only if you have warmth and light",
+    "Plant garlic when the soil is not frozen or waterlogged",
+    "Keep harvesting leeks and winter cabbage"
+  ],
+  "intro": [
+    "January is a planning month that pretends to be a sowing month. The plot is mostly full of last year's crops, and the light is too poor for a windowsill full of tender seedlings.",
+    "Gardeners' World is clear about the exception: chillies, aubergines and peppers need a long season, so a January sowing helps if you can offer a heated propagator and a grow light. Without that, the seedlings get thin and damp off. Everything else can wait.",
+    "Use the dark evenings to order seed potatoes, onion sets and the varieties that sell out. The RHS notes that popular onion varieties go quickly."
+  ],
+  "sections": [
+    {
+      "title": "Sow indoors",
+      "intro": [
+        "Only sow now if you can keep the compost warm and the seedlings well lit. A bright, cool room is better than a hot, dim one."
+      ],
+      "items": [
+        {
+          "name": "Chillies, aubergines and peppers",
+          "text": "Gardeners' World lists these, plus tomatoes, as the January sowings under cover. They are worth it only with heat and extra light. Clean pots and fresh peat-free seed compost reduce damping off."
+        },
+        {
+          "name": "Tomatoes",
+          "crop": "tomatoes",
+          "text": "A January sowing is for a heated greenhouse, not for plants that will live outside. Outdoor tomatoes are better sown from March. Early plants left on a windowsill become leggy long before they can be planted."
+        },
+        {
+          "name": "Broad beans",
+          "crop": "broad-beans",
+          "text": "In a mild area only, sow one seed to a module and keep the tray in an unheated greenhouse or cold frame. Gardeners' World says they germinate without extra heat. Cover them against mice. Colder gardens should wait until February or March."
+        },
+        {
+          "name": "Microgreens",
+          "text": "A windowsill tray of salad seed is the honest January crop. It is ready in a couple of weeks and it does not need a greenhouse."
+        }
+      ]
+    },
+    {
+      "title": "Sow outdoors",
+      "intro": [
+        "Very little seed goes into open ground. If the soil is frozen or sitting in water, leave it alone."
+      ],
+      "items": [
+        {
+          "name": "Garlic",
+          "crop": "garlic",
+          "text": "Cloves can still go in, pointed end up and about 2.5cm deep, if you missed the autumn planting. This is late for the main season, which is mid-autumn to early winter, but it is still a recognised window, and some varieties are sold for late winter. Do not plant into frozen or waterlogged soil. On heavy ground, start cloves in modules instead."
+        }
+      ]
+    },
+    {
+      "title": "Plant out",
+      "intro": [
+        "Nothing tender goes outside. The useful planting is bare-root and the potato preparation that happens indoors."
+      ],
+      "items": [
+        {
+          "name": "Potatoes",
+          "crop": "potatoes",
+          "text": "In milder areas, start chitting first and second earlies from late January. Stand the tubers eyes-up in a bright, frost-free place. Colder gardens can wait until February or early March. Planting itself is still weeks away."
+        },
+        {
+          "name": "Bare-root trees and fruit",
+          "text": "Gardeners' World puts the bare-root season from November to March. Plant only while the plants are dormant and the ground is neither frozen nor waterlogged. If you cannot plant, heel the roots into a pot of compost until conditions improve."
+        }
+      ]
+    },
+    {
+      "title": "Harvest",
+      "intro": [
+        "The harvest is what you planned last summer. January does not produce new crops, but it should still feed you."
+      ],
+      "items": [
+        {
+          "name": "Leeks",
+          "crop": "leeks",
+          "text": "Late varieties are meant to stand through winter and into spring. Lift what you need with a fork. A hard frost will not finish them."
+        },
+        {
+          "name": "Winter cabbage",
+          "crop": "cabbage",
+          "text": "Winter varieties, including Savoys, are sown to stand in good condition for months. Cut a firm head when you want it, and leave the rest."
+        }
+      ]
+    }
+  ],
+  "jobs": [
+    "Order seed potatoes, onion sets and any variety you were sorry to miss last year.",
+    "Clean seed trays and pots before the first sowing. Gardeners' World flags hygiene because early seedlings damp off easily.",
+    "Sketch a rotation so this year's potatoes and tomatoes do not follow last year's, and so cabbage does not follow cabbage.",
+    "Check stored onions, garlic and potatoes and remove anything soft before it spoils the rest."
+  ],
+  "holdOff": [
+    "Do not sow courgettes, runner beans, sweetcorn or outdoor tomatoes. They will be enormous, or dead, before the last frost.",
+    "Do not dig or plant into frozen or waterlogged soil. Wait for a dry spell."
+  ],
+  "faqs": [
+    {
+      "question": "Is January too early to sow tomatoes?",
+      "answer": [
+        "For outdoor plants, yes. Sow those from March to early April. A January sowing only makes sense for a greenhouse crop if you can keep the seedlings warm and give them extra light."
+      ]
+    },
+    {
+      "question": "Can I still plant garlic in January?",
+      "answer": [
+        "Yes, if the soil is workable, though mid-autumn to early winter is the better window. Use a variety sold for late planting if you can, and start cloves in modules if your soil is heavy and wet."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "BBC Gardeners' World",
+      "title": "What to plant in January",
+      "url": "https://www.gardenersworld.com/plants/what-to-plant-january/",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "BBC Gardeners' World",
+      "title": "Your seed-sowing year",
+      "url": "https://www.gardenersworld.com/plants/your-seed-sowing-year/",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "How to grow potatoes",
+      "url": "https://www.rhs.org.uk/vegetables/potatoes/grow-your-own",
+      "accessed": "11 October 2026"
+    }
+  ]
+}

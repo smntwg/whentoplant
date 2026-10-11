@@ -1,0 +1,156 @@
+{
+  "slug": "august",
+  "number": 8,
+  "name": "August",
+  "summary": "Sow winter salads, plant strawberries, and keep picking tomatoes, beans and sweetcorn while the summer crops are at their peak.",
+  "description": "What to sow, plant and harvest in August in the UK: winter salads, strawberry runners, sweetcorn, tomatoes and onions.",
+  "highlights": [
+    "Sow lettuce and winter salads for autumn and early winter",
+    "Plant strawberry runners this month or in September",
+    "Pick sweetcorn when the juice runs creamy",
+    "Lift and dry onions, and start maincrop potatoes"
+  ],
+  "intro": [
+    "August is the month people stop sowing and then regret it in November. The summer crops are at full tilt, but Gardeners' World still lists lettuce, rocket, spring onions, radish and winter salads, including mustard and lamb's lettuce.",
+    "It is also the best moment to plant strawberries for next year. The RHS says an August or September planting gives the plants time to establish before they fruit."
+  ],
+  "sections": [
+    {
+      "title": "Sow indoors",
+      "intro": [
+        "Use a shaded spot rather than a hot propagator. August heat is the problem, not the cold."
+      ],
+      "items": [
+        {
+          "name": "Lettuce",
+          "crop": "lettuce",
+          "text": "An early August sowing is the RHS route to early winter leaves. Modules kept out of direct sun germinate more reliably than a baked drill. You will cover the plants with cloches from late September."
+        },
+        {
+          "name": "Winter salads",
+          "text": "Lamb's lettuce, mustard and other winter leaves can be started in trays if the bed is still full of tomatoes. Plant them out as gaps appear. They are hardy enough to stand once the weather cools."
+        }
+      ]
+    },
+    {
+      "title": "Sow outdoors",
+      "intro": [
+        "Sow into moist soil. Water the drill the day before if August is dry, and shade the row until you see seedlings."
+      ],
+      "items": [
+        {
+          "name": "Lettuce",
+          "crop": "lettuce",
+          "text": "Early August, not late summer in general, is the outdoor sowing for early winter heads and leaves. Gardeners' World says to keep lettuce out of direct glare. The summer sowing window, late March to late July, has just closed."
+        },
+        {
+          "name": "Spring onions and radish",
+          "text": "Both are on the Gardeners' World August list and both are fast. A short row between slower plants, such as winter cabbage, uses ground you will not need until autumn."
+        },
+        {
+          "name": "Winter salads",
+          "text": "Mibuna, mizuna, mustard and lamb's lettuce are the names Gardeners' World gives for this month. They are the leaves that replace lettuce when the hearts bolt or rot."
+        }
+      ]
+    },
+    {
+      "title": "Plant out",
+      "intro": [
+        "Planting in August is about next year and about crops that will stand the winter."
+      ],
+      "items": [
+        {
+          "name": "Strawberries",
+          "crop": "strawberries",
+          "text": "Plant runners or bought plants 35 to 40cm apart, in rows about 75cm apart. The crown sits at soil level, not buried. Water them in and keep them watered through any dry spell so they root before winter. September is still fine if you cannot do it now."
+        },
+        {
+          "name": "Spring cabbage",
+          "crop": "cabbage",
+          "text": "July sowings that are 10 to 15cm tall can be moved to their winter home. The final spacing after thinning is about 30cm, but you can plant closer and thin in late February, eating the spare plants as greens."
+        }
+      ]
+    },
+    {
+      "title": "Harvest",
+      "intro": [
+        "This is the heaviest month for many plots. Pick, dry or cook. Do not leave it all for a holiday fortnight."
+      ],
+      "items": [
+        {
+          "name": "Tomatoes",
+          "crop": "tomatoes",
+          "text": "Mid-summer ripening is under way. Pick fully coloured fruit with the calyx on. Keep the watering steady. Outdoor plants are the ones to watch for blight in a warm, wet spell."
+        },
+        {
+          "name": "Sweetcorn",
+          "crop": "sweetcorn",
+          "text": "Cobs ripen from August. When the silks brown, pierce a kernel. Creamy juice means cook it today. Watery juice means wait. The sugar fades quickly after picking."
+        },
+        {
+          "name": "Onions",
+          "crop": "onions",
+          "text": "Spring-planted sets and seed-raised bulbs run from July to October. Lift when the foliage yellows and topples, dry for about two weeks, and store in the light. Do not bend the tops over."
+        },
+        {
+          "name": "Potatoes",
+          "crop": "potatoes",
+          "text": "Second earlies are a July and August job. Maincrops start from August and run to October, once the tops yellow. Dry them for a few hours before you bag them."
+        },
+        {
+          "name": "Courgettes, beans and beetroot",
+          "text": "Keep cutting courgettes small and beans young. Beetroot from earlier sowings should be pulled before it gets much bigger than a cricket ball.",
+          "crops": [
+            "courgettes",
+            "runner-beans",
+            "beetroot"
+          ]
+        }
+      ]
+    }
+  ],
+  "jobs": [
+    "Cut summer-fruiting strawberry leaves back to about 10cm above the crown once that variety has finished. Do not do this to perpetual plants.",
+    "Dry onions and garlic somewhere airy, out of the rain. A wet bulb will not store.",
+    "Water sweetcorn while the cobs are swelling if the month is dry.",
+    "Sow or plant the winter leaves before you clear the summer crops. If you wait until the tomatoes come out, you have lost the month."
+  ],
+  "holdOff": [
+    "Do not sow carrots or beetroot as if it were still June. Early July was the end of the carrot season, and July was the end for beetroot.",
+    "Do not plant garlic yet unless you are only preparing the bed. The main planting is mid-autumn to early winter."
+  ],
+  "faqs": [
+    {
+      "question": "What can I still sow in August?",
+      "answer": [
+        "Winter salads, an early August lettuce for leaves into early winter, spring onions and radish. It is also the month to plant strawberries. Tender sowings such as courgettes and sweetcorn are finished."
+      ]
+    },
+    {
+      "question": "How do I know sweetcorn is ready?",
+      "answer": [
+        "Wait until the silks turn brown, then press a kernel with a fingernail. Creamy liquid means pick. Clear liquid means it is not ready. Thick paste means it is over."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "BBC Gardeners' World",
+      "title": "Your seed-sowing year",
+      "url": "https://www.gardenersworld.com/plants/your-seed-sowing-year/",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "How to grow strawberries",
+      "url": "https://www.rhs.org.uk/fruit/strawberries/grow-your-own",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "How to grow lettuces",
+      "url": "https://www.rhs.org.uk/vegetables/lettuce/grow-your-own",
+      "accessed": "11 October 2026"
+    }
+  ]
+}

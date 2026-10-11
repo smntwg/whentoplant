@@ -1,0 +1,171 @@
+{
+  "slug": "july",
+  "number": 7,
+  "name": "July",
+  "summary": "Sow spring cabbage and the last beetroot, keep the summer crops picked, and water anything that is flowering.",
+  "description": "What to sow and harvest in July in the UK, including spring cabbage, the last beetroot, garlic, onions and courgettes.",
+  "highlights": [
+    "Sow spring cabbage for next year",
+    "Make a last sowing of beetroot and a late row of beans",
+    "Pick courgettes, beans and early potatoes often",
+    "Lift garlic and start on onions as the tops fall"
+  ],
+  "intro": [
+    "July looks like a harvest month, and it is, but two sowings this month feed you next spring. Spring cabbage is sown in July and stands the winter. Beetroot sown now is still in time for autumn roots.",
+    "Gardeners' World also treats July as the moment for a late sowing of runner or French beans, for carrots sown to miss carrot fly, and for a planting of potatoes if you want them at Christmas. The summer plants need water more than they need new seed."
+  ],
+  "sections": [
+    {
+      "title": "Sow indoors",
+      "intro": [
+        "Almost everything this month is sown where it will grow. Modules are only a fallback."
+      ],
+      "items": [
+        {
+          "name": "Spring cabbage",
+          "crop": "cabbage",
+          "text": "If your seedbed is full of slugs, sow July spring cabbage in modules outdoors or on a cool windowsill, two seeds to a cell, and plant them out when they have five or six leaves. Do not raise them in a hot room or they will be soft and floppy."
+        }
+      ]
+    },
+    {
+      "title": "Sow outdoors",
+      "intro": [
+        "This is the last call for several crops. After this month the sowings switch to winter leaves and overwintered plants."
+      ],
+      "items": [
+        {
+          "name": "Spring cabbage",
+          "crop": "cabbage",
+          "text": "The RHS sowing is July. Sow about 2cm deep, thin to about 10cm, and plant out later at a wider spacing. These are the plants you will thin again in late February and eat as greens or hearts next spring."
+        },
+        {
+          "name": "Beetroot",
+          "crop": "beetroot",
+          "text": "July ends the outdoor sowing window. Sow 10cm apart for roots in early to mid-autumn. They can be stored if you have more than you can eat."
+        },
+        {
+          "name": "Carrots",
+          "crop": "carrots",
+          "text": "Early July is the end of the main sowing season. Gardeners' World singles out a July carrot sowing as a way to avoid carrot fly. Mesh still matters. These roots can stand into autumn and, with a cover, into winter."
+        },
+        {
+          "name": "Lettuce",
+          "crop": "lettuce",
+          "text": "Late July is the end of the main outdoor run for summer and autumn leaves. Sow in a cooler spell or in light shade. An early August sowing is a different crop, aimed at early winter and needing cloches later."
+        },
+        {
+          "name": "Runner beans",
+          "crop": "runner-beans",
+          "text": "A late sowing can still crop, though it will be a shorter season than a May one. Only bother if you have spare canes and the soil is moist. Dry ground in July is a poor start for a bean."
+        }
+      ]
+    },
+    {
+      "title": "Plant out",
+      "intro": [
+        "The big plantings are done. July is for the winter crops and for catching up."
+      ],
+      "items": [
+        {
+          "name": "Winter brassicas",
+          "crop": "cabbage",
+          "text": "Autumn and winter cabbage sown in April, May or June should be moving to final spacings of 30 to 45cm, under mesh. Firm them in well. Loose soil and a dry root are how they fail."
+        },
+        {
+          "name": "Leeks",
+          "crop": "leeks",
+          "text": "There is still time to get the last plants into their holes if they were sown late. Water them in and do not backfill. A July planting will not give the earliest autumn leeks, but it will stand in winter."
+        },
+        {
+          "name": "Potatoes for Christmas",
+          "crop": "potatoes",
+          "text": "Gardeners' World says July is the time to plant potatoes if you want them at Christmas. Use a variety sold for that job. This is a separate planting from the spring maincrop, and blight can still take the foliage in a wet late summer."
+        }
+      ]
+    },
+    {
+      "title": "Harvest",
+      "intro": [
+        "Pick on a schedule. Courgettes and beans left for a week will tell the plant to stop."
+      ],
+      "items": [
+        {
+          "name": "Potatoes",
+          "crop": "potatoes",
+          "text": "First earlies continue in July. Second earlies are a July and August crop. Lift a plant when you need it rather than stripping the row."
+        },
+        {
+          "name": "Garlic",
+          "crop": "garlic",
+          "text": "Autumn plantings should be lifted by early summer if the leaves have yellowed. Spring-planted garlic runs from mid-summer into early autumn, so some beds are ready now and some are not. Dry the bulbs before you store them."
+        },
+        {
+          "name": "Onions",
+          "crop": "onions",
+          "text": "Autumn-planted sets are a June and July crop. Spring sets start from July. Lift them when the tops yellow and fall, not by bending the tops yourself. Dry them for about two weeks."
+        },
+        {
+          "name": "Courgettes and runner beans",
+          "text": "Cut courgettes at 10 to 12.5cm. Pick runner beans at about 20 to 25cm, every two or three days. A single marrow or a single tough pod slows everything else.",
+          "crops": [
+            "courgettes",
+            "runner-beans"
+          ]
+        },
+        {
+          "name": "Beetroot and carrots",
+          "text": "Early sowings are ready. Pull beetroot from golf-ball size. Pull carrots once they are worth eating rather than waiting for the biggest root.",
+          "crops": [
+            "beetroot",
+            "carrots"
+          ]
+        }
+      ]
+    }
+  ],
+  "jobs": [
+    "Water tomatoes, beans and courgettes in dry spells, at the root, in the morning.",
+    "Feed container tomatoes every 10 to 14 days with a high-potassium feed now that fruit is swelling.",
+    "Net summer cabbages and kale. Pigeons and caterpillars are busy.",
+    "Stop watering garlic and onions once the bulbs have formed and the foliage is dying back. Extra water then hurts storage."
+  ],
+  "holdOff": [
+    "Do not sow peas as a maincrop. June was the end of that season. A leftover early variety might still crop, but July is better spent on cabbage and beetroot.",
+    "Do not strip every early potato plant on one weekend unless you can eat or give them away. They do not keep like maincrops."
+  ],
+  "faqs": [
+    {
+      "question": "What should I sow in July for winter?",
+      "answer": [
+        "Spring cabbage is the important one. It is sown in July and harvested next spring. A last row of beetroot and an early July carrot sowing will feed you in autumn. Winter cabbage should already have been sown between April and June."
+      ]
+    },
+    {
+      "question": "Why are my runner beans flowering but not cropping?",
+      "answer": [
+        "Hot, dry weather and dry roots are the usual cause. Water regularly once they flower, and pick any pods that have already set so the plants keep going."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "BBC Gardeners' World",
+      "title": "Your seed-sowing year",
+      "url": "https://www.gardenersworld.com/plants/your-seed-sowing-year/",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "How to grow cabbages",
+      "url": "https://www.rhs.org.uk/vegetables/cabbages/grow-your-own",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "How to grow onions",
+      "url": "https://www.rhs.org.uk/vegetables/onions/grow-your-own",
+      "accessed": "11 October 2026"
+    }
+  ]
+}

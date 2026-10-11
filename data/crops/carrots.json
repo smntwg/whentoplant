@@ -1,0 +1,96 @@
+{
+  "slug": "carrots",
+  "name": "Carrots",
+  "latin": "Daucus carota",
+  "summary": "Sow little and often from early spring into July, cover the row against carrot fly, and pull them young.",
+  "description": "When to sow carrots in the UK, from early sowings under fleece to July, with spacing and carrot fly cover.",
+  "card": "Sow March to July",
+  "intro": [
+    "Carrots are sown where they will crop. Transplanting forks the roots. The RHS puts the main outdoor season from April to early July, with early varieties possible in February or March if you cover them with a cloche or fleece.",
+    "A stony or heavy clay soil twists long roots. Use a short or round variety there, or sow into a deep container of peat-free compost. Sandy, deep beds can take the long types."
+  ],
+  "calendar": [
+    {
+      "id": "sow",
+      "label": "Sow outdoors",
+      "months": [2, 3, 4, 5, 6, 7],
+      "detail": "February and March only for early varieties under cloches or fleece. The main season is April to early July."
+    },
+    {
+      "id": "harvest",
+      "label": "Harvest",
+      "months": [6, 7, 8, 9, 10, 11, 12],
+      "detail": "About 12 to 16 weeks after sowing. Maincrop roots can stay in the ground into winter under a cover."
+    }
+  ],
+  "sowOutdoors": [
+    "Rake the bed fine and pick out stones. Make a drill about 1cm deep, water the bottom, and sow thinly. Space further rows 15 to 30cm apart. Germination is slow, so do not assume a quiet row has failed after a week.",
+    "Sow a short row every three to four weeks rather than one long row. Thin to 5 to 7.5cm if the seedlings are crowded. Thinning and weeding both release the carrot smell that draws carrot fly, so do it on a still evening and put the mesh straight back.",
+    "The RHS found that a complete cover of insect-proof mesh is the most effective way to stop carrot fly. Sowing after mid-May misses the first generation of the fly. Lifting the crop before late August misses the second. You cannot do both with one sowing, which is another reason to sow in batches."
+  ],
+  "spacing": [
+    { "label": "Depth", "value": "About 1cm" },
+    { "label": "In the row", "value": "Thin to 5 to 7.5cm" },
+    { "label": "Between rows", "value": "15 to 30cm" }
+  ],
+  "harvest": [
+    "Baby roots can be ready in four to six weeks, and a useful carrot in about 12 to 16 weeks. Pull them once they are large enough to eat. The RHS notes that flavour drops if you chase the biggest root, especially from spring sowings.",
+    "Maincrop sowings can be left in the ground into winter. In late autumn, cut the tops off and cover the row with straw or cardboard so you can still lift roots in a frost. If your soil sits waterlogged, lift them and store the sound roots in a box instead."
+  ],
+  "problems": [
+    {
+      "title": "Carrot fly",
+      "text": [
+        "The larvae tunnel into the root and the damage then rots. Cover the whole bed with insect-proof mesh, from sowing onwards. Avoid a recently used carrot bed, because eggs may still be in the soil. A few varieties have some resistance, but a cover is the reliable part."
+      ]
+    },
+    {
+      "title": "Forked roots",
+      "text": [
+        "Stones, fresh manure and root disturbance all split the root. Sow direct, into a fine bed, and choose a short variety if your soil is heavy."
+      ]
+    },
+    {
+      "title": "Splitting",
+      "text": [
+        "A drought followed by a soak splits the root. Carrots rarely need water in the ground, but a thorough drink every couple of weeks in a long dry spell keeps them growing evenly. Containers dry out faster and need more regular watering."
+      ]
+    }
+  ],
+  "supplyIds": ["fleece", "cloches", "mesh", "fork", "watering-can", "labels"],
+  "months": ["february", "march", "april", "may", "june", "july", "october"],
+  "related": ["beetroot", "onions"],
+  "steps": [
+    { "name": "Sow a short row", "text": "From April to early July, or from February under cover for early varieties, sow about 1cm deep and cover the row against carrot fly." },
+    { "name": "Thin and keep covered", "text": "Thin to 5 to 7.5cm and replace the mesh as soon as you finish." },
+    { "name": "Pull them young", "text": "Harvest from about 12 weeks, or leave maincrop roots in the ground into winter under straw or cardboard." }
+  ],
+  "faqs": [
+    {
+      "question": "Can I transplant carrots?",
+      "answer": [
+        "It is better not to. The RHS says moving them disturbs the root and leads to forked or twisted carrots. Sow them in the row or in the container where they will grow."
+      ]
+    },
+    {
+      "question": "When should I sow to avoid carrot fly?",
+      "answer": [
+        "A sowing after mid-May misses the first generation. A crop lifted before late August misses the second. Mesh over the row is the method the RHS found most effective, whichever date you sow."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "RHS",
+      "title": "How to grow carrots",
+      "url": "https://www.rhs.org.uk/vegetables/carrots/grow-your-own",
+      "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "What to sow in March",
+      "url": "https://www.rhs.org.uk/advice/grow-your-own/features/what-to-sow-in-march",
+      "accessed": "11 October 2026"
+    }
+  ]
+}

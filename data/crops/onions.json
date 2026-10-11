@@ -1,0 +1,100 @@
+{
+  "slug": "onions",
+  "name": "Onions",
+  "latin": "Allium cepa",
+  "summary": "Plant sets in spring, or overwintering sets in autumn. Seed needs a mid-winter to mid-spring sowing if you want fat bulbs.",
+  "description": "When to sow onion seed and plant sets in the UK, with spacing, depth and summer harvest dates from the RHS.",
+  "card": "Sets in March, April or autumn",
+  "intro": [
+    "Onions are the easier crop if you plant sets, the small immature bulbs sold in spring and, for a smaller choice of varieties, in autumn. Seed gives you more varieties, but it needs an earlier start so the plants are growing strongly by late spring, when lengthening days tell them to form a bulb.",
+    "They want sun and drainage. A bucketful of garden compost or well-rotted manure per square metre, dug in or used as a mulch, is the RHS preparation. Fresh manure is the thing to avoid."
+  ],
+  "calendar": [
+    {
+      "id": "sow",
+      "label": "Sow seed indoors",
+      "months": [1, 2, 3],
+      "detail": "Mid-winter to early spring. Overwintering varieties can also be sown indoors in late summer or early autumn."
+    },
+    {
+      "id": "plant",
+      "label": "Sets and outdoor seed",
+      "months": [3, 4, 9, 10, 11],
+      "detail": "Spring sets and outdoor seed in early to mid-spring. Overwintering sets in autumn."
+    },
+    {
+      "id": "harvest",
+      "label": "Harvest",
+      "months": [6, 7, 8, 9, 10],
+      "detail": "Autumn-planted sets in June and July. Spring sets and seed-raised bulbs from July to October."
+    }
+  ],
+  "sowIndoors": [
+    "Sow from mid-winter to early spring, about 1.3cm deep, in modules of peat-free seed compost. One seed per module gives a larger bulb. Three or four seeds in a module, left unthinned and planted as a clump, give a cluster of smaller onions.",
+    "A heated propagator or a warm windowsill is enough. Harden the plants off and set them out about 10cm apart, in rows 25 to 30cm apart. For large bulbs, give them 15cm. Overwintering, or Japanese, varieties such as those sold for autumn can be sown indoors in late summer or early autumn instead."
+  ],
+  "sowOutdoors": [
+    "Outdoor seed goes in from early to mid-spring, once the soil is warming, 1.3cm deep in rows 20 to 30cm apart. Thin the row, and eat the thinnings.",
+    "Sets are the usual method. Plant them in early to mid-spring, 2cm deep, so the tip is just showing. Space them 10 to 15cm apart. Wider spacing makes bigger bulbs. Overwintering sets go in during autumn and are ready in June and July. They are less likely to bolt after a cold spring. If the soil is cold and sodden, start spring sets in modules somewhere cool and bright, then move them out when the ground improves. Skip autumn planting on heavy, waterlogged ground or the sets rot.",
+    "Birds pull newly planted sets. Net or fleece the row until the sets have rooted."
+  ],
+  "spacing": [
+    { "label": "Sets", "value": "10 to 15cm apart, tip just showing, about 2cm deep" },
+    { "label": "Seed-raised plants", "value": "About 10cm apart, or 15cm for large bulbs, rows 25 to 30cm" },
+    { "label": "Outdoor seed", "value": "1.3cm deep, rows 20 to 30cm apart, then thin" }
+  ],
+  "harvest": [
+    "You can pull onions at any size for immediate use. For storage, wait until the foliage yellows and topples, and lift them before it dies away completely. The RHS no longer recommends bending the tops over or lifting the bulbs to break the roots.",
+    "Autumn-planted sets are ready in June and July and store until early winter. Spring-planted sets and seed-raised onions are ready from July to October and can keep into the following spring if they are dried properly. Dry them for about two weeks somewhere airy, then keep them in the light, cool and dry. Darkness encourages sprouting. Use any bruised bulbs straight away."
+  ],
+  "problems": [
+    {
+      "title": "Bolting",
+      "text": [
+        "A cold spell in spring can make a set throw a flower stem. The bulb will not store. Heat-treated sets reduce the risk. Cut the stem off if you see one, and eat that onion first. Autumn varieties are chosen because they cope better with cold."
+      ]
+    },
+    {
+      "title": "Rust and leaf miner",
+      "text": [
+        "Leek rust, bright orange pustules, also infects onions and garlic. Allium leaf miner reached Britain in 2002 and is now widespread in England and parts of Wales. The larvae tunnel into the stems. Covering the crop with insect-proof mesh is the practical defence on a home plot."
+      ]
+    },
+    {
+      "title": "Rot in store",
+      "text": [
+        "Damaged bulbs and bulbs that were dried in damp weather are the ones that go soft. Dry them fully, keep them in a single layer or a net, and check the store often."
+      ]
+    }
+  ],
+  "supplyIds": ["seed-compost", "modules", "garden-compost", "fleece", "netting", "mesh", "labels"],
+  "months": ["january", "february", "march", "april", "june", "july", "august", "september", "october", "november"],
+  "related": ["garlic", "leeks"],
+  "steps": [
+    { "name": "Choose sets or seed", "text": "Plant sets in early to mid-spring, or sow seed indoors from mid-winter. Plant overwintering sets in autumn." },
+    { "name": "Give them space and sun", "text": "Set spring sets 10 to 15cm apart with the tip just showing, in a sunny free-draining bed." },
+    { "name": "Lift as the tops fall", "text": "Harvest autumn sets in June and July, and spring crops from July to October, once the foliage yellows." }
+  ],
+  "faqs": [
+    {
+      "question": "Are sets better than seed?",
+      "answer": [
+        "Sets are quicker and more reliable. Seed is cheaper per bulb and offers more varieties, but the plants must be well grown by late spring or the bulbs stay small. Heat-treated sets are less likely to bolt."
+      ]
+    },
+    {
+      "question": "Should I bend the tops over?",
+      "answer": [
+        "The RHS says this is no longer recommended. Wait until the foliage yellows and folds on its own, then lift the bulbs and dry them."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "RHS",
+      "title": "How to grow onions",
+      "url": "https://www.rhs.org.uk/vegetables/onions/grow-your-own",
+      "accessed": "11 October 2026"
+    }
+  ]
+}

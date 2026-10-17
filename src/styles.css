@@ -14,8 +14,8 @@
   --harvest: #c45c32;
   --shadow: 0 1px 0 rgba(27, 36, 28, 0.04);
   --max: 72rem;
-  --sans: "Segoe UI", system-ui, -apple-system, sans-serif;
-  --serif: Palatino, "Palatino Linotype", "Iowan Old Style", Georgia, serif;
+  --sans: "Mulish", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --serif: "Fraunces", Palatino, "Palatino Linotype", Georgia, serif;
 }
 
 *,

@@ -98,6 +98,9 @@ ${robots}
 <meta name="twitter:card" content="summary">
 <meta name="theme-color" content="#1e6b43">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..800&family=Mulish:wght@400..800&display=swap">
 <link rel="stylesheet" href="/styles.css">
 ${jsonLd}
 ${extraHead}

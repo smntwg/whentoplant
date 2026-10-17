@@ -98,6 +98,8 @@ ${robots}
 <meta name="twitter:card" content="summary">
 <meta name="theme-color" content="#1e6b43">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..800&family=Mulish:wght@400..800&display=swap">
@@ -286,6 +288,7 @@ function org() {
 resetDist();
 fs.copyFileSync(path.join(root, "src/styles.css"), path.join(dist, "styles.css"));
 fs.copyFileSync(path.join(root, "src/favicon.svg"), path.join(dist, "favicon.svg"));
+for (const f of ["favicon.ico", "apple-touch-icon.png"]) fs.copyFileSync(path.join(root, "src", f), path.join(dist, f));
 fs.mkdirSync(path.join(dist, "js"), { recursive: true });
 fs.copyFileSync(path.join(root, "src/js/home.js"), path.join(dist, "js/home.js"));
 fs.copyFileSync(path.join(root, "src/js/frost.js"), path.join(dist, "js/frost.js"));

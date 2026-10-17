@@ -64,7 +64,7 @@ for (const file of htmlFiles) {
     if (!pathname.startsWith("/")) fail(`${rel} has a relative link ${href}`);
     const normalized = pathname.endsWith("/") || pathname.includes(".") ? pathname : `${pathname}/`;
     const target = normalized === "/" ? "/" : normalized;
-    if (!paths.has(target) && !target.endsWith(".css") && !target.endsWith(".js") && !target.endsWith(".svg") && !target.endsWith(".xml")) {
+    if (!paths.has(target) && !fs.existsSync(path.join(dist, pathname)) && !target.endsWith(".css") && !target.endsWith(".js") && !target.endsWith(".svg") && !target.endsWith(".xml")) {
       fail(`${rel} links to missing ${href}`);
     }
     if (hash && target !== href && false) {

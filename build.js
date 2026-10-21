@@ -46,6 +46,7 @@ function monthLabels(numbers) {
 }
 
 function toneClass(id) {
+  if (id === "flower" || id.startsWith("flower")) return "flower";
   if (id === "harvest" || id.startsWith("harvest")) return "harvest";
   if (id === "plant" || id.startsWith("plant")) return "plant";
   return "sow";
@@ -115,6 +116,7 @@ ${extraHead}
     <nav class="nav" aria-label="Main">
       <a href="/#months">Months</a>
       <a href="/crops/"${page.path.startsWith("/crops") ? ` aria-current="page"` : ""}>Crops</a>
+      <a href="/bulbs/"${page.path.startsWith("/bulbs") ? ` aria-current="page"` : ""}>Bulbs</a>
       <a href="/frost-dates/"${page.path === "/frost-dates/" ? ` aria-current="page"` : ""}>Frost dates</a>
       <a href="/about/"${page.path === "/about/" ? ` aria-current="page"` : ""}>About</a>
     </nav>
@@ -134,6 +136,7 @@ ${monthSwitch(page)}
     </div>
     <ul class="footer-links">
       <li><a href="/crops/">Crops</a></li>
+      <li><a href="/bulbs/">Bulbs</a></li>
       <li><a href="/frost-dates/">Frost dates</a></li>
       <li><a href="/about/">About</a></li>
       <li><a href="/privacy/">Privacy</a></li>
@@ -175,7 +178,8 @@ function chart(rows) {
   const legend = [
     used.has("sow") ? `<li><i class="sow" aria-hidden="true"></i>Sow or start</li>` : "",
     used.has("plant") ? `<li><i class="plant" aria-hidden="true"></i>Plant</li>` : "",
-    used.has("harvest") ? `<li><i class="harvest" aria-hidden="true"></i>Harvest</li>` : ""
+    used.has("harvest") ? `<li><i class="harvest" aria-hidden="true"></i>Harvest</li>` : "",
+    used.has("flower") ? `<li><i class="flower" aria-hidden="true"></i>In flower</li>` : ""
   ].join("");
   const scale = `<div class="chart-scale" aria-hidden="true"><span></span>${MONTH_INITIALS.map((letter) => `<span>${letter}</span>`).join("")}</div>`;
   const body = visible.map((row) => {
@@ -267,6 +271,11 @@ const frost = readJson(path.join(dataDir, "frost.json"));
 const pages = readJson(path.join(dataDir, "pages.json"));
 const crops = walkJson(path.join(dataDir, "crops"));
 const months = walkJson(path.join(dataDir, "months")).sort((a, b) => a.number - b.number);
+const bulbOrder = ["daffodils", "crocus", "hyacinths", "alliums", "tulips", "snowdrops", "lilies"];
+const bulbs = walkJson(path.join(dataDir, "bulbs")).sort((a, b) => bulbOrder.indexOf(a.slug) - bulbOrder.indexOf(b.slug));
+const bulbHub = readJson(path.join(dataDir, "bulbs-hub.json"));
+const bulbsBySlug = new Map(bulbs.map((bulb) => [bulb.slug, bulb]));
+if (bulbs.length < 7) throw new Error(`Expected at least 7 bulbs, found ${bulbs.length}`);
 
 const cropsBySlug = new Map(crops.map((crop) => [crop.slug, crop]));
 const suppliesById = new Map(supplies.items.map((item) => [item.id, item]));
@@ -304,6 +313,13 @@ const cropCards = crops.map((crop) => `
     <h3><a href="/crops/${crop.slug}/">${escapeHtml(crop.name)}</a></h3>
     <p>${escapeHtml(crop.summary)}</p>
     <span class="tag">${escapeHtml(crop.card)}</span>
+  </article>`).join("");
+
+const bulbCards = bulbs.map((bulb) => `
+  <article class="card">
+    <h3><a href="/bulbs/${bulb.slug}/">${escapeHtml(bulb.name)}</a></h3>
+    <p>${escapeHtml(bulb.summary)}</p>
+    <span class="tag">${escapeHtml(bulb.card)}</span>
   </article>`).join("");
 
 const monthData = months.map((month) => ({
@@ -358,6 +374,12 @@ addPage({
     <div class="grid crop-grid">${cropCards}</div>
     <p><a class="button" href="/crops/">All crops</a></p>
   </section>
+  <section id="bulbs">
+    <h2>Bulbs</h2>
+    <p class="section-intro">Spring bulbs go in through autumn, in a set order: daffodils, crocus and hyacinths first, tulips last. Each guide has UK planting months, depth, spacing and aftercare.</p>
+    <div class="grid crop-grid">${bulbCards}</div>
+    <p><a class="button" href="/bulbs/">When to plant spring bulbs</a></p>
+  </section>
   <section class="callout">
     <h2>Frost moves the dates</h2>
     <p>A south-coast garden and a Highland garden are not on the same calendar. Tender crops such as tomatoes, courgettes and sweetcorn should wait until nights are reliably mild.</p>
@@ -384,6 +406,10 @@ months.forEach((month, index) => {
     .filter((slug) => cropsBySlug.has(slug));
   const related = cropLinks.length
     ? `<section><h2>Crop guides for ${escapeHtml(month.name)}</h2><ul class="related">${cropLinks.map((slug) => `<li><a href="/crops/${slug}/">${escapeHtml(cropsBySlug.get(slug).name)}</a></li>`).join("")}</ul></section>`
+    : "";
+  const monthBulbs = bulbs.filter((bulb) => (bulb.months || []).includes(month.slug));
+  const bulbBlock = monthBulbs.length
+    ? `<section><h2>Bulbs to plant in ${escapeHtml(month.name)}</h2><p>Flower bulbs that can go in this month. See <a href="/bulbs/">when to plant spring bulbs</a> for the full order.</p><ul class="related">${monthBulbs.map((bulb) => `<li><a href="/bulbs/${bulb.slug}/">${escapeHtml(bulb.name)}</a></li>`).join("")}</ul></section>`
     : "";
   const faqs = month.faqs || [];
   addPage({
@@ -426,6 +452,7 @@ months.forEach((month, index) => {
     ${jobs}
     ${hold}
     ${related}
+    ${bulbBlock}
     ${faqBlock(faqs)}
     ${sourcesBlock(month.sources)}
     <nav class="pager" aria-label="Nearby months">
@@ -550,6 +577,149 @@ addPage({
   <p class="lede">Start with the crop you want to eat. Each guide has UK sowing and harvest months, spacing, depth and the problems the RHS flags for that plant.</p>
   <div class="grid crop-grid">${cropCards}</div>`
 });
+
+function affiliatePlaceholder(id) {
+  return `<!-- affiliate-placeholder:${id} Product links for this page go here once the Crocus, Thompson & Morgan or Suttons Awin programme is approved. When a real link is added, also add the top note "This page contains affiliate links." No link, no note. -->`;
+}
+
+function faqSchema(faqs) {
+  return faqs.length ? {
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: { "@type": "Answer", text: faq.answer.join(" ") }
+    }))
+  } : null;
+}
+
+bulbs.forEach((bulb) => {
+  const crumbItems = [
+    { label: "Home", href: "/" },
+    { label: "Bulbs", href: "/bulbs/" },
+    { label: bulb.name }
+  ];
+  const section = (id, title, copy) => {
+    if (!copy || !copy.length) return "";
+    return `<section id="${id}"><h2>${escapeHtml(title)}</h2>${paragraphs(copy)}</section>`;
+  };
+  const facts = bulb.spacing && bulb.spacing.length
+    ? `<dl class="facts">${bulb.spacing.map((fact) => `<div><dt>${escapeHtml(fact.label)}</dt><dd>${escapeHtml(fact.value)}</dd></div>`).join("")}</dl>`
+    : "";
+  const problems = bulb.problems && bulb.problems.length
+    ? `<section><h2>Common problems</h2>${bulb.problems.map((problem) => `<article class="problem"><h3>${escapeHtml(problem.title)}</h3>${paragraphs(problem.text)}</article>`).join("")}</section>`
+    : "";
+  const monthLinks = (bulb.months || []).map((slug) => {
+    const month = months.find((item) => item.slug === slug);
+    if (!month) throw new Error(`Unknown month '${slug}' on bulb ${bulb.slug}`);
+    return `<li><a href="/${slug}/">${escapeHtml(month.name)}</a></li>`;
+  }).join("");
+  const relatedBulbs = (bulb.related || []).map((slug) => {
+    const other = bulbsBySlug.get(slug);
+    if (!other) throw new Error(`Unknown related bulb '${slug}' on ${bulb.slug}`);
+    return `<li><a href="/bulbs/${slug}/">${escapeHtml(other.name)}</a></li>`;
+  }).join("");
+  const faqs = bulb.faqs || [];
+  addPage({
+    path: `/bulbs/${bulb.slug}/`,
+    title: `When to plant ${bulb.name.toLowerCase()} in the UK | ${site.name}`,
+    description: bulb.description,
+    ogType: "article",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          headline: `When to plant ${bulb.name.toLowerCase()} in the UK`,
+          description: bulb.description,
+          inLanguage: "en-GB",
+          dateModified: site.updated,
+          author: org(),
+          publisher: org(),
+          mainEntityOfPage: `${site.url}/bulbs/${bulb.slug}/`
+        },
+        faqSchema(faqs),
+        fixBreadcrumbUrls(site, crumbItems.map((item) => ({ ...item, href: item.href || `/bulbs/${bulb.slug}/` })))
+      ].filter(Boolean)
+    },
+    body: `
+    ${crumbs(crumbItems)}
+    <p class="eyebrow">UK bulb guide</p>
+    <h1>When to plant ${escapeHtml(bulb.name.toLowerCase())}</h1>
+    <p class="meta"><span class="latin">${escapeHtml(bulb.latin)}</span></p>
+    ${paragraphs(bulb.intro)}
+    ${chart(bulb.calendar)}
+    <aside class="callout"><p>${escapeHtml(site.timingNote)} <a href="/frost-dates/">See frost windows for your region</a>.</p></aside>
+    ${adSlot(`bulb-${bulb.slug}`)}
+    ${section("when", "When to plant in the UK", bulb.timing)}
+    ${section("where", "Where to plant and soil", bulb.where)}
+    <section id="how"><h2>How to plant: depth and spacing</h2>${facts}${paragraphs(bulb.planting)}</section>
+    ${affiliatePlaceholder(`bulb-${bulb.slug}`)}
+    ${section("pots", "In pots", bulb.pots)}
+    ${section("aftercare", "Aftercare", bulb.aftercare)}
+    ${problems}
+    ${faqBlock(faqs)}
+    <section>
+      <h2>On the calendar</h2>
+      <ul class="related">${monthLinks}</ul>
+      ${relatedBulbs ? `<h3>Other bulbs</h3><ul class="related">${relatedBulbs}</ul>` : ""}
+      <p><a class="text-link" href="/bulbs/">When to plant spring bulbs: the full order</a></p>
+    </section>
+    ${sourcesBlock(bulb.sources)}`
+  });
+});
+
+{
+  const hubCrumbs = [{ label: "Home", href: "/" }, { label: "Bulbs" }];
+  const monthBlocks = bulbHub.months.map((item) => {
+    const links = item.bulbs.map((slug) => {
+      const bulb = bulbsBySlug.get(slug);
+      if (!bulb) throw new Error(`Unknown bulb '${slug}' on the bulb hub`);
+      return `<li><a href="/bulbs/${slug}/">${escapeHtml(bulb.name)}</a></li>`;
+    }).join("");
+    return `<article class="card"><h3>${escapeHtml(item.name)}</h3><p>${escapeHtml(item.text)}</p><ul class="related">${links}</ul></article>`;
+  }).join("");
+  const glance = bulbs.map((bulb) => {
+    const plantRow = bulb.calendar.find((row) => toneClass(row.id) === "plant");
+    return `<article class="card"><h3><a href="/bulbs/${bulb.slug}/">${escapeHtml(bulb.name)}</a></h3><p>${escapeHtml(bulb.summary)}</p><dl class="glance">${bulb.spacing.map((fact) => `<div><dt>${escapeHtml(fact.label)}</dt><dd>${escapeHtml(fact.value)}</dd></div>`).join("")}</dl><span class="tag">${escapeHtml(bulb.card)}</span></article>`;
+  }).join("");
+  const rules = bulbHub.rules.map((block) => `<section><h3>${escapeHtml(block.heading)}</h3>${paragraphs(block.paragraphs)}</section>`).join("");
+  addPage({
+    path: bulbHub.path,
+    title: `${bulbHub.title} | ${site.name}`,
+    description: bulbHub.description,
+    ogType: "article",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          headline: bulbHub.title,
+          description: bulbHub.description,
+          inLanguage: "en-GB",
+          dateModified: site.updated,
+          author: org(),
+          publisher: org(),
+          mainEntityOfPage: `${site.url}${bulbHub.path}`
+        },
+        faqSchema(bulbHub.faqs),
+        fixBreadcrumbUrls(site, [{ label: "Home", href: "/" }, { label: "Bulbs", href: bulbHub.path }])
+      ].filter(Boolean)
+    },
+    body: `
+    ${crumbs(hubCrumbs)}
+    <p class="eyebrow">UK bulb guide</p>
+    <h1>${escapeHtml(bulbHub.title)}</h1>
+    ${paragraphs(bulbHub.intro)}
+    ${adSlot("bulbs-hub")}
+    <section><h2>Month by month</h2><div class="grid">${monthBlocks}</div></section>
+    <section><h2>Bulbs at a glance</h2><p class="section-intro">Planting months, depth and spacing for each bulb. Open a guide for soil, pots, aftercare and problems.</p><div class="grid crop-grid">${glance}</div></section>
+    ${affiliatePlaceholder("bulbs-hub")}
+    <section><h2>The rules that apply to almost every bulb</h2>${rules}</section>
+    ${faqBlock(bulbHub.faqs)}
+    ${sourcesBlock(bulbHub.sources)}`
+  });
+}
 
 function frostDaysTable(region) {
   if (!region.frostDays) {

@@ -9,9 +9,9 @@
   "months": [
     { "name": "September", "text": "The main month for daffodils, crocus and hyacinths; the RHS says preferably by the end of September. Start alliums and lilies. Plant autumn-flowering crocus, and prepared hyacinths indoors for Christmas.", "bulbs": ["daffodils", "crocus", "hyacinths", "alliums", "lilies"] },
     { "name": "October", "text": "Finish daffodils, crocus and hyacinths. Alliums and lilies should be in by the end of the month. Tulips can start from mid-October, but November is better.", "bulbs": ["daffodils", "crocus", "hyacinths", "alliums", "lilies", "tulips"] },
-    { "name": "November", "text": "Tulip month. Gardeners' World calls it the optimum time because cold soil reduces tulip fire. Late daffodils and crocus can still go in if the bulbs are firm.", "bulbs": ["tulips", "daffodils", "crocus", "lilies"] },
+    { "name": "November", "text": "Tulip month. Gardeners' World calls it the optimum time because cold soil reduces tulip fire. Late daffodils and crocus can still go in if the bulbs are firm.", "bulbs": ["tulips", "daffodils", "crocus"] },
     { "name": "December and January", "text": "Late tulips are fine in December and can still work in early January. Gardeners' World says daffodils can go in as late as January, though they may flower later in their first year. Only plant bulbs that are still firm and free of mould.", "bulbs": ["tulips", "daffodils"] },
-    { "name": "February and March", "text": "Plant snowdrops in the green, just after flowering while the leaves are still green. Lily bulbs on sale in spring can be planted as soon as you buy them.", "bulbs": ["snowdrops", "lilies"] }
+    { "name": "February and March", "text": "Plant snowdrops in the green, just after flowering while the leaves are still green. From March, lily bulbs on sale in spring can be planted as soon as you buy them.", "bulbs": ["snowdrops", "lilies"] }
   ],
   "rules": [
     { "heading": "Depth", "paragraphs": ["The RHS rule is two to three times the bulb's height for most bulbs, and three times the height for true bulbs and corms such as daffodils. A 5cm bulb goes in a hole 10 to 15cm deep. Planting too shallowly is the main reason bulbs stop flowering in later years. Alliums go deeper, at about four times the bulb's width, while basal-rooting lilies go shallower, at a depth equal to the bulb's height."] },

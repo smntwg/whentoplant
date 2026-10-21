@@ -579,7 +579,9 @@ addPage({
 });
 
 function affiliatePlaceholder(id) {
-  return `<!-- affiliate-placeholder:${id} Product links for this page go here once the Crocus, Thompson & Morgan or Suttons Awin programme is approved. When a real link is added, also add the top note "This page contains affiliate links." No link, no note. -->`;
+  // Neutral marker only. When a real affiliate link replaces a slot, also add the small muted top note
+  // "This page contains affiliate links." to that page. No link, no note.
+  return `<!-- affiliate-slot:${id} -->`;
 }
 
 function faqSchema(faqs) {

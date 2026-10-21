@@ -16,14 +16,10 @@
       "months": [
         9,
         10,
-        11,
-        12,
-        1,
-        2,
         3,
         4
       ],
-      "detail": "The RHS prefers early autumn so roots form before winter, or spring as soon as bulbs are available. Gardeners' World gives October to April."
+      "detail": "Early autumn (September and October) is the RHS's preferred time, so roots form before winter. Spring (March and April) also works, as soon as bulbs are on sale."
     },
     {
       "id": "flower",
@@ -37,7 +33,7 @@
     }
   ],
   "timing": [
-    "The RHS says the ideal time is early autumn, so the bulbs can build a good root system before winter. Spring planting also works when bulbs are available, and lilies planted after spring flower later than normal that first year before getting back on track. Gardeners' World gives a wider window, October to early April.",
+    "The RHS says the ideal time is early autumn, so the bulbs can build a good root system before winter: aim to have them in by the end of October. Spring planting, in March and April, also works when bulbs are on sale, and lilies planted after spring flower later than normal that first year before getting back on track.",
     "Plant bulbs as soon as you buy them so they do not dry out. Choose plump, firm bulbs and avoid any that are mouldy, withered or have weak shoots."
   ],
   "where": [
@@ -87,7 +83,6 @@
   "months": [
     "september",
     "october",
-    "november",
     "march",
     "april"
   ],

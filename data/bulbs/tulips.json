@@ -1,0 +1,138 @@
+{
+  "slug": "tulips",
+  "name": "Tulips",
+  "latin": "Tulipa",
+  "summary": "Plant in November. Cold soil cuts the risk of tulip fire, and December is still fine.",
+  "description": "When to plant tulip bulbs in the UK: November is best, December still works. Depth, spacing, soil, pots and aftercare from the RHS.",
+  "card": "Plant late October to December",
+  "intro": [
+    "Tulips are planted later than every other spring bulb. Where daffodils want to go in during September, tulips are best left until November, once the soil has cooled. That timing is not just tradition: Gardeners' World explains that colder conditions reduce the risk of the fungal disease tulip fire.",
+    "Many tulips are grown as one-season bedding. The RHS notes that most border tulips only flower reliably well in their first year, so plenty of gardeners plant fresh bulbs each autumn. A few cultivars do come back for several years if the soil is free-draining and sunny."
+  ],
+  "calendar": [
+    {
+      "id": "plant",
+      "label": "Plant dry bulbs",
+      "months": [
+        10,
+        11,
+        12
+      ],
+      "detail": "From mid-October, with November the best month. December is fine, and early January can still work."
+    },
+    {
+      "id": "flower",
+      "label": "In flower",
+      "months": [
+        3,
+        4,
+        5
+      ],
+      "detail": "Early tulips in March, mid-season tulips in April and May, late tulips in May (RHS)."
+    }
+  ],
+  "timing": [
+    "November is the month to aim for. The RHS general planting advice says plant tulips in November, and Gardeners' World calls November the optimum time, because the colder soil reduces the risk of tulip fire.",
+    "You can start from mid-October. If you have not got round to it, Gardeners' World says you can get away with planting in December, or even early January, and they should still bloom in spring. Late planting can give shorter stems, which the RHS also links to mild winters.",
+    "Flowering depends on the cultivar and the weather. The RHS splits tulips into early (March), mid-season (April and May) and late (May) groups, and says tulips in northern Britain and Scotland are likely to flower three to six weeks later than in southern England."
+  ],
+  "where": [
+    "Tulips like a sunny, sheltered spot in well-drained soil. They prefer neutral to alkaline soil; the RHS suggests adding lime if your soil is very acidic, below pH 6. On heavy clay, work in well-rotted organic matter and a little horticultural grit at the bottom of each hole.",
+    "Planting just behind perennials hides the tulip leaves as they die back. For bedding, the soil does not need to be perfect, as long as it is not waterlogged."
+  ],
+  "planting": [
+    "Plant with the pointed end up at two to three times the bulb's height, and space bulbs at least twice their width apart. Gardeners' World plants at three times the bulb's height with about 5cm between bulbs. In very cold areas the RHS says deeper planting helps protect them from hard frost.",
+    "There is no need to soak the bulbs first. Plant in groups of odd numbers for a natural look, or en masse for bedding. Handling tulip bulbs can irritate skin, so wear gloves if you are affected."
+  ],
+  "spacing": [
+    {
+      "label": "Depth",
+      "value": "2 to 3 x bulb height"
+    },
+    {
+      "label": "Spacing",
+      "value": "At least 2 bulb widths"
+    },
+    {
+      "label": "Soil",
+      "value": "Neutral to alkaline, well drained"
+    }
+  ],
+  "pots": [
+    "Mix three parts peat-free multi-purpose compost with one part grit. Set the bulbs about a finger's width apart, deep enough that two or three bulb heights of compost sit above them, and leave the surface about 2.5cm below the rim. To keep tulips in the same pot for more than one season, the RHS suggests a peat-free loam-based compost with grit instead. In squirrel country, cover pots with chicken wire."
+  ],
+  "aftercare": [
+    "Deadhead after flowering and let the leaves die back if you want to keep the bulbs. Feeding with tomato fertiliser while the plants are in growth helps the bulb build up a flower for next year. Bedding tulips are often lifted after flowering to make room for summer plants.",
+    "On wetter soils that stay damp in summer, the RHS says getting border tulips to flower again is difficult, which is why many people treat them as annual bedding."
+  ],
+  "problems": [
+    {
+      "title": "Tulip fire",
+      "text": [
+        "Brown spotting and distorted leaves and petals. Planting in November rather than early autumn reduces the risk. Remove affected plants. The RHS advises not planting tulips again where the soil-borne disease sclerotinia has struck for five years."
+      ]
+    },
+    {
+      "title": "Squirrels, slugs and small bulbs",
+      "text": [
+        "Grey squirrels dig bulbs up: lay chicken wire over the surface until the leaves emerge, or interplant with daffodils, which squirrels avoid. Slugs damage early growth. Small bulbs that do not flower are usually a sign of shallow planting."
+      ]
+    }
+  ],
+  "months": [
+    "october",
+    "november",
+    "december"
+  ],
+  "related": [
+    "daffodils",
+    "alliums",
+    "hyacinths"
+  ],
+  "faqs": [
+    {
+      "question": "Why plant tulips later than other bulbs?",
+      "answer": [
+        "Colder soil in November reduces the risk of tulip fire, a fungal disease. Gardeners' World calls November the optimum month."
+      ]
+    },
+    {
+      "question": "Can I plant tulips in December or January?",
+      "answer": [
+        "Yes. Gardeners' World says December is fine and even early January can work. Expect shorter stems from very late planting."
+      ]
+    },
+    {
+      "question": "Will my tulips come back next year?",
+      "answer": [
+        "Many border tulips only flower well in their first year, according to the RHS. Some cultivars do last, especially in free-draining soil in full sun. Feeding with tomato fertiliser while in growth helps."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "RHS",
+      "title": "How to grow tulips",
+      "url": "https://www.rhs.org.uk/plants/tulip/growing-guide",
+      "accessed": "21 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "Tulips by flowering period",
+      "url": "https://www.rhs.org.uk/plants/tulip/flowering-period",
+      "accessed": "21 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "Bulbs: planting tips",
+      "url": "https://www.rhs.org.uk/plants/types/bulbs/planting",
+      "accessed": "21 October 2026"
+    },
+    {
+      "publisher": "BBC Gardeners' World",
+      "title": "How to plant and grow tulips",
+      "url": "https://www.gardenersworld.com/how-to/grow-plants/how-to-grow-tulips/",
+      "accessed": "21 October 2026"
+    }
+  ]
+}

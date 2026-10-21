@@ -1,0 +1,151 @@
+{
+  "slug": "crocus",
+  "name": "Crocus",
+  "latin": "Crocus",
+  "summary": "Plant spring crocus corms from September to November; autumn crocus go in during September.",
+  "description": "When to plant crocus in the UK: spring crocus September to November, autumn crocus in September. Depth, spacing and lawn planting from the RHS.",
+  "card": "Plant September to November",
+  "intro": [
+    "Crocuses are small corms that flower early, in late winter and early spring, when little else is out. Most are planted in autumn for flowers in February and March. A second group, the autumn-flowering crocus, including saffron crocus, goes in at the end of summer and flowers the same autumn.",
+    "They are cheap, easy to plant in bulk, and naturalise well in lawns and under deciduous trees, as long as you leave the grass uncut until their leaves have died back."
+  ],
+  "calendar": [
+    {
+      "id": "plant",
+      "label": "Plant spring crocus",
+      "months": [
+        9,
+        10,
+        11
+      ],
+      "detail": "September to November. The RHS prefers spring bulbs in by the end of September; Gardeners' World says you can get away with planting up to Christmas."
+    },
+    {
+      "id": "plant-autumn",
+      "label": "Plant autumn crocus",
+      "months": [
+        8,
+        9
+      ],
+      "detail": "Late summer, generally September (RHS)."
+    },
+    {
+      "id": "flower",
+      "label": "Spring crocus in flower",
+      "months": [
+        2,
+        3
+      ],
+      "detail": "C. tommasinianus in February and March; C. chrysanthus and Dutch hybrids in March (RHS)."
+    }
+  ],
+  "timing": [
+    "Spring-flowering crocus are planted as dry corms in autumn. Gardeners' World gives September to November. The RHS general advice is to get spring bulbs such as crocus in by the end of September if you can.",
+    "Running late? Gardeners' World says you can plant crocuses up to Christmas in the UK as long as the corms are still firm and not mouldy, though they may flower later than usual. Leftover corms kept until spring are usually soft and not worth planting.",
+    "Autumn-flowering crocus are a separate job. The RHS says plant them in late summer, generally September; in their first year they may flower a little later than normal."
+  ],
+  "where": [
+    "Most crocuses want an open, sunny spot and good drainage. The RHS suggests C. tommasinianus for grass and under deciduous trees, C. chrysanthus for rock gardens and spots that are dry in summer, and the larger Dutch hybrids (C. vernus) for lawns.",
+    "In lawns, pick a patch you can leave unmown until the leaves have yellowed and gone. Mowing too early weakens the corms."
+  ],
+  "planting": [
+    "Plant pointed tip up, flat end down. For naturalising C. tommasinianus and C. chrysanthus, the RHS plants 7 to 10cm deep in small groups. Dutch hybrids have bigger corms and can go about 12cm deep in lawns. Space corms about 9cm apart.",
+    "For lots of small corms in grass, the RHS suggests cutting an H in the turf, rolling back the flaps, scattering the corms on the loosened soil, planting them where they land and putting the turf back. Autumn crocus such as C. speciosus go about 12cm deep; saffron crocus (C. sativus) about 10cm, in very free-draining soil."
+  ],
+  "spacing": [
+    {
+      "label": "Depth (small types)",
+      "value": "7 to 10cm"
+    },
+    {
+      "label": "Depth (Dutch hybrids in lawns)",
+      "value": "About 12cm"
+    },
+    {
+      "label": "Spacing",
+      "value": "About 9cm"
+    }
+  ],
+  "pots": [
+    "Crocus make a good top layer in a pot of mixed bulbs, planted 7 to 12cm deep above larger bulbs such as tulips. Add grit to the compost for drainage. The RHS notes C. vernus can be forced: planted in pots in early autumn, given six to eight weeks of cold and then brought indoors, an October planting should flower in January."
+  ],
+  "aftercare": [
+    "Outdoor crocuses rarely need watering; check pots with a finger while they are in leaf. Let the foliage die back naturally after flowering, and do not mow naturalised crocus until it has. Crowded clumps can be divided."
+  ],
+  "problems": [
+    {
+      "title": "Corms dug up or flowers shredded",
+      "text": [
+        "The RHS lists rodents and birds as the main pests for C. tommasinianus. Mesh over the planting area until shoots appear helps with digging."
+      ]
+    },
+    {
+      "title": "Soft or mouldy corms",
+      "text": [
+        "Corms can rot in storage. Plant as soon as you buy them and choose firm ones."
+      ]
+    }
+  ],
+  "months": [
+    "september",
+    "october",
+    "november"
+  ],
+  "related": [
+    "snowdrops",
+    "daffodils",
+    "hyacinths"
+  ],
+  "faqs": [
+    {
+      "question": "Can I plant crocus bulbs in November?",
+      "answer": [
+        "Yes. Gardeners' World gives September to November and says you can get away with planting up to Christmas if the corms are firm. Earlier is better."
+      ]
+    },
+    {
+      "question": "How deep should crocus be planted?",
+      "answer": [
+        "7 to 10cm for the smaller species, and about 12cm for the larger Dutch hybrids in lawns, spaced about 9cm apart (RHS)."
+      ]
+    },
+    {
+      "question": "When can I mow over crocuses in the lawn?",
+      "answer": [
+        "Once the leaves have yellowed and died back. Mowing earlier weakens next year's flowers."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "RHS",
+      "title": "How to grow crocuses",
+      "url": "https://www.rhs.org.uk/plants/crocus/growing-guide",
+      "accessed": "21 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "Crocus tommasinianus",
+      "url": "https://www.rhs.org.uk/plants/25699/crocus-tommasinianus/details",
+      "accessed": "21 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "How to plant bulbs in grass",
+      "url": "https://www.rhs.org.uk/plants/types/bulbs/how-to-plant-bulbs-in-grass",
+      "accessed": "21 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "Bulbs: planting tips",
+      "url": "https://www.rhs.org.uk/plants/types/bulbs/planting",
+      "accessed": "21 October 2026"
+    },
+    {
+      "publisher": "BBC Gardeners' World",
+      "title": "How to grow crocuses",
+      "url": "https://www.gardenersworld.com/how-to/grow-plants/how-to-grow-crocuses/",
+      "accessed": "21 October 2026"
+    }
+  ]
+}

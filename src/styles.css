@@ -628,3 +628,39 @@ select {
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
+
+/* Bulb guides */
+:root { --flower: #7a4a8c; }
+.cell.on.flower { background: var(--flower); }
+.legend .flower { background: var(--flower); }
+.glance {
+  display: grid;
+  gap: 0.35rem;
+  margin: 0.75rem 0;
+}
+.glance div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.25rem 0.75rem;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 0.3rem;
+}
+.glance dt { font-weight: 700; color: var(--green-dark); }
+.glance dd { margin: 0; }
+
+/* Narrow screens: month chart fits without sideways scrolling. Labels sit above each row. */
+@media (max-width: 40rem) {
+  .chart-scale,
+  .chart-row {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    min-width: 0;
+    gap: 0.2rem;
+  }
+  .chart-scale > span:first-child { display: none; }
+  .chart-row { margin-top: 0.45rem; }
+  .chart-label {
+    grid-column: 1 / -1;
+    font-size: 0.86rem;
+  }
+}

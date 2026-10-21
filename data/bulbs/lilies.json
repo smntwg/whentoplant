@@ -1,0 +1,138 @@
+{
+  "slug": "lilies",
+  "name": "Lilies",
+  "latin": "Lilium",
+  "summary": "A summer bulb you plant now: early autumn is ideal, or plant bulbs in spring as soon as they are sold.",
+  "description": "When to plant lily bulbs in the UK: early autumn or spring. Depth for basal and stem-rooting lilies, spacing, soil, pots and aftercare.",
+  "card": "Plant autumn or spring",
+  "intro": [
+    "Lilies flower in summer, but the bulbs are sold and planted in autumn and spring, so they belong in a bulb planting guide. Heights run from 30 to 40cm up to more than 2m, and the scented Oriental and Trumpet types are some of the most fragrant plants you can grow in a pot.",
+    "One warning first. The RHS says all parts of lilies are poisonous to cats, and the bulbs are a potential risk to all pets. If you have a cat, think carefully before growing them, especially as cut flowers."
+  ],
+  "calendar": [
+    {
+      "id": "plant",
+      "label": "Plant bulbs",
+      "months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "detail": "The RHS prefers early autumn so roots form before winter, or spring as soon as bulbs are available. Gardeners' World gives October to April."
+    },
+    {
+      "id": "flower",
+      "label": "In flower",
+      "months": [
+        6,
+        7,
+        8
+      ],
+      "detail": "Summer. The exact weeks depend on the type."
+    }
+  ],
+  "timing": [
+    "The RHS says the ideal time is early autumn, so the bulbs can build a good root system before winter. Spring planting also works when bulbs are available, and lilies planted after spring flower later than normal that first year before getting back on track. Gardeners' World gives a wider window, October to early April.",
+    "Plant bulbs as soon as you buy them so they do not dry out. Choose plump, firm bulbs and avoid any that are mouldy, withered or have weak shoots."
+  ],
+  "where": [
+    "Most lilies like neutral to slightly acid soil, but types differ. Oriental lilies grow best in acid soil, Asiatic hybrids prefer alkaline soil, and Longiflorum and Trumpet lilies grow in most soils. None like heavy clay or poorly drained ground, where the bulbs rot; grow them in pots instead.",
+    "Plant in sun or part shade, ideally where the roots are shaded and the plants are not crowded. Heavy shade makes them lean towards the light."
+  ],
+  "planting": [
+    "Plant with the flat, rooted base down and the pointed scales up. Depth depends on how the lily roots. Basal-rooting lilies such as Asiatic hybrids, and any lily you are unsure about, go at a depth equal to the bulb's height, a little deeper on light sandy soil. Stem-rooting lilies such as L. longiflorum and L. lancifolium go at about two and a half times the bulb's height. Gardeners' World gives three times the bulb's height as a general guide and says deeper planting gives extra winter protection.",
+    "Space bulbs 15cm apart, or three times the bulb's diameter. Some lilies pass 2m, so push in a stake at planting time rather than later, when you might spear the bulb. Madonna lily (L. candidum) is the exception to the depth rule: plant it with the nose close to the surface."
+  ],
+  "spacing": [
+    {
+      "label": "Basal-rooting",
+      "value": "Depth = bulb height"
+    },
+    {
+      "label": "Stem-rooting",
+      "value": "About 2.5 x bulb height"
+    },
+    {
+      "label": "Spacing",
+      "value": "15cm"
+    }
+  ],
+  "pots": [
+    "Lilies are excellent in deep pots with plenty of drainage holes. As a guide, the RHS suggests three bulbs in a 35cm pot, with 5cm between bulbs and from the edge. Use peat-free multi-purpose compost or peat-free John Innes No. 3 with up to a quarter grit, and peat-free ericaceous compost for lime-hating lilies such as L. auratum and L. speciosum.",
+    "Keep the compost just moist over winter, not waterlogged. In cold areas, move pots to a frost-free spot or wrap them in fleece or hessian from November to March."
+  ],
+  "aftercare": [
+    "Water pots when the compost is dry a few centimetres down once growth starts in spring; lilies in the ground only need water in very dry summer spells. Feed pots every two weeks with a high-potassium liquid feed such as tomato fertiliser, and mulch borders with 7.5 to 10cm of garden compost or leafmould in spring.",
+    "When the flowers fade, cut just below the spent heads, keep watering and feeding pots until the stems die down naturally, then cut the dead stem off at ground level."
+  ],
+  "problems": [
+    {
+      "title": "Lily beetle",
+      "text": [
+        "Gardeners' World calls the red lily beetle a common pest of lilies. The beetles grow to about 8mm and can be seen any time from March to October. They drop to the ground when disturbed, so check leaves regularly, and look for their black droppings as a sign of an infestation."
+      ]
+    },
+    {
+      "title": "Rot, slugs and vine weevil",
+      "text": [
+        "Bulbs in heavy, wet soil may rot or be eaten by slugs over winter. In pots, vine weevil larvae can damage roots. Lilies also get fungal and viral diseases."
+      ]
+    }
+  ],
+  "months": [
+    "september",
+    "october",
+    "november",
+    "march",
+    "april"
+  ],
+  "related": [
+    "alliums",
+    "tulips"
+  ],
+  "faqs": [
+    {
+      "question": "Can I plant lily bulbs in autumn?",
+      "answer": [
+        "Yes. The RHS says early autumn is ideal, so roots establish before winter. Spring planting also works."
+      ]
+    },
+    {
+      "question": "How deep should lily bulbs be planted?",
+      "answer": [
+        "It depends on the type. Basal-rooting lilies go at a depth equal to the bulb's height; stem-rooting lilies at about two and a half times its height (RHS). Space them about 15cm apart."
+      ]
+    },
+    {
+      "question": "Are lilies safe with cats?",
+      "answer": [
+        "No. The RHS says all parts of lilies are poisonous to cats, and the bulbs are a potential risk to all pets."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "RHS",
+      "title": "How to grow lilies",
+      "url": "https://www.rhs.org.uk/plants/lilies/how-to-grow-lilies",
+      "accessed": "21 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "Bulbs: planting tips",
+      "url": "https://www.rhs.org.uk/plants/types/bulbs/planting",
+      "accessed": "21 October 2026"
+    },
+    {
+      "publisher": "BBC Gardeners' World",
+      "title": "How to grow lilies",
+      "url": "https://www.gardenersworld.com/how-to/grow-plants/how-to-grow-lilies/",
+      "accessed": "21 October 2026"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "slug": "alliums",
+  "name": "Alliums",
+  "latin": "Allium (ornamental onion)",
+  "summary": "Plant in September or October, deeper than most bulbs, in a sunny well-drained spot.",
+  "description": "When to plant allium bulbs in the UK: September to October, four times the bulb's width deep. Spacing, soil and aftercare from the RHS.",
+  "card": "Plant September to October",
+  "intro": [
+    "Ornamental alliums bridge the gap between the spring bulbs and the summer border. Their round heads of purple, white, pink or yellow flowers stand above other plants in late spring and early summer, and the dried seedheads look good well into autumn. Pollinators like them, and they make good cut flowers.",
+    "They are close relatives of onions, garlic and leeks, so they share some of the same pests and diseases, and they want the same thing those crops want: sun and soil that drains."
+  ],
+  "calendar": [
+    {
+      "id": "plant",
+      "label": "Plant bulbs",
+      "months": [
+        9,
+        10
+      ],
+      "detail": "The RHS says early to mid autumn, and lists alliums with the hardy summer bulbs to plant in September and October."
+    },
+    {
+      "id": "flower",
+      "label": "In flower",
+      "months": [
+        5,
+        6
+      ],
+      "detail": "Most flower in May and June. Allium sphaerocephalon flowers in July and August."
+    }
+  ],
+  "timing": [
+    "Plant alliums in early to mid autumn. The RHS groups them with the hardy summer-flowering bulbs to plant in September and October, so they get a little ahead of tulips.",
+    "If you are reading this in late October, do not wait. Dry bulbs deteriorate in storage, and the RHS warns that bulbs planted later than recommended, or after a long time in the bag, may flower poorly. Plant as soon as you can.",
+    "Potted alliums are also sold in spring and can go straight in."
+  ],
+  "where": [
+    "Alliums need full sun and free-draining soil. The RHS warns against cold, exposed or waterlogged spots, where the bulbs can rot, and suggests a sheltered site for tall types so the flower stems are not blown over.",
+    "Do not plant into freshly manured ground, which is too rich. Avoid beds you dig over regularly, where it is easy to spear the bulbs, and avoid ground where onions have grown because of shared diseases. The leaves start to die down at flowering time, so place alliums behind plants that will hide the fading foliage."
+  ],
+  "planting": [
+    "Plant at a depth of about four times the bulb's diameter, deeper than the usual rule of thumb for bulbs. Small types go 7.5 to 10cm apart. Tall species need at least 20cm between bulbs.",
+    "Weed the bed and dig it over first. Water in only if the soil is dry."
+  ],
+  "spacing": [
+    {
+      "label": "Depth",
+      "value": "About 4 x bulb diameter"
+    },
+    {
+      "label": "Small types",
+      "value": "7.5 to 10cm apart"
+    },
+    {
+      "label": "Tall types",
+      "value": "At least 20cm apart"
+    }
+  ],
+  "pots": [
+    "Most alliums do well in deep pots. The RHS suggests a peat-free general purpose compost, or equal parts peat-free John Innes No. 3, multi-purpose compost and horticultural grit. Pots are more exposed to winter cold, so move them somewhere sheltered and out of the worst rain, such as against a wall or in a cold frame."
+  ],
+  "aftercare": [
+    "Alliums in the ground rarely need watering and dislike summer irrigation, which can rot the bulbs. Pots need watering, but never to the point of waterlogging. Regular feeding is not needed.",
+    "Leaves can be removed as they die back. Cut spent flower heads off at the base if you want, but many gardeners leave them for the seedheads. Lift and divide crowded clumps after the leaves and flowers have died down."
+  ],
+  "problems": [
+    {
+      "title": "Onion family diseases",
+      "text": [
+        "Ornamental alliums can get onion white rot, downy mildew and onion fly, and allium leaf miner is a pest to watch. They are usually trouble free in a border, but keep them away from old onion beds."
+      ]
+    },
+    {
+      "title": "Rotting bulbs",
+      "text": [
+        "Almost always wet ground. Pick a free-draining spot or grow them in gritty compost in a pot."
+      ]
+    }
+  ],
+  "months": [
+    "september",
+    "october"
+  ],
+  "related": [
+    "tulips",
+    "lilies",
+    "daffodils"
+  ],
+  "faqs": [
+    {
+      "question": "How deep do allium bulbs go?",
+      "answer": [
+        "About four times the bulb's diameter, according to the RHS. That is deeper than most spring bulbs."
+      ]
+    },
+    {
+      "question": "Can I plant alliums in November?",
+      "answer": [
+        "The RHS window is early to mid autumn. Bulbs planted later than recommended may flower less well, so if you still have them, plant now rather than keep them."
+      ]
+    },
+    {
+      "question": "Should I water alliums in summer?",
+      "answer": [
+        "Not in the ground. They are drought tolerant and summer watering can rot the bulbs. Water pots when the compost is dry."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "RHS",
+      "title": "How to grow alliums",
+      "url": "https://www.rhs.org.uk/plants/allium/growing-guide",
+      "accessed": "21 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "Bulbs: planting tips",
+      "url": "https://www.rhs.org.uk/plants/types/bulbs/planting",
+      "accessed": "21 October 2026"
+    }
+  ]
+}

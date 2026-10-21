@@ -1,0 +1,38 @@
+{
+  "path": "/bulbs/",
+  "title": "When to plant spring bulbs in the UK",
+  "description": "When to plant spring bulbs in the UK, month by month: daffodils, crocus and hyacinths in September, tulips in November. Depth, spacing and sources.",
+  "intro": [
+    "Spring bulbs are planted in autumn, but not all at once. Daffodils, crocus and hyacinths want to go in early, ideally by the end of September. Alliums and the hardy summer bulbs follow in September and October. Tulips come last, in November, once the soil has cooled. Snowdrops are the odd one out: they establish best planted 'in the green' after flowering in late winter.",
+    "This guide sets out that order month by month for UK gardens, with the planting depth, spacing and soil each bulb needs. Every figure comes from RHS or Gardeners' World guidance, linked at the bottom of each page."
+  ],
+  "months": [
+    { "name": "September", "text": "The main month for daffodils, crocus and hyacinths; the RHS says preferably by the end of September. Start alliums and lilies. Plant autumn-flowering crocus, and prepared hyacinths indoors for Christmas.", "bulbs": ["daffodils", "crocus", "hyacinths", "alliums", "lilies"] },
+    { "name": "October", "text": "Finish daffodils, crocus and hyacinths. Alliums and lilies should be in by the end of the month. Tulips can start from mid-October, but November is better.", "bulbs": ["daffodils", "crocus", "hyacinths", "alliums", "lilies", "tulips"] },
+    { "name": "November", "text": "Tulip month. Gardeners' World calls it the optimum time because cold soil reduces tulip fire. Late daffodils and crocus can still go in if the bulbs are firm.", "bulbs": ["tulips", "daffodils", "crocus", "lilies"] },
+    { "name": "December and January", "text": "Late tulips are fine in December and can still work in early January. Gardeners' World says daffodils can go in as late as January, though they may flower later in their first year. Only plant bulbs that are still firm and free of mould.", "bulbs": ["tulips", "daffodils"] },
+    { "name": "February and March", "text": "Plant snowdrops in the green, just after flowering while the leaves are still green. Lily bulbs on sale in spring can be planted as soon as you buy them.", "bulbs": ["snowdrops", "lilies"] }
+  ],
+  "rules": [
+    { "heading": "Depth", "paragraphs": ["The RHS rule is two to three times the bulb's height for most bulbs, and three times the height for true bulbs and corms such as daffodils. A 5cm bulb goes in a hole 10 to 15cm deep. Planting too shallowly is the main reason bulbs stop flowering in later years. Alliums go deeper, at about four times the bulb's width, while basal-rooting lilies go shallower, at a depth equal to the bulb's height."] },
+    { "heading": "Spacing and groups", "paragraphs": ["Space bulbs at least twice their own width apart. The RHS suggests groups of at least six, and says 25 to 50 bulbs may be needed for an impressive show. Plant with the nose or shoot facing up, replace the soil and firm it gently with the back of a rake rather than treading on it."] },
+    { "heading": "Water and soil", "paragraphs": ["If the ground is moist or the bulbs are autumn-planted, watering in is not critical; otherwise water after planting. Almost every bulb wants soil that drains, because bulbs sitting in wet ground over winter rot. On heavy clay, grow them in pots or work in organic matter and grit first."] },
+    { "heading": "Buying", "paragraphs": ["Buy dry bulbs around planting time and plant them as soon as possible. Choose large, firm bulbs with no damage, soft patches or mould. The RHS warns that bulbs planted later than recommended, or after a long time in storage, may flower poorly."] },
+    { "heading": "Pots", "paragraphs": ["For a one-season display, the RHS mixes three parts peat-free multi-purpose compost with one part grit; for long-term pots, three parts peat-free John Innes No. 2 with one part grit. Plant at three times the bulb's depth and about one bulb's width apart. Small bulbs such as crocus can go as a top layer above tulips or daffodils in the same pot."] },
+    { "heading": "After flowering", "paragraphs": ["Deadhead, then leave the leaves to die back on their own. They feed next year's flower. Feed bulbs in pots with a high-potassium liquid feed such as tomato fertiliser while they are in leaf. In lawns, wait until the foliage has yellowed before you mow."] }
+  ],
+  "faqs": [
+    { "question": "What is the latest you can plant spring bulbs?", "answer": ["Tulips can go in during December and even early January. Gardeners' World says daffodils can be planted as late as January and crocus up to Christmas, as long as the bulbs are firm. Late bulbs may flower later in their first spring."] },
+    { "question": "Which bulbs should I plant first?", "answer": ["Daffodils, crocus and hyacinths, preferably by the end of September according to the RHS. Tulips go in last, in November."] },
+    { "question": "How deep should bulbs be planted?", "answer": ["Most bulbs go in at two to three times their own height, so a 5cm bulb needs a hole 10 to 15cm deep. Check the individual guides: alliums go deeper and some lilies shallower."] },
+    { "question": "Do I need to water bulbs after planting?", "answer": ["Not usually in autumn if the soil is moist. The RHS says water straight after planting otherwise, and bulbs in pots need watering whenever the compost dries while they are in growth."] }
+  ],
+  "sources": [
+    { "publisher": "RHS", "title": "Bulbs: planting tips", "url": "https://www.rhs.org.uk/plants/types/bulbs/planting", "accessed": "21 October 2026" },
+    { "publisher": "RHS", "title": "How to grow bulbs", "url": "https://www.rhs.org.uk/plants/types/bulbs/growing-guide", "accessed": "21 October 2026" },
+    { "publisher": "RHS", "title": "How to plant bulbs in grass", "url": "https://www.rhs.org.uk/plants/types/bulbs/how-to-plant-bulbs-in-grass", "accessed": "21 October 2026" },
+    { "publisher": "BBC Gardeners' World", "title": "How to plant and grow tulips", "url": "https://www.gardenersworld.com/how-to/grow-plants/how-to-grow-tulips/", "accessed": "21 October 2026" },
+    { "publisher": "BBC Gardeners' World", "title": "How to grow daffodils", "url": "https://www.gardenersworld.com/how-to/grow-plants/how-to-grow-daffodils/", "accessed": "21 October 2026" },
+    { "publisher": "BBC Gardeners' World", "title": "How to grow crocuses", "url": "https://www.gardenersworld.com/how-to/grow-plants/how-to-grow-crocuses/", "accessed": "21 October 2026" }
+  ]
+}

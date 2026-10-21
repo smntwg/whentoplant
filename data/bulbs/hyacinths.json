@@ -1,0 +1,130 @@
+{
+  "slug": "hyacinths",
+  "name": "Hyacinths",
+  "latin": "Hyacinthus orientalis",
+  "summary": "Plant outdoors in early autumn for March and April flowers. Prepared bulbs for Christmas go in during September.",
+  "description": "When to plant hyacinth bulbs in the UK: early autumn outdoors, September for Christmas. 10cm deep, 7.5cm apart, plus pots and aftercare.",
+  "card": "Plant September to October",
+  "intro": [
+    "Hyacinths are grown for scent as much as colour, so they earn a place by a door or along a path. They are sold in two forms: ordinary bulbs for spring flowering outdoors, and 'prepared' bulbs that have been heat-treated to flower indoors around Christmas.",
+    "Fresh bulbs give the biggest, densest flower spikes. The RHS explains that the spikes get smaller in later years, so either enjoy the looser flowers or top the display up with a few new bulbs each autumn."
+  ],
+  "calendar": [
+    {
+      "id": "plant",
+      "label": "Plant outdoors",
+      "months": [
+        9,
+        10
+      ],
+      "detail": "Early autumn, for flowers in March and April (RHS). Its general bulb advice is preferably by the end of September."
+    },
+    {
+      "id": "plant-prepared",
+      "label": "Plant prepared bulbs indoors",
+      "months": [
+        9
+      ],
+      "detail": "September for Christmas flowering: they need 10 to 12 weeks."
+    },
+    {
+      "id": "flower",
+      "label": "In flower outdoors",
+      "months": [
+        3,
+        4
+      ],
+      "detail": "March and April."
+    }
+  ],
+  "timing": [
+    "Plant hyacinths outdoors in borders and containers in early autumn for flowers in March and April. The RHS bulb planting advice puts hyacinths with daffodils and crocus: preferably in by the end of September. If you still have bulbs in October, plant them now rather than storing them longer.",
+    "For Christmas flowers indoors, buy prepared bulbs and plant them in September. The RHS says they need 10 to 12 weeks to develop roots and shoots. Plant later and they will flower later, after Christmas."
+  ],
+  "where": [
+    "Hyacinths prefer well-drained, moderately fertile soil in full sun if they are going to stay in place for a few years. They will tolerate partial shade for a one-off display but flower less well there in later years.",
+    "They are fully hardy in the ground. In containers they can be frost tender in cold gardens and severe winters."
+  ],
+  "planting": [
+    "Plant bulbs nose up, 10cm deep, with at least 7.5cm between them, and water in to settle the soil."
+  ],
+  "spacing": [
+    {
+      "label": "Depth",
+      "value": "10cm"
+    },
+    {
+      "label": "Spacing",
+      "value": "At least 7.5cm"
+    },
+    {
+      "label": "Position",
+      "value": "Full sun, well drained"
+    }
+  ],
+  "pots": [
+    "Use peat-free multi-purpose compost, or two parts John Innes No. 2 to one part grit. Plant three to five bulbs together, 10cm deep and about 7.5cm apart. Stand the pot on feet or bricks for drainage, and in a cold spell wrap it in hessian or bubble plastic or move it to shelter.",
+    "Indoors, prepared bulbs can be planted closer than 7.5cm as long as they do not touch, in compost or bulb fibre for pots without drainage holes. They can also be grown in a hyacinth glass with the water just below the bulb, kept cool and dark until the roots fill the vase. If the flower stalk stays stuck among the leaves, the room is too warm."
+  ],
+  "aftercare": [
+    "The heavy flower heads often flop. Push a pea stick or small cane in beside the bulb and tie the stem in, rather than spearing the bulb. Cut the flower stalk off at the base when the flowers fade.",
+    "Keep bulbs moist while growing and flowering. In pots, give a high-potassium liquid feed such as tomato fertiliser from early spring until six weeks after flowering. Once the leaves have died down you can lift the bulbs, clean them and store them somewhere cool and dry for autumn, or leave them in the ground if your soil drains well."
+  ],
+  "problems": [
+    {
+      "title": "Slugs and squirrels",
+      "text": [
+        "Slugs can be a problem in mild weather, and wire mesh keeps squirrels off. Discard any bulbs showing signs of disease."
+      ]
+    },
+    {
+      "title": "Indoor bulbs that flower down in the leaves",
+      "text": [
+        "The room is too warm. Move the pot somewhere cooler until the stalk has grown taller than the leaves."
+      ]
+    }
+  ],
+  "months": [
+    "september",
+    "october"
+  ],
+  "related": [
+    "daffodils",
+    "tulips",
+    "crocus"
+  ],
+  "faqs": [
+    {
+      "question": "When do I plant hyacinths for Christmas?",
+      "answer": [
+        "Plant prepared bulbs in September. They need 10 to 12 weeks to flower, according to the RHS."
+      ]
+    },
+    {
+      "question": "How deep do hyacinth bulbs go?",
+      "answer": [
+        "10cm deep with at least 7.5cm between bulbs, in borders and in pots."
+      ]
+    },
+    {
+      "question": "Why are my hyacinths smaller in their second year?",
+      "answer": [
+        "Fresh bulbs are grown and treated to give dense, oversized spikes. Later flowers are naturally looser. The RHS suggests adding a few new bulbs each autumn."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "RHS",
+      "title": "How to grow hyacinths",
+      "url": "https://www.rhs.org.uk/plants/hyacinth/growing-guide",
+      "accessed": "21 October 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "Bulbs: planting tips",
+      "url": "https://www.rhs.org.uk/plants/types/bulbs/planting",
+      "accessed": "21 October 2026"
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "name": "Potatoes",
   "latin": "Solanum tuberosum",
   "summary": "Chit earlies from late winter, plant through spring, and lift new potatoes from June or maincrops from August.",
-  "description": "When to chit, plant and harvest potatoes in the UK, with RHS spacing for earlies and maincrops.",
+  "description": "When to plant seed potatoes in the UK: chit from late January, first earlies in late March, second earlies in April, maincrops to early May. RHS timings.",
   "card": "Plant March to May",
   "intro": [
     "Potatoes are grown from seed potatoes, which are small tubers sold for planting, not from a packet of seed. In the UK the job is spread across spring: first earlies around late March, second earlies in early to mid-April, and maincrops from mid-April into early May.",
@@ -13,19 +13,33 @@
     {
       "id": "sow",
       "label": "Chit",
-      "months": [1, 2, 3],
+      "months": [
+        1,
+        2,
+        3
+      ],
       "detail": "Start in late January in milder areas, and up to early March in colder spots. The RHS says the process takes four to six weeks."
     },
     {
       "id": "plant",
       "label": "Plant",
-      "months": [3, 4, 5],
+      "months": [
+        3,
+        4,
+        5
+      ],
       "detail": "First earlies around late March, second earlies in early to mid-April, maincrops from mid-April to early May."
     },
     {
       "id": "harvest",
       "label": "Harvest",
-      "months": [6, 7, 8, 9, 10],
+      "months": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
       "detail": "First earlies in June and July, second earlies in July and August, maincrops from August to October."
     }
   ],
@@ -35,13 +49,22 @@
   ],
   "plantOut": [
     "Potatoes are planted as tubers rather than transplanted as seedlings. If a late frost is forecast after the shoots appear, draw soil over the leaves or cover the row. Frosted foliage often grows back.",
-    "When there is about 20 to 30cm of growth, earth up by pulling soil around the stems and leaving about 10cm of leaf in the light. Do this in stages. It stops tubers pushing into the light and turning green, and it protects new shoots from a cold night.",
+    "Earth up once the shoots are about 23cm tall. Draw soil up around the stems to form a ridge, leaving the top 10cm of the plants in the light, and repeat a few weeks apart until the ridge is 20 to 30cm high. It stops tubers pushing into the light and turning green, and it protects new shoots from a cold night.",
     "If you are short of space, early varieties are the ones for containers. The RHS suggests a pot at least 30cm wide and deep. Half-fill it with about 15cm of peat-free compost, plant one seed potato per 30cm of pot diameter, and add more compost as the shoots grow."
   ],
   "spacing": [
-    { "label": "Earlies", "value": "30cm apart, in rows 60cm apart" },
-    { "label": "Maincrops", "value": "37cm apart, in rows 75cm apart" },
-    { "label": "Depth", "value": "About 15cm, sprouts upwards" }
+    {
+      "label": "Earlies",
+      "value": "30cm apart, in rows 60cm apart"
+    },
+    {
+      "label": "Maincrops",
+      "value": "37cm apart, in rows 75cm apart"
+    },
+    {
+      "label": "Depth",
+      "value": "About 15cm, sprouts upwards"
+    }
   ],
   "harvest": [
     "First earlies are ready in June and July. Feel for tubers about the size of a hen's egg and lift a plant at a time. They do not store well, so dig what you will eat.",
@@ -67,16 +90,52 @@
       ]
     }
   ],
-  "supplyIds": ["seed-potatoes", "garden-compost", "fork", "fleece"],
-  "months": ["january", "march", "april", "june", "july", "august", "september", "october"],
-  "related": ["tomatoes"],
+  "supplyIds": [
+    "seed-potatoes",
+    "garden-compost",
+    "fork",
+    "fleece"
+  ],
+  "months": [
+    "january",
+    "february",
+    "march",
+    "april",
+    "may",
+    "june",
+    "july",
+    "august",
+    "september",
+    "october"
+  ],
+  "related": [
+    "tomatoes"
+  ],
   "steps": [
-    { "name": "Chit the tubers", "text": "From late January in mild areas, up to early March in colder ones, sprout seed potatoes in a bright frost-free place for four to six weeks." },
-    { "name": "Plant in spring", "text": "Plant first earlies around late March, second earlies in early to mid-April and maincrops from mid-April to early May, about 15cm deep." },
-    { "name": "Earth up", "text": "When shoots are about 20 to 30cm tall, draw soil up around the stems, leaving about 10cm of leaf showing." },
-    { "name": "Harvest by type", "text": "Lift first earlies in June and July, second earlies in July and August, and maincrops from August to October." }
+    {
+      "name": "Chit the tubers",
+      "text": "From late January in mild areas, up to early March in colder ones, sprout seed potatoes in a bright frost-free place for four to six weeks."
+    },
+    {
+      "name": "Plant in spring",
+      "text": "Plant first earlies around late March, second earlies in early to mid-April and maincrops from mid-April to early May, about 15cm deep."
+    },
+    {
+      "name": "Earth up",
+      "text": "When shoots are about 23cm tall, draw soil up around the stems, leaving about 10cm of leaf showing. Repeat a few weeks apart."
+    },
+    {
+      "name": "Harvest by type",
+      "text": "Lift first earlies in June and July, second earlies in July and August, and maincrops from August to October."
+    }
   ],
   "faqs": [
+    {
+      "question": "When should I plant seed potatoes in the UK?",
+      "answer": [
+        "First earlies around late March, second earlies in early to mid-April and maincrops from mid-April to early May. Go a little later in cold or northern gardens and a little earlier in mild ones, and cover the shoots if a frost is forecast after they come up."
+      ]
+    },
     {
       "question": "Can I plant a potato from the supermarket?",
       "answer": [
@@ -95,7 +154,7 @@
       "publisher": "RHS",
       "title": "How to grow potatoes",
       "url": "https://www.rhs.org.uk/vegetables/potatoes/grow-your-own",
-      "accessed": "11 October 2026"
+      "accessed": "28 October 2026"
     },
     {
       "publisher": "RHS",
@@ -108,6 +167,66 @@
       "title": "How to grow potatoes",
       "url": "https://www.gardenersworld.com/news/from-bag-to-bumper-crop-how-to-grow-potatoes-anywhere/",
       "accessed": "11 October 2026"
+    }
+  ],
+  "guide": [
+    {
+      "id": "when-to-plant",
+      "title": "When to plant seed potatoes",
+      "intro": [
+        "Seed potatoes go in from late March to early May, in order of type. The RHS dates below suit a typical UK season. Plant slightly later in colder regions and earlier in milder ones. Gardeners' World suggests a delay of a couple of weeks in northerly areas. Young shoots are easily damaged by frost in April and May, so choose an open plot that is not a frost pocket and check the last frost window for your area."
+      ],
+      "table": {
+        "head": [
+          "Type",
+          "Chit",
+          "Plant",
+          "Lift"
+        ],
+        "rows": [
+          [
+            "First earlies",
+            "Late January in mild areas, up to early March in colder ones, for four to six weeks",
+            "Around late March",
+            "June and July"
+          ],
+          [
+            "Second earlies",
+            "As for first earlies",
+            "Early to mid-April",
+            "July and August"
+          ],
+          [
+            "Maincrops",
+            "Not needed. The RHS sees no real advantage",
+            "Mid-April to early May",
+            "Late August to October"
+          ]
+        ]
+      },
+      "paragraphs": [
+        "Earlies that you did not chit still grow perfectly well. The RHS says they just take a few weeks longer to crop. If the soil is wet at planting time, waiting is better than forcing tubers into cold mud.",
+        "Two RHS options fall outside the main season. For an extra-early crop, plant chitted earlies at the beginning of March in large containers in a frost-free greenhouse, for new potatoes by about mid-May. For a Christmas crop, plant prepared cold-stored seed potatoes in July or early August in a large container in a greenhouse or another bright, frost-free place.",
+        "Seed potatoes are on sale in late winter and spring. Mail-order suppliers let you order in advance, which helps because popular varieties can sell out."
+      ],
+      "links": [
+        {
+          "href": "/january/",
+          "label": "January: start chitting"
+        },
+        {
+          "href": "/march/",
+          "label": "March: first earlies"
+        },
+        {
+          "href": "/april/",
+          "label": "April: second earlies and maincrops"
+        },
+        {
+          "href": "/frost-dates/",
+          "label": "UK frost dates by region"
+        }
+      ]
     }
   ]
 }

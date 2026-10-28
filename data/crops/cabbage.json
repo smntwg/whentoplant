@@ -13,19 +13,41 @@
     {
       "id": "sow",
       "label": "Sow summer types",
-      "months": [2, 3, 4],
+      "months": [
+        2,
+        3,
+        4
+      ],
       "detail": "February to April. Protect the earliest sowings with a cloche or fleece."
     },
     {
       "id": "plant",
       "label": "Sow autumn, winter and spring",
-      "months": [4, 5, 6, 7],
+      "months": [
+        4,
+        5,
+        6,
+        7
+      ],
       "detail": "April to June for autumn and winter cabbage. July for spring cabbage, which overwinters."
     },
     {
       "id": "harvest",
       "label": "Harvest",
-      "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
       "detail": "Possible in every month if you grow spring, summer, autumn and winter varieties. One sowing does not crop all year."
     }
   ],
@@ -43,10 +65,22 @@
     "Compact varieties can sit 30cm apart. Large autumn and winter heads need up to 45cm. Cover the bed with insect-proof mesh on hoops. It keeps off caterpillars, cabbage root fly, whitefly and pigeons."
   ],
   "spacing": [
-    { "label": "Compact varieties", "value": "About 30cm apart" },
-    { "label": "Large varieties", "value": "Up to 45cm apart" },
-    { "label": "Spring cabbage", "value": "10cm at first, then 30cm in late February or March" },
-    { "label": "Outdoor drill", "value": "About 2cm deep" }
+    {
+      "label": "Compact varieties",
+      "value": "About 30cm apart"
+    },
+    {
+      "label": "Large varieties",
+      "value": "Up to 45cm apart"
+    },
+    {
+      "label": "Spring cabbage",
+      "value": "10cm at first, then 30cm in late February or March"
+    },
+    {
+      "label": "Outdoor drill",
+      "value": "About 2cm deep"
+    }
   ],
   "harvest": [
     "Cut when the head is firm and the size you want. Taking every other plant first lets the rest grow on. Spring and summer stumps, scored with a cross about 1cm deep, often throw a smaller second head. Dig the finished stump out rather than leaving it to harbour disease.",
@@ -72,19 +106,55 @@
       ]
     }
   ],
-  "supplyIds": ["seed-compost", "modules", "mesh", "fleece", "garden-compost", "labels"],
-  "months": ["february", "march", "april", "may", "june", "july", "august", "september", "october"],
-  "related": ["lettuce", "leeks"],
+  "supplyIds": [
+    "seed-compost",
+    "modules",
+    "mesh",
+    "fleece",
+    "garden-compost",
+    "labels"
+  ],
+  "months": [
+    "february",
+    "march",
+    "april",
+    "may",
+    "june",
+    "july",
+    "august",
+    "september",
+    "october"
+  ],
+  "related": [
+    "lettuce",
+    "leeks"
+  ],
   "steps": [
-    { "name": "Sow the type that matches the season", "text": "February to April for summer cabbage, April to June for autumn and winter, and July for spring cabbage." },
-    { "name": "Plant firmly and cover", "text": "Transplant at 10 to 15cm tall, 30 to 45cm apart, and cover with insect-proof mesh." },
-    { "name": "Cut a firm head", "text": "Harvest from about four to six months, or leave winter varieties standing until you need them." }
+    {
+      "name": "Sow the type that matches the season",
+      "text": "February to April for summer cabbage, April to June for autumn and winter, and July for spring cabbage."
+    },
+    {
+      "name": "Plant firmly and cover",
+      "text": "Transplant at 10 to 15cm tall, 30 to 45cm apart, and cover with insect-proof mesh."
+    },
+    {
+      "name": "Cut a firm head",
+      "text": "Harvest from about four to six months, or leave winter varieties standing until you need them."
+    }
   ],
   "faqs": [
     {
       "question": "When do I sow spring cabbage?",
       "answer": [
         "In July. The plants overwinter and are eaten as spring greens or as hearts from mid-spring into mid-summer. Thin them to about 30cm in late February or March."
+      ]
+    },
+    {
+      "question": "When do I plant out spring cabbage plants?",
+      "answer": [
+        "In autumn. The RHS sows spring cabbage in late summer for transplanting in autumn, so the plants root in before winter and are cut from mid-spring. Plug plants bought in autumn follow the same timing. Plant them firmly into rich, firm ground that did not grow brassicas last year, and keep a net over them through winter, because pigeons do most damage then.",
+        "Plants set close at first can be thinned to 30cm in late February or March, with the thinnings eaten as spring greens. 'Winterjewel' and 'Duncan' are spring cabbages with an RHS Award of Garden Merit."
       ]
     },
     {
@@ -99,13 +169,13 @@
       "publisher": "RHS",
       "title": "How to grow cabbages",
       "url": "https://www.rhs.org.uk/vegetables/cabbages/grow-your-own",
-      "accessed": "11 October 2026"
+      "accessed": "28 October 2026"
     },
     {
       "publisher": "RHS",
       "title": "Vegetables: growing for spring",
       "url": "https://www.rhs.org.uk/vegetables/growing-for-spring",
-      "accessed": "11 October 2026"
+      "accessed": "28 October 2026"
     }
   ]
 }

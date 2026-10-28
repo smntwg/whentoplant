@@ -538,6 +538,10 @@ select {
   padding: 0;
 }
 
+.table-scroll {
+  overflow-x: auto;
+}
+
 .stat-table {
   width: 100%;
   border-collapse: collapse;

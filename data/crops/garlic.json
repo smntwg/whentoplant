@@ -3,7 +3,7 @@
   "name": "Garlic",
   "latin": "Allium sativum",
   "summary": "Plant cloves from mid-autumn into winter, or use a spring variety, and lift the bulbs when the leaves yellow.",
-  "description": "When to plant garlic in the UK. Autumn cloves, spring varieties, spacing, depth and harvest months from the RHS.",
+  "description": "When to plant garlic in the UK: autumn cloves from October to December, hardneck vs softneck, spring varieties, depth, spacing and harvest, from RHS and Gardeners' World.",
   "card": "Plant October to March",
   "intro": [
     "Garlic is planted as cloves, not sown as fine seed. Most varieties need a cold spell to split into a proper bulb, which is why the main planting time in the UK is mid-autumn to early winter. Some varieties are sold for late winter and early spring if you missed that window.",
@@ -13,13 +13,26 @@
     {
       "id": "plant",
       "label": "Plant cloves",
-      "months": [10, 11, 12, 1, 2, 3],
+      "months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
       "detail": "Usually mid-autumn to early winter. Some varieties can be planted in late winter and early spring."
     },
     {
       "id": "harvest",
       "label": "Harvest",
-      "months": [5, 6, 7, 8, 9],
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
       "detail": "Autumn-planted garlic from late spring to early summer. Spring-planted garlic from mid-summer to early autumn."
     }
   ],
@@ -33,9 +46,18 @@
     "Water in dry spells in spring and early summer if you want fatter bulbs, but stop once the bulbs are well formed and the leaves are yellowing. Extra water then encourages rot. Snip off any flower stem as soon as it appears, and eat the young scape if you like."
   ],
   "spacing": [
-    { "label": "Between cloves", "value": "15cm" },
-    { "label": "Between rows", "value": "30cm" },
-    { "label": "Depth", "value": "Tip about 2.5cm under the surface" }
+    {
+      "label": "Between cloves",
+      "value": "15cm"
+    },
+    {
+      "label": "Between rows",
+      "value": "30cm"
+    },
+    {
+      "label": "Depth",
+      "value": "Tip about 2.5cm under the surface"
+    }
   ],
   "harvest": [
     "Lift when the leaves have turned yellow. Autumn plantings are ready from late spring into early summer. Spring plantings are ready from mid-summer into early autumn. Do not leave them until the bulbs have split open, or they will not store as long.",
@@ -61,13 +83,40 @@
       ]
     }
   ],
-  "supplyIds": ["garden-compost", "modules", "multipurpose-compost", "fleece", "netting", "fork"],
-  "months": ["october", "november", "december", "january", "february", "june", "july"],
-  "related": ["onions", "leeks"],
+  "supplyIds": [
+    "garden-compost",
+    "modules",
+    "multipurpose-compost",
+    "fleece",
+    "netting",
+    "fork"
+  ],
+  "months": [
+    "october",
+    "november",
+    "december",
+    "january",
+    "february",
+    "june",
+    "july"
+  ],
+  "related": [
+    "onions",
+    "leeks"
+  ],
   "steps": [
-    { "name": "Plant cloves in autumn", "text": "From mid-autumn to early winter, plant cloves 15cm apart with the tip about 2.5cm deep. Use a spring variety if you are planting in late winter." },
-    { "name": "Keep the bed drained", "text": "On wet ground, start cloves in modules and plant them out in spring." },
-    { "name": "Lift when leaves yellow", "text": "Harvest autumn plantings from late spring to early summer, and spring plantings from mid-summer to early autumn, then dry the bulbs." }
+    {
+      "name": "Plant cloves in autumn",
+      "text": "From mid-autumn to early winter, plant cloves 15cm apart with the tip about 2.5cm deep. Use a spring variety if you are planting in late winter."
+    },
+    {
+      "name": "Keep the bed drained",
+      "text": "On wet ground, start cloves in modules and plant them out in spring."
+    },
+    {
+      "name": "Lift when leaves yellow",
+      "text": "Harvest autumn plantings from late spring to early summer, and spring plantings from mid-summer to early autumn, then dry the bulbs."
+    }
   ],
   "faqs": [
     {
@@ -81,6 +130,18 @@
       "answer": [
         "Softneck. The RHS says hardneck garlic stores for about four to six months, while softneck can keep much longer, potentially towards a year if it was autumn-planted and dried properly."
       ]
+    },
+    {
+      "question": "How deep should garlic cloves be planted?",
+      "answer": [
+        "With the pointed tip about 2.5cm below the surface, according to the RHS. Gardeners' World says about 3cm of soil above the clove, or deeper in sandy soil and raised beds. Too shallow a planting is the usual cause of green cloves and of birds pulling cloves out."
+      ]
+    },
+    {
+      "question": "Can I plant garlic in a pot?",
+      "answer": [
+        "Yes. The RHS suggests a pot at least 25cm deep, filled with peat-free multi-purpose compost, with the cloves at the same 15cm spacing and depth as in the ground. Pots dry out quickly, so check them in dry spells in spring."
+      ]
     }
   ],
   "sources": [
@@ -88,13 +149,75 @@
       "publisher": "RHS",
       "title": "How to grow garlic",
       "url": "https://www.rhs.org.uk/vegetables/garlic/grow-your-own",
-      "accessed": "11 October 2026"
+      "accessed": "28 October 2026"
     },
     {
       "publisher": "BBC Gardeners' World",
       "title": "Your seed-sowing year",
       "url": "https://www.gardenersworld.com/plants/your-seed-sowing-year/",
       "accessed": "11 October 2026"
+    },
+    {
+      "publisher": "BBC Gardeners' World",
+      "title": "How to grow garlic",
+      "url": "https://www.gardenersworld.com/how-to/grow-plants/how-to-grow-garlic/",
+      "accessed": "28 October 2026"
+    }
+  ],
+  "guide": [
+    {
+      "id": "when-to-plant",
+      "title": "When to plant garlic in the UK, month by month",
+      "intro": [
+        "The main window is mid-autumn to early winter, which in a UK garden means October, November and December. Most varieties need one to two months at 0 to 10°C to split into a proper bulb, and cloves planted in autumn get that cold over winter. Garlic is hardy, so there is no need to wait for the frost dates that govern tomatoes and beans."
+      ],
+      "table": {
+        "head": [
+          "When",
+          "What to plant"
+        ],
+        "rows": [
+          [
+            "October",
+            "The best start. Plant autumn cloves into a sunny, free-draining bed. Elephant garlic, which the RHS says is best planted in October, goes in now too."
+          ],
+          [
+            "November",
+            "Still inside the main window. On heavy or waterlogged soil, plant one clove per module and keep them in a cold frame until spring."
+          ],
+          [
+            "December",
+            "The end of the main window. Gardeners' World repeats the tradition of planting around the shortest day. Wait for a thaw if the ground is frozen."
+          ],
+          [
+            "January to March",
+            "Only varieties sold for late winter and spring planting. Spring-planted garlic is lifted later, from mid-summer to early autumn, and softneck bulbs from a spring planting store until about the middle of the following spring."
+          ]
+        ]
+      },
+      "links": [
+        {
+          "href": "/october/",
+          "label": "October jobs"
+        },
+        {
+          "href": "/november/",
+          "label": "November jobs"
+        },
+        {
+          "href": "/december/",
+          "label": "December jobs"
+        }
+      ]
+    },
+    {
+      "id": "types",
+      "title": "Hardneck, softneck or elephant garlic",
+      "paragraphs": [
+        "Hardneck garlic has fewer, larger cloves, usually 10 or fewer, and a stronger flavour. It stores for about four to six months and is more likely to send up a flower stem (scape), which should be snipped off. Gardeners' World says hardnecks are generally hardier and can be grown throughout the UK, which makes them the safer choice for a cold or northern garden.",
+        "Softneck garlic has smaller, tightly packed cloves, up to 18 a bulb, and rarely bolts. It stores longest: the RHS says autumn-planted softneck keeps well into the following winter. Gardeners' World notes that softnecks are less tolerant of prolonged cold and suit milder southern counties best, though they can be grown elsewhere with winter protection. It names 'Solent Wight', a softneck well suited to the UK climate with small, strong-flavoured bulbs, and 'Cristo', a reliable softneck that can be planted in autumn or spring.",
+        "Elephant garlic is closer to a leek. It makes a big, mild bulb with a few very large cloves, needs a long, warm growing season and is best planted in October. A late planting is more likely to give a single round 'solo' bulb. You can eat that, or replant it the following autumn, when it usually divides."
+      ]
     }
   ]
 }

@@ -223,6 +223,18 @@ function suppliesBox(crop, suppliesById) {
 </section>`;
 }
 
+function guideSections(sections) {
+  return (sections || []).map((item) => {
+    const table = item.table
+      ? `<div class="table-scroll"><table class="stat-table"><thead><tr>${item.table.head.map((cell) => `<th scope="col">${escapeHtml(cell)}</th>`).join("")}</tr></thead><tbody>${item.table.rows.map((row) => `<tr>${row.map((cell, index) => index === 0 ? `<th scope="row">${escapeHtml(cell)}</th>` : `<td>${escapeHtml(cell)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`
+      : "";
+    const links = item.links && item.links.length
+      ? `<ul class="related">${item.links.map((link) => `<li><a href="${escapeHtml(link.href)}">${escapeHtml(link.label)}</a></li>`).join("")}</ul>`
+      : "";
+    return `<section id="${escapeHtml(item.id)}"><h2>${escapeHtml(item.title)}</h2>${paragraphs(item.intro)}${table}${paragraphs(item.paragraphs)}${links}</section>`;
+  }).join("\n");
+}
+
 function sourcesBlock(sources) {
   const items = sources.map((source) => {
     return `<li><a href="${escapeHtml(source.url)}">${escapeHtml(source.publisher)}: ${escapeHtml(source.title)}</a>. Checked ${escapeHtml(source.accessed)}.</li>`;
@@ -539,6 +551,7 @@ crops.forEach((crop) => {
     ${chart(crop.calendar)}
     <aside class="callout"><p>${escapeHtml(site.timingNote)} <a href="/frost-dates/">See frost windows for your region</a>.</p></aside>
     ${adSlot(`crop-${crop.slug}`)}
+    ${guideSections(crop.guide)}
     ${section("sow-indoors", "Sow indoors", crop.sowIndoors)}
     ${section("sow-outdoors", "Sow or plant outdoors", crop.sowOutdoors)}
     ${section("plant-out", "Plant out", crop.plantOut)}

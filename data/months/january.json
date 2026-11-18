@@ -98,7 +98,10 @@
     "Check stored onions, garlic and potatoes and remove anything soft before it spoils the rest."
   ],
   "holdOff": [
-    "Do not sow courgettes, runner beans, sweetcorn or outdoor tomatoes. They will be enormous, or dead, before the last frost.",
+    {
+      "text": "Do not sow courgettes, runner beans, sweetcorn or outdoor tomatoes. They will be enormous, or dead, before the last frost.",
+      "crops": ["courgettes", "runner-beans", "sweetcorn", "tomatoes"]
+    },
     "Do not dig or plant into frozen or waterlogged soil. Wait for a dry spell."
   ],
   "faqs": [

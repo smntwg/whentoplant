@@ -2,117 +2,109 @@
   "slug": "snowdrops",
   "name": "Snowdrops",
   "latin": "Galanthus",
-  "summary": "Best planted 'in the green' just after flowering in late winter and spring. Dry bulbs in autumn are harder to establish.",
-  "description": "When to plant snowdrops in the UK: in the green after flowering, or dry bulbs in autumn straight away. Depth, spacing and soil from the RHS.",
-  "card": "Plant in the green February to March",
+  "title": "When to plant snowdrop bulbs in the UK",
+  "heading": "When to plant snowdrop bulbs",
+  "updated": "2026-11-18",
+  "summary": "Dry bulbs in October and November, or in the green in February and March. In the green is the more reliable method.",
+  "description": "When to plant snowdrop bulbs in the UK: dry bulbs in October and November, or in the green in February and March. Depth and spacing included.",
+  "card": "In the green, February to March",
+  "answer": [
+    "Plant snowdrop bulbs in the UK in one of two ways. Dry bulbs go in during autumn: [Gardeners' World](https://www.gardenersworld.com/how-to/grow-plants/how-to-grow-snowdrops/) gives October and November, and says dry bulbs are tricky to establish. The [RHS growing guide](https://www.rhs.org.uk/plants/snowdrops/growing-guide) says they are very prone to drying out, so buy them as soon as they are available and plant them immediately.",
+    "The more reliable method is planting in the green: plants lifted just after flowering, while the leaves are still green. The [RHS February flowers notes](https://www.rhs.org.uk/advice/in-month/february/flowers) list dividing and planting snowdrops in the green, and the [March notes](https://www.rhs.org.uk/advice/in-month/march/flowers) say to do it then if you missed February. Gardeners' World gives February and March as well."
+  ],
+  "answerTable": {
+    "caption": "When to plant snowdrop bulbs in the UK",
+    "head": ["Months", "What to do"],
+    "rows": [
+      ["October and November", "Plant dry bulbs the day you buy them"],
+      ["February and March", "Plant in the green, just after flowering"],
+      ["January and February", "In flower"]
+    ]
+  },
+  "answerNote": [
+    "Plant dry bulbs about 10cm deep, pointed end up. Plant snowdrops in the green at the same depth they were growing before, which you can see where the stem turns from green to white, and at least 10cm apart. Those figures are from [Gardens Illustrated](https://www.gardensillustrated.com/plants/bulbs/how-to-grow-snowdrops). The RHS also says to replant at the same depth."
+  ],
   "intro": [
-    "Snowdrops break the usual bulb rule. Most bulbs are bought dry and planted in autumn, but snowdrops dry out easily as loose bulbs and often fail. The RHS and Gardeners' World both say the more reliable method is planting them 'in the green': plants lifted just after flowering, while the leaves are still green, and replanted straight away.",
-    "So if you are reading this in October, you have two choices. Plant dry bulbs now, as soon as you buy them, and accept that some may not come up. Or wait and order snowdrops in the green for delivery after they flower."
+    "Snowdrops break the usual bulb rule. Most spring bulbs are bought dry and planted in autumn. Snowdrops can be planted that way, but they dry out easily and often fail. The RHS puts freshly lifted plants, set in when the foliage is just dying back in late spring, first. Next best is buying them just after flowering, still in leaf. Dry bulbs are the fallback.",
+    "If you are reading this in autumn, plant any dry bulbs the day you buy them. If you can wait, order plants in the green for after they flower."
   ],
   "calendar": [
     {
       "id": "plant",
       "label": "Plant in the green",
-      "months": [
-        2,
-        3
-      ],
-      "detail": "Just after flowering while the leaves are still green. The RHS lists this as a February and March job."
+      "months": [2, 3],
+      "detail": "Just after flowering, while the leaves are still green. The RHS lists this for February, and for March if you missed it. Gardeners' World gives February and March."
     },
     {
       "id": "plant-dry",
       "label": "Plant dry bulbs",
-      "months": [
-        9,
-        10
-      ],
-      "detail": "As soon as they are on sale, and immediately after buying. Less reliable than planting in the green."
+      "months": [9, 10, 11],
+      "detail": "Gardeners' World names October and November. Gardens Illustrated says autumn, at the same time as daffodils. The RHS says buy dry bulbs as soon as they appear and plant them immediately."
     },
     {
       "id": "flower",
       "label": "In flower",
-      "months": [
-        1,
-        2,
-        3
-      ],
-      "detail": "Among the first plants to flower in the new year (RHS)."
+      "months": [1, 2, 3],
+      "detail": "The RHS calls them among the first plants to flower in the new year. Gardeners' World says they bloom as early as January and February. Gardens Illustrated says most flower in late winter and early spring."
     }
   ],
   "timing": [
-    "The RHS puts the options in order. Best is freshly lifted snowdrops planted when the foliage is just dying back in late spring. Next best is buying them just after flowering, with the leaves still green. Its monthly advice lists planting and dividing bulbs in the green in February and, if you missed it, March.",
-    "According to Gardens Illustrated, snowdrops in the green are usually pre-ordered in January and posted in February or March. Plant them as soon as they arrive; if you cannot, sprinkle them with water to stop them drying out.",
-    "If dry bulbs from a garden centre are your only option, the RHS says buy them as soon as they appear in autumn and plant them immediately. Gardeners' World describes dry snowdrop bulbs as tricky to establish."
+    "For dry bulbs, the named months are October and November. Gardeners' World says plant them in those months, and that this method is tricky. The RHS does not give a later deadline: it says buy them as soon as they are available and plant immediately, because the bulbs dry out. Gardens Illustrated puts dry bulbs in during autumn, alongside daffodils.",
+    "In the green is February and March. The RHS February advice is to divide and plant bulbs in the green, including snowdrops. If that month passes, the March advice is to do it then. Gardeners' World says lift plants just after flowering and before the foliage turns yellow, and that established clumps can be divided after flowering in March or April.",
+    "The RHS also describes a third moment: planting freshly lifted snowdrops when the foliage is just dying back in late spring. It calls that the best way to establish them."
   ],
   "where": [
-    "Snowdrops like partial shade and moist but well-drained soil with leafmould or garden compost worked in. The soil must not dry out in summer, which is why the space under a deciduous tree or at the foot of a deciduous hedge is ideal: sun and rain in late winter, shade in summer.",
-    "They grow in most soils apart from permanently wet ground, and dislike very dry, sandy soil in full sun. On heavy soil, Gardeners' World suggests a little sharp sand or grit in the planting hole."
+    "The RHS says to plant in partial shade, in moist but well-drained soil, with leafmould or garden compost worked in. The soil must not dry out in summer. Its plant guide says snowdrops grow in most soils apart from permanently wet ground, and that they dislike very dry, sandy soil in full sun.",
+    "Gardeners' World suggests the foot of a deciduous hedge, or beneath deciduous shrubs, where there is light and rain in late winter and cover in summer. On heavy soil, it says add a little sharp sand or grit to the planting hole."
   ],
   "planting": [
-    "Plant snowdrops in the green at the same depth they were growing before. You can see the line where the stem changes from green to white; the white part goes underground. Separate the bundle and plant individually or in small groups, at least 10cm apart, keeping the spacing loose for a natural look.",
-    "Gardens Illustrated suggests dry bulbs go about 10cm deep, pointed end up. Water after planting and leave the foliage to die back on its own."
+    "Separate a bundle of snowdrops in the green and replant straight away. Gardens Illustrated says to use the colour change on the stem, green above and white below, as the depth mark, and to leave at least 10cm between plants. Water after planting. The RHS says clumps can also be split and planted singly at the same depth they were growing.",
+    "Dry bulbs go in pointed end up. Gardens Illustrated says about 10cm deep. Do not store them in the bag while you wait for a free afternoon. The RHS says squirrels may dig up dry bulbs, and Gardeners' World suggests a chicken-wire cover until the leaves show, then taking it off."
   ],
   "spacing": [
-    {
-      "label": "Depth (in the green)",
-      "value": "Same depth as before"
-    },
-    {
-      "label": "Depth (dry bulbs)",
-      "value": "About 10cm"
-    },
-    {
-      "label": "Spacing",
-      "value": "At least 10cm"
-    }
+    {"label": "Depth (in the green)", "value": "Same depth as before"},
+    {"label": "Depth (dry bulbs)", "value": "About 10cm"},
+    {"label": "Spacing", "value": "At least 10cm"}
   ],
   "pots": [
-    "Snowdrops grow in pots but suffer if the compost dries out in summer. Keep pots moist all year and repot into fresh compost every year while dormant, according to Gardens Illustrated."
+    "Snowdrops grow in pots, but Gardeners' World says they suffer if the compost dries out in summer and that they need repotting every year. Gardens Illustrated says to repot into fresh compost while they are dormant, in late spring or summer, and to keep the compost moist all year."
   ],
   "aftercare": [
-    "Snowdrops need little care once settled. Do not cut the leaves off; let them die back naturally. Every few years, lift and divide clumps as the leaves turn yellow, split them gently and replant at the same depth to spread the drift."
+    "Once snowdrops are settled they need little care. The RHS says there is nothing to prune: let the foliage die back naturally. Every few years, lift and divide congested clumps as the leaves turn yellow, split them with as little damage as you can, and replant at the same depth."
   ],
   "problems": [
     {
       "title": "Dry bulbs that never come up",
       "text": [
-        "The usual cause is bulbs that dried out before planting. Plant in the green next time, or plant dry bulbs on the day you buy them."
+        "The usual cause is bulbs that dried out before they rooted. Gardeners' World calls dry bulbs tricky to establish. Plant in the green next time, or plant dry bulbs on the day you buy them."
       ]
     },
     {
       "title": "Squirrels and grey mould",
       "text": [
-        "The RHS notes squirrels may dig up dry bulbs, and grey mould can affect snowdrops in mild winters."
+        "The RHS notes that squirrels may dig up snowdrops planted as dry bulbs, and that grey mould can affect snowdrops in mild winters. Gardens Illustrated says grey mould is also a problem in very wet, poorly drained soil, and that affected bulbs should be binned so it does not spread."
       ]
     }
   ],
-  "months": [
-    "february",
-    "march",
-    "september",
-    "october"
-  ],
-  "related": [
-    "crocus",
-    "daffodils"
-  ],
+  "months": ["february", "march", "september", "october", "november"],
+  "related": ["crocus", "daffodils"],
   "faqs": [
     {
-      "question": "What does 'in the green' mean?",
+      "question": "Is it too late to plant snowdrop bulbs in November?",
       "answer": [
-        "Snowdrops lifted after flowering while they are still in leaf, then replanted straight away. They establish far better than dry bulbs."
+        "No. November is inside the dry-bulb window Gardeners' World gives, which is October and November. Plant them the day you get them. The RHS says dry snowdrop bulbs are very prone to drying out, so a bulb left in the bag is the bigger risk."
       ]
     },
     {
-      "question": "Can I plant snowdrop bulbs in autumn?",
+      "question": "Is it too late to plant snowdrop bulbs in December?",
       "answer": [
-        "Yes, but plant them the day you buy them, as they dry out easily. Gardeners' World says dry bulbs are tricky to establish."
+        "December is later than the October and November window in the Gardeners' World guide. If the bulbs are still firm, the RHS advice for any bulb you meant to plant earlier is to get it into the ground or a pot now, rather than storing it until next autumn, and to discard any that are soft or rotten. Expect dry bulbs planted this late to be less reliable than snowdrops planted in the green in February, or in March if you missed February."
       ]
     },
     {
-      "question": "How deep do snowdrops in the green go?",
+      "question": "What does in the green mean?",
       "answer": [
-        "At the same depth they grew before, with the white part of the stem underground, spaced at least 10cm apart."
+        "Snowdrops lifted after flowering while they are still in leaf, then replanted straight away. The RHS and Gardeners' World both treat this as more reliable than dry bulbs."
       ]
     }
   ],
@@ -121,37 +113,43 @@
       "publisher": "RHS",
       "title": "How to grow snowdrops",
       "url": "https://www.rhs.org.uk/plants/snowdrops/growing-guide",
-      "accessed": "21 October 2026"
+      "accessed": "18 November 2026"
     },
     {
       "publisher": "RHS",
       "title": "Snowdrops (Galanthus) plant guide",
       "url": "https://www.rhs.org.uk/plants/snowdrops",
-      "accessed": "21 October 2026"
+      "accessed": "18 November 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "February: flowers",
+      "url": "https://www.rhs.org.uk/advice/in-month/february/flowers",
+      "accessed": "18 November 2026"
     },
     {
       "publisher": "RHS",
       "title": "March: flowers",
       "url": "https://www.rhs.org.uk/advice/in-month/march/flowers",
-      "accessed": "21 October 2026"
+      "accessed": "18 November 2026"
+    },
+    {
+      "publisher": "RHS",
+      "title": "Bulbs: planting tips",
+      "url": "https://www.rhs.org.uk/plants/types/bulbs/planting",
+      "accessed": "18 November 2026"
     },
     {
       "publisher": "BBC Gardeners' World",
       "title": "How to grow snowdrops",
       "url": "https://www.gardenersworld.com/how-to/grow-plants/how-to-grow-snowdrops/",
-      "accessed": "21 October 2026"
-    },
-    {
-      "publisher": "Gardens Illustrated",
-      "title": "How to buy and plant snowdrops in the green",
-      "url": "https://www.gardensillustrated.com/garden-advice/how-to/snowdrops-in-the-green",
-      "accessed": "21 October 2026"
+      "accessed": "18 November 2026"
     },
     {
       "publisher": "Gardens Illustrated",
       "title": "How to grow snowdrops",
       "url": "https://www.gardensillustrated.com/plants/bulbs/how-to-grow-snowdrops",
-      "accessed": "21 October 2026"
+      "accessed": "18 November 2026"
     }
   ]
 }

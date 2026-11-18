@@ -427,6 +427,10 @@ p {
   margin-top: 1.25rem;
 }
 
+.callout h2:first-child {
+  margin-top: 0;
+}
+
 .need {
   margin-top: 1.25rem;
 }
@@ -540,6 +544,14 @@ select {
 
 .table-scroll {
   overflow-x: auto;
+  max-width: 100%;
+}
+
+.stat-table caption {
+  caption-side: top;
+  text-align: left;
+  font-weight: 700;
+  padding-bottom: 0.35rem;
 }
 
 .stat-table {

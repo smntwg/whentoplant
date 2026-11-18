@@ -87,12 +87,21 @@
   ],
   "jobs": [
     "Write a seed list from this year's gaps: what you actually ate, and what bolted, got blight, or took too much space.",
-    "Order seed potatoes. Earlies worth chitting in late January need to be in your hand by then.",
+    {
+      "text": "Order seed potatoes. Earlies worth chitting in late January need to be in your hand by then.",
+      "crops": ["potatoes"]
+    },
     "Clean pots and labels so the first sowings are not held up by a dirty tray.",
-    "Note your frost region and pencil planting-out dates on the packets for tomatoes, courgettes and sweetcorn."
+    {
+      "text": "Note your frost region and pencil planting-out dates on the packets for tomatoes, courgettes and sweetcorn.",
+      "crops": ["tomatoes", "courgettes", "sweetcorn"]
+    }
   ],
   "holdOff": [
-    "Do not sow tomatoes, chillies or aubergines yet unless you already know you have a heated greenhouse and lights. Late December seedlings suffer in the darkest weeks. January is early enough for those, and March is better for outdoor tomatoes.",
+    {
+      "text": "Do not sow tomatoes, chillies or aubergines yet unless you already know you have a heated greenhouse and lights. Late December seedlings suffer in the darkest weeks. January is early enough for those, and March is better for outdoor tomatoes.",
+      "crops": ["tomatoes"]
+    },
     "Do not empty the leek bed for the sake of tidiness. You cannot replace that harvest until next autumn."
   ],
   "faqs": [

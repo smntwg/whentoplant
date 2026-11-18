@@ -30,8 +30,22 @@ function escapeHtml(value) {
     .replace(/"/g, "&quot;");
 }
 
+function formatInline(text) {
+  const re = /\[([^\]]+)\]\((https:\/\/[^\s)]+)\)/g;
+  let last = 0;
+  let match;
+  let html = "";
+  while ((match = re.exec(text)) !== null) {
+    html += escapeHtml(text.slice(last, match.index));
+    html += `<a href="${escapeHtml(match[2])}">${escapeHtml(match[1])}</a>`;
+    last = match.index + match[0].length;
+  }
+  html += escapeHtml(text.slice(last));
+  return html;
+}
+
 function paragraphs(items) {
-  return (items || []).map((text) => `<p>${escapeHtml(text)}</p>`).join("\n");
+  return (items || []).map((text) => `<p>${formatInline(text)}</p>`).join("\n");
 }
 
 function joinList(items) {
@@ -235,6 +249,21 @@ function guideSections(sections) {
   }).join("\n");
 }
 
+function dataTable(table) {
+  if (!table || !table.rows || !table.rows.length) return "";
+  const caption = table.caption ? `<caption>${escapeHtml(table.caption)}</caption>` : "";
+  const head = (table.head || []).map((cell) => `<th scope="col">${escapeHtml(cell)}</th>`).join("");
+  const body = table.rows.map((row) => {
+    return `<tr>${row.map((cell, index) => index === 0 ? `<th scope="row">${escapeHtml(cell)}</th>` : `<td>${escapeHtml(cell)}</td>`).join("")}</tr>`;
+  }).join("");
+  return `<div class="table-scroll"><table class="stat-table">${caption}<thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>`;
+}
+
+function answerBox(entity) {
+  if (!entity.answer || !entity.answer.length) return "";
+  return `<aside class="callout" id="quick-answer"><h2>Quick answer</h2>${paragraphs(entity.answer)}${dataTable(entity.answerTable)}${paragraphs(entity.answerNote)}</aside>`;
+}
+
 function sourcesBlock(sources) {
   const items = sources.map((source) => {
     return `<li><a href="${escapeHtml(source.url)}">${escapeHtml(source.publisher)}: ${escapeHtml(source.title)}</a>. Checked ${escapeHtml(source.accessed)}.</li>`;
@@ -246,6 +275,18 @@ function faqBlock(faqs) {
   if (!faqs || !faqs.length) return "";
   const items = faqs.map((faq) => `<details><summary>${escapeHtml(faq.question)}</summary>${paragraphs(faq.answer)}</details>`).join("");
   return `<section class="faq"><h2>Common questions</h2>${items}</section>`;
+}
+
+function noteItem(item, cropsBySlug) {
+  if (typeof item === "string") return `<li>${escapeHtml(item)}</li>`;
+  const slugs = item.crops || [];
+  slugs.forEach((slug) => {
+    if (!cropsBySlug.has(slug)) throw new Error(`Unknown crop '${slug}' in a month note`);
+  });
+  const guides = slugs.length
+    ? `<p class="meta">${slugs.length > 1 ? "Guides" : "Guide"}: ${slugs.map((slug) => `<a href="/crops/${slug}/">${escapeHtml(cropsBySlug.get(slug).name)}</a>`).join(", ")}</p>`
+    : "";
+  return `<li>${escapeHtml(item.text)}${guides}</li>`;
 }
 
 function taskList(items, cropsBySlug) {
@@ -299,7 +340,7 @@ const built = [];
 function addPage(page) {
   const html = layout(site, page);
   writePage(page.path, html);
-  if (!page.noindex) built.push({ path: page.path, title: page.title });
+  if (!page.noindex) built.push({ path: page.path, title: page.title, updated: page.updated || site.updated });
 }
 
 function org() {
@@ -347,7 +388,8 @@ addPage({
   description: site.description,
   scripts: ["/js/home.js"],
   head: `<script type="application/json" id="month-data">${JSON.stringify(monthData)}</script>`,
-  jsonLd: {
+    updated: "2026-11-18",
+    jsonLd: {
     "@context": "https://schema.org",
     "@graph": [
       {
@@ -394,7 +436,7 @@ addPage({
   </section>
   <section class="callout">
     <h2>Frost moves the dates</h2>
-    <p>A south-coast garden and a Highland garden are not on the same calendar. Tender crops such as tomatoes, courgettes and sweetcorn should wait until nights are reliably mild.</p>
+    <p>A south-coast garden and a Highland garden are not on the same calendar. Tender crops such as <a href="/crops/tomatoes/">tomatoes</a>, <a href="/crops/courgettes/">courgettes</a> and <a href="/crops/sweetcorn/">sweetcorn</a> should wait until nights are reliably mild.</p>
     <p><a class="button" href="/frost-dates/">Check frost windows</a></p>
   </section>`
 });
@@ -412,8 +454,11 @@ months.forEach((month, index) => {
       ${paragraphs(section.intro)}
       ${section.items && section.items.length ? taskList(section.items, cropsBySlug) : ""}
     </section>`).join("");
-  const jobs = `<section><h2>Jobs for ${escapeHtml(month.name)}</h2><ul class="jobs">${month.jobs.map((job) => `<li>${escapeHtml(job)}</li>`).join("")}</ul></section>`;
-  const hold = month.holdOff ? `<section class="callout"><h2>Leave these for later</h2><ul class="jobs">${month.holdOff.map((job) => `<li>${escapeHtml(job)}</li>`).join("")}</ul></section>` : "";
+  const jobs = `<section><h2>Jobs for ${escapeHtml(month.name)}</h2><ul class="jobs">${month.jobs.map((job) => noteItem(job, cropsBySlug)).join("")}</ul></section>`;
+  const hold = month.holdOff ? `<section class="callout"><h2>Leave these for later</h2><ul class="jobs">${month.holdOff.map((job) => noteItem(job, cropsBySlug)).join("")}</ul></section>` : "";
+  // November, December and January gain a bulb link from the 18 Nov planting update.
+  const linkRefresh = new Set(["november", "december", "january"]);
+  const monthUpdated = month.updated || (linkRefresh.has(month.slug) ? "2026-11-18" : site.updated);
   const cropLinks = [...new Set(month.sections.flatMap((section) => (section.items || []).flatMap((item) => item.crops || (item.crop ? [item.crop] : []))))]
     .filter((slug) => cropsBySlug.has(slug));
   const related = cropLinks.length
@@ -429,6 +474,7 @@ months.forEach((month, index) => {
     monthSlug: month.slug,
     title: `${month.name} planting calendar | ${site.name}`,
     description: month.description,
+    updated: monthUpdated,
     ogType: "article",
     jsonLd: {
       "@context": "https://schema.org",
@@ -438,7 +484,7 @@ months.forEach((month, index) => {
           headline: `What to sow, plant and harvest in ${month.name} in the UK`,
           description: month.description,
           inLanguage: "en-GB",
-          dateModified: site.updated,
+          dateModified: monthUpdated,
           author: org(),
           publisher: org(),
           mainEntityOfPage: `${site.url}/${month.slug}/`
@@ -635,20 +681,26 @@ bulbs.forEach((bulb) => {
     return `<li><a href="/bulbs/${slug}/">${escapeHtml(other.name)}</a></li>`;
   }).join("");
   const faqs = bulb.faqs || [];
+  const bulbUpdated = bulb.updated || site.updated;
+  const bulbTitle = bulb.title
+    ? `${bulb.title} | ${site.name}`
+    : `When to plant ${bulb.name.toLowerCase()} in the UK | ${site.name}`;
+  const bulbHeading = bulb.heading || `When to plant ${bulb.name.toLowerCase()}`;
   addPage({
     path: `/bulbs/${bulb.slug}/`,
-    title: `When to plant ${bulb.name.toLowerCase()} in the UK | ${site.name}`,
+    title: bulbTitle,
     description: bulb.description,
+    updated: bulbUpdated,
     ogType: "article",
     jsonLd: {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Article",
-          headline: `When to plant ${bulb.name.toLowerCase()} in the UK`,
+          headline: bulb.title || `When to plant ${bulb.name.toLowerCase()} in the UK`,
           description: bulb.description,
           inLanguage: "en-GB",
-          dateModified: site.updated,
+          dateModified: bulbUpdated,
           author: org(),
           publisher: org(),
           mainEntityOfPage: `${site.url}/bulbs/${bulb.slug}/`
@@ -660,8 +712,9 @@ bulbs.forEach((bulb) => {
     body: `
     ${crumbs(crumbItems)}
     <p class="eyebrow">UK bulb guide</p>
-    <h1>When to plant ${escapeHtml(bulb.name.toLowerCase())}</h1>
+    <h1>${escapeHtml(bulbHeading)}</h1>
     <p class="meta"><span class="latin">${escapeHtml(bulb.latin)}</span></p>
+    ${answerBox(bulb)}
     ${paragraphs(bulb.intro)}
     ${chart(bulb.calendar)}
     <aside class="callout"><p>${escapeHtml(site.timingNote)} <a href="/frost-dates/">See frost windows for your region</a>.</p></aside>
@@ -699,10 +752,12 @@ bulbs.forEach((bulb) => {
     return `<article class="card"><h3><a href="/bulbs/${bulb.slug}/">${escapeHtml(bulb.name)}</a></h3><p>${escapeHtml(bulb.summary)}</p><dl class="glance">${bulb.spacing.map((fact) => `<div><dt>${escapeHtml(fact.label)}</dt><dd>${escapeHtml(fact.value)}</dd></div>`).join("")}</dl><span class="tag">${escapeHtml(bulb.card)}</span></article>`;
   }).join("");
   const rules = bulbHub.rules.map((block) => `<section><h3>${escapeHtml(block.heading)}</h3>${paragraphs(block.paragraphs)}</section>`).join("");
+  const hubUpdated = bulbs.reduce((latest, bulb) => (bulb.updated && bulb.updated > latest ? bulb.updated : latest), site.updated);
   addPage({
     path: bulbHub.path,
     title: `${bulbHub.title} | ${site.name}`,
     description: bulbHub.description,
+    updated: hubUpdated,
     ogType: "article",
     jsonLd: {
       "@context": "https://schema.org",
@@ -712,7 +767,7 @@ bulbs.forEach((bulb) => {
           headline: bulbHub.title,
           description: bulbHub.description,
           inLanguage: "en-GB",
-          dateModified: site.updated,
+          dateModified: hubUpdated,
           author: org(),
           publisher: org(),
           mainEntityOfPage: `${site.url}${bulbHub.path}`
@@ -748,11 +803,11 @@ function frostDaysTable(region) {
     ["October", region.frostDays.oct],
     ["November", region.frostDays.nov]
   ];
-  return `<table class="stat-table">
+  return `<div class="table-scroll"><table class="stat-table">
     <caption>Average air-frost days, ${escapeHtml(region.seriesName)}, 1991 to 2020</caption>
     <thead><tr><th scope="col">Month</th><th scope="col">Air-frost days</th></tr></thead>
     <tbody>${rows.map(([month, days]) => `<tr><th scope="row">${month}</th><td>${escapeHtml(days)}</td></tr>`).join("")}</tbody>
-  </table>
+  </table></div>
   <p class="meta">${escapeHtml(region.seriesNote)}</p>`;
 }
 
@@ -780,6 +835,7 @@ addPage({
   path: "/frost-dates/",
   title: `UK frost dates by region | ${site.name}`,
   description: "Approximate last and first air-frost windows for UK regions, plus RHS planting-out times for tender crops. Not a forecast.",
+  updated: "2026-11-18",
   scripts: ["/js/frost.js"],
   jsonLd: {
     "@context": "https://schema.org",
@@ -803,6 +859,18 @@ addPage({
   <p class="eyebrow">Approximate, not a forecast</p>
   <h1>Frost dates in the UK</h1>
   ${paragraphs(frost.intro)}
+  <section>
+    <h2>Crop guides for these dates</h2>
+    <p>The notes above name the crops these frost windows apply to.</p>
+    <h3>Tender crops</h3>
+    <ul class="related">
+      <li><a href="/crops/tomatoes/">Tomatoes</a></li>
+      <li><a href="/crops/sweetcorn/">Sweetcorn</a></li>
+      <li><a href="/crops/courgettes/">Courgettes</a></li>
+      <li><a href="/crops/runner-beans/">Runner beans</a></li>
+    </ul>
+    <p>The regional notes also name hardy sowings, including <a href="/crops/peas/">peas</a>.</p>
+  </section>
   <form class="panel frost-form" id="frost-form">
     <div>
       <label for="region">Nearest area</label>
@@ -875,7 +943,7 @@ const notFound = {
 };
 fs.writeFileSync(path.join(dist, "404.html"), layout(site, notFound));
 
-const urls = built.map((page) => `  <url><loc>${site.url}${page.path}</loc><lastmod>${site.updated}</lastmod></url>`).join("\n");
+const urls = built.map((page) => `  <url><loc>${site.url}${page.path}</loc><lastmod>${page.updated}</lastmod></url>`).join("\n");
 fs.writeFileSync(path.join(dist, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`);
 fs.writeFileSync(path.join(dist, "robots.txt"), `User-agent: *\nAllow: /\n\nSitemap: ${site.url}/sitemap.xml\n`);
 

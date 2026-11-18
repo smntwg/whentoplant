@@ -85,6 +85,26 @@ for (const item of supplies.items) {
   if (item.affiliateUrl) fail(`affiliateUrl should be empty for v1: ${item.id}`);
 }
 
+const tracking = /awin1\.com|awin\.com|skimlinks|skimresources|partnerize|prf\.hn|impact\.com|sjv\.io|shareasale|anrdoezrs|dpbolvw|redirectingat|amzn\.to|amazon\.[a-z.]+\/[^"'\\\s]*[?&]tag=/i;
+for (const file of htmlFiles) {
+  const html = fs.readFileSync(file, "utf8");
+  const rel = path.relative(dist, file);
+  if (tracking.test(html)) fail(`${rel} contains an affiliate or tracking URL`);
+  if (html.includes('rel="sponsored"')) fail(`${rel} contains a sponsored link`);
+  if (html.includes("This page contains affiliate links.")) fail(`${rel} contains an affiliate disclosure`);
+}
+
+for (const crop of ["peas", "sweetcorn", "tomatoes"]) {
+  const urlPath = `/crops/${crop}/`;
+  const html = fs.readFileSync(path.join(dist, "crops", crop, "index.html"), "utf8");
+  if (!locs.includes(`https://whentoplant.uk${urlPath}`)) fail(`${urlPath} missing from sitemap`);
+  if (!html.includes(`rel="canonical" href="https://whentoplant.uk${urlPath}"`)) fail(`${urlPath} canonical is not self-referencing`);
+  if (/noindex/i.test(html)) fail(`${urlPath} is noindex`);
+  const robotsMeta = html.match(/name="robots" content="([^"]*)"/);
+  if (robotsMeta && !/index/i.test(robotsMeta[1])) fail(`${urlPath} robots meta is not index,follow`);
+  if (robotsMeta && /nofollow/i.test(robotsMeta[1])) fail(`${urlPath} robots meta is nofollow`);
+}
+
 const home = fs.readFileSync(path.join(dist, "index.html"), "utf8");
 if (!home.includes('id="this-month"') || !home.includes('id="month-data"')) fail("homepage missing this-month fallback");
 const frost = fs.readFileSync(path.join(dist, "frost-dates/index.html"), "utf8");

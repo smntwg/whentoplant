@@ -2,111 +2,119 @@
   "slug": "daffodils",
   "name": "Daffodils",
   "latin": "Narcissus",
-  "summary": "Plant dry bulbs in September if you can, and by November at the latest for a normal spring show.",
-  "description": "When to plant daffodil bulbs in the UK: September is ideal, November is fine. Depth, spacing, soil and aftercare from RHS guidance.",
+  "title": "When to plant daffodil bulbs in the UK",
+  "heading": "When to plant daffodil bulbs",
+  "updated": "2026-11-18",
+  "summary": "Plant bulbs in September if you can. September to November is the main window, and firm bulbs can still go in until January.",
+  "description": "When to plant daffodil bulbs in the UK: September is ideal, firm bulbs can go in until January, at three times the bulb's height.",
   "card": "Plant September to November",
+  "answer": [
+    "Plant daffodil bulbs in the UK in early autumn. The [RHS daffodil guide](https://www.rhs.org.uk/plants/daffodils/growing-guide) says ideally September, and its [bulb planting advice](https://www.rhs.org.uk/plants/types/bulbs/planting) is to have daffodils in by the end of September. [Gardeners' World](https://www.gardenersworld.com/how-to/grow-plants/how-to-grow-daffodils/) calls September to November the main window, so the bulbs can make roots before the cold.",
+    "If you buy bulbs late, December is still fine, and you can plant as late as January, as long as the bulbs are firm and not mouldy. They may take longer to flower in the first spring, then catch up in later years. The RHS says any bulb you missed should go into the ground or a pot now, not stay in the bag until next autumn. Discard bulbs that are soft or rotten."
+  ],
+  "answerTable": {
+    "caption": "When to plant daffodil bulbs in the UK",
+    "head": ["Months", "What to do"],
+    "rows": [
+      ["September", "Best month. The RHS says ideally then, and by the end of September if you can"],
+      ["September to November", "Main window, so the bulbs can root before winter (Gardeners' World)"],
+      ["December and January", "Still worth planting if the bulb is firm and not mouldy"]
+    ]
+  },
+  "answerNote": [
+    "Set each bulb nose up, at a depth equivalent to three times its height. That is the RHS figure for daffodils. In the general bulb guide, a 5cm bulb sits in a hole 10 to 15cm deep. Space bulbs at least twice their own width apart. Gardeners' World says most daffodil bulbs go about 10cm deep, roughly twice the depth of the bulb.",
+    "Borders want sun or light shade and soil that drains. In a pot, the RHS says smaller daffodils such as 'Toto' suit small pots and window boxes. For a one-season pot you can plant less deeply and closer together, then move the bulbs into the garden at the full depth after flowering."
+  ],
   "intro": [
-    "Daffodils are the easiest spring bulb to get right, and they come back year after year with very little help. The RHS calls them one of the most reliable spring-flowering bulbs. Most of the work is done in a single afternoon in autumn: buy firm bulbs, plant them deep enough, and leave the leaves alone after flowering.",
-    "The two mistakes that cost a display are planting too shallowly and cutting the foliage off too soon. Both lead to fewer flowers the following spring, a problem gardeners call daffodil blindness."
+    "Daffodils are one of the most reliable spring-flowering bulbs. The RHS says they bloom year after year with little attention, in containers, borders and grass. Most of the work is one afternoon in autumn: buy firm bulbs, plant them at the RHS depth, and leave the leaves alone after flowering.",
+    "Potted plants sold in spring can go into the ground before they flower. Forced bulbs for the house are a separate job, planted indoors in September for flowers around Christmas."
   ],
   "calendar": [
     {
       "id": "plant",
-      "label": "Plant dry bulbs",
-      "months": [
-        9,
-        10,
-        11
-      ],
-      "detail": "The RHS says ideally September. Gardeners' World gives September to November, and says firm bulbs can still go in as late as January."
+      "label": "Best planting window",
+      "months": [9, 10, 11],
+      "detail": "The RHS says ideally September, and by the end of September if you can. Gardeners' World gives September to November as the main window."
+    },
+    {
+      "id": "plant-late",
+      "label": "Late planting",
+      "months": [12, 1],
+      "detail": "Gardeners' World says firm bulbs with no mould can go in during December and as late as January. They may flower later in their first spring."
     },
     {
       "id": "flower",
       "label": "In flower",
-      "months": [
-        2,
-        3,
-        4
-      ],
-      "detail": "Most flower through spring. Gardeners' World notes some start as early as January and others last into early May."
+      "months": [2, 3, 4],
+      "detail": "The RHS says a range of daffodils can flower from February through to early May. Gardeners' World notes some start as early as January and others last into early May."
     }
   ],
   "timing": [
-    "September is the best month. The RHS advises planting daffodil bulbs in early autumn, ideally September, and its general bulb advice is to have daffodils, crocus and hyacinths in by the end of September. Early planting gives the bulb time to make roots while the soil is still warm.",
-    "October and November still work well. Gardeners' World puts the main window at September to November. If you find a discounted bag in December, it says planting then is completely fine as long as the bulbs are firm and not mouldy, and you can go as late as January. Late bulbs may take longer to establish and flower, but they usually catch up in later years.",
-    "Potted daffodils sold in spring can be planted straight out before they flower."
+    "September is the month to aim for. The RHS daffodil guide says plant dry bulbs in early autumn, ideally September. The general bulb advice groups daffodils with crocus and hyacinths, preferably in by the end of September. Early planting gives the bulb time to root while the soil is still warm.",
+    "October and November are still in the main window. Gardeners' World puts the best time at September to November. Discounted bags from November through January are worth buying if the bulbs are firm and show no mould. It says a December planting is completely fine, and that you can plant as late as January. Late bulbs may take longer to establish and flower, then catch up in later years.",
+    "If the bulbs have been sitting in a shed, the RHS says to plant them as soon as you can rather than waiting for the next correct season, because they deteriorate in storage. Throw away any that are soft or rotten. Sprouted bulbs are still worth planting. The first year can be uneven, with shorter stems, but bulbs that come back each year should do better afterwards. A balanced fertiliser in the planting hole helps them recover."
   ],
   "where": [
-    "Daffodils grow in most soils, but they do best in a sunny spot in fertile, well-drained soil. A few cultivars cope with light shade; the RHS names 'Actaea', 'Jenny' and 'Jack Snipe'. Avoid waterlogged ground and deep shade.",
-    "On compacted ground, dig it over and work in organic matter such as home-made compost before planting. Daffodils also naturalise well in grass, as long as the lawn can be left unmown until the leaves die back."
+    "Daffodils grow in a wide range of soils. The RHS says they do best in a sunny spot in fertile, well-drained soil. A few cultivars cope with light shade. It names 'Actaea', 'Jenny' and 'Jack Snipe'. Avoid waterlogged ground and deep shade.",
+    "On compacted ground, Gardeners' World says dig it over and work in organic matter such as home-made compost or well-rotted manure. Daffodils also naturalise in grass if you can leave the lawn unmown until the leaves have died back. The RHS says you can have flowers to pick from February to early May if you plant a range of them, and that bold groups beat single bulbs."
   ],
   "planting": [
-    "Set each bulb pointed end up at a depth of three times its own height. For a typical bulb that works out at about 10cm of soil over the top, which is the figure Gardeners' World gives. Shallow planting is the main cause of bulbs that come up blind in later years.",
-    "Space bulbs at least twice their own width apart. Gardeners' World suggests planting up to six together in open ground; more than that and the clump soon gets congested. Firm the soil back gently and water in if no rain is forecast."
+    "Choose the largest firm bulbs, with no mould. Set each one pointed end up. The RHS daffodil guide says the depth should be equivalent to three times the bulb's height, which is what keeps them flowering for years. Its general guide says most bulbs go into a hole two to three times the bulb's height, so a 5cm bulb sits in a hole 10 to 15cm deep. Gardeners' World says most daffodil bulbs should be planted about 10cm deep, roughly twice the depth of the bulb, and to follow the note on the variety if there is one.",
+    "Space bulbs at least twice their own width apart. That is the figure in both the RHS bulb guide and the Gardeners' World daffodil guide. In open ground, Gardeners' World suggests planting up to six together, because a larger clump soon gets congested. The RHS suggests groups of at least six for a proper show. Firm the soil with the back of a rake rather than treading on it. Water in if no rain is forecast. The RHS says watering is less critical when the ground is already moist or the bulbs are autumn-planted."
   ],
   "spacing": [
-    {
-      "label": "Depth",
-      "value": "3 x bulb height (about 10cm)"
-    },
-    {
-      "label": "Spacing",
-      "value": "At least 2 bulb widths"
-    },
-    {
-      "label": "Position",
-      "value": "Sun or light shade"
-    }
+    {"label": "Depth", "value": "3 x bulb height (RHS)"},
+    {"label": "Spacing", "value": "At least 2 bulb widths"},
+    {"label": "Latest", "value": "January, if the bulb is firm"}
   ],
   "pots": [
-    "Smaller types such as 'Toto' suit small pots and window boxes. For a one-season display you can plant less deeply and pack the bulbs closer, but move them into the garden at full depth after flowering. Water pots as needed through the growing season and make sure the compost does not sit wet over winter, or the bulbs can rot."
+    "Daffodils grow well in containers. The RHS says smaller types such as 'Toto' suit small pots, window boxes and indoor displays, and taller ones need a larger pot. For a one-season display you can plant less deeply and pack the bulbs closer, then transplant them into the garden at the full depth after flowering.",
+    "Gardeners' World suggests peat-free John Innes No. 2 or No. 3, in a sunny spot, kept moist but not wet. Bulbs can stay in the pot for years if you replace the compost above them each year, or you can move them into the ground after one or two years. The RHS says not to let pot compost sit waterlogged over winter, or the bulbs can rot. Water containers through the growing season, until the leaves die down. Feed pot bulbs with a high-potassium liquid feed, such as tomato food, from when the shoots appear until the leaves start to die down."
   ],
   "aftercare": [
-    "Deadhead faded flowers so the plant puts its energy into the bulb rather than seed. In grass where you want them to spread, you can leave the seed pods.",
-    "Leave the foliage until it turns yellow, usually about six weeks after flowering. Do not knot or tie the leaves. They are feeding next year's flower.",
-    "Feed bulbs in pots with a high-potassium liquid feed such as tomato food from when the shoots appear until the leaves start to die down. A mulch of garden compost in autumn or spring helps borders. If a clump gets congested and flowers less, lift it after the leaves die down, split it and replant at three times bulb height."
+    "Deadhead faded flowers so the plant puts its energy into the bulb rather than seed. The RHS says you can leave the seed pods on naturalistic drifts in grass if you want them to spread.",
+    "Wait until the foliage turns yellow before you cut it, usually about six weeks after flowering. Do not knot or tie the leaves. The RHS says removing them early can reduce next year's flowers.",
+    "A mulch of garden compost in autumn or spring helps borders. If a clump gets congested and flowers less, lift it, split it and replant at three times the bulb's height. The RHS says to do that when flowering drops. Gardeners' World divides established clumps in autumn."
   ],
   "problems": [
     {
       "title": "Leaves but no flowers",
       "text": [
-        "Usually shallow planting, congestion or leaves cut off too early the year before. Replant deeper, divide crowded clumps, and wait for the foliage to yellow before tidying."
+        "Gardeners' World calls this blindness. Causes include poor soil, overcrowding and too much shade. Dig the clump up in autumn, replant in sun if it was shaded, divide crowded bulbs, and enrich poor soil. It can take a couple of years before they flower again. The RHS also says the right planting depth helps daffodils flower well for many years, and that cutting the leaves too early can reduce the next spring."
       ]
     },
     {
       "title": "Rot, slugs and bulb fly",
       "text": [
-        "The RHS lists slugs and snails, virus diseases, narcissus basal rot (worse in damp conditions) and narcissus bulb fly. Buy firm bulbs with no mould and avoid wet sites."
+        "The RHS lists slugs and snails, virus diseases, narcissus basal rot (worse in damp conditions) and narcissus bulb fly. Buy firm bulbs with no mould and avoid wet sites. In pots, do not leave the compost waterlogged in winter."
       ]
     }
   ],
-  "months": [
-    "september",
-    "october",
-    "november"
-  ],
-  "related": [
-    "tulips",
-    "crocus",
-    "snowdrops"
-  ],
+  "months": ["september", "october", "november", "december", "january"],
+  "related": ["tulips", "crocus", "snowdrops"],
   "faqs": [
     {
-      "question": "Is it too late to plant daffodils in November?",
+      "question": "Is it too late to plant daffodil bulbs in November?",
       "answer": [
-        "No. Gardeners' World gives September to November as the main window and says firm bulbs can go in as late as January. They may flower a little later in their first spring."
+        "No. November is still inside the September to November window Gardeners' World gives. The RHS prefers September, but a firm bulb planted in November is not a wasted bulb."
+      ]
+    },
+    {
+      "question": "What should I do with daffodil bulbs bought in December?",
+      "answer": [
+        "Plant them as soon as you can, if they are firm and not mouldy. Gardeners' World says December is completely fine and that you can go as late as January. The RHS says not to store missed bulbs until next autumn. Discard any that are soft or rotten. The first spring may be later, or the stems shorter, and bulbs that come back each year should improve after that."
       ]
     },
     {
       "question": "How deep should daffodil bulbs go?",
       "answer": [
-        "Three times the height of the bulb, which is about 10cm of soil over a typical bulb. Planting too shallowly is a common reason daffodils stop flowering."
+        "The RHS says a depth equivalent to three times the bulb's height. Its general bulb guide puts a 5cm bulb in a hole 10 to 15cm deep. Gardeners' World says about 10cm deep for most daffodil bulbs, roughly twice the bulb's own depth. Space them at least two bulb widths apart."
       ]
     },
     {
       "question": "When can I cut daffodil leaves down?",
       "answer": [
-        "Once they turn yellow, usually around six weeks after flowering. Cutting or knotting them earlier can reduce next year's flowers."
+        "Once they turn yellow, usually about six weeks after flowering. The RHS says cutting them earlier, or tying them in a knot, can reduce next year's flowers."
       ]
     }
   ],
@@ -115,19 +123,19 @@
       "publisher": "RHS",
       "title": "How to grow daffodils",
       "url": "https://www.rhs.org.uk/plants/daffodils/growing-guide",
-      "accessed": "21 October 2026"
+      "accessed": "18 November 2026"
     },
     {
       "publisher": "RHS",
       "title": "Bulbs: planting tips",
       "url": "https://www.rhs.org.uk/plants/types/bulbs/planting",
-      "accessed": "21 October 2026"
+      "accessed": "18 November 2026"
     },
     {
       "publisher": "BBC Gardeners' World",
       "title": "How to grow daffodils",
       "url": "https://www.gardenersworld.com/how-to/grow-plants/how-to-grow-daffodils/",
-      "accessed": "21 October 2026"
+      "accessed": "18 November 2026"
     }
   ]
 }
